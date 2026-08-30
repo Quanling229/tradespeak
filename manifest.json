@@ -1,0 +1,27 @@
+{
+  "name": "TradeSpeak · 外贸情景英语",
+  "short_name": "TradeSpeak",
+  "description": "专为Quinn定制的文具外贸情景英语学习平台，马克笔/荧光笔外贸实战对话",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f1e8",
+  "theme_color": "#3d5a45",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='40' fill='%233d5a45'/%3E%3Ctext x='96' y='120' font-size='80' text-anchor='middle' fill='%23f5f1e8' font-family='Georgia,serif' font-weight='bold'%3ET%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='100' fill='%233d5a45'/%3E%3Ctext x='256' y='320' font-size='220' text-anchor='middle' fill='%23f5f1e8' font-family='Georgia,serif' font-weight='bold'%3ET%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "business"],
+  "lang": "zh-CN",
+  "dir": "ltr"
+}
