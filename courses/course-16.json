@@ -1,0 +1,111 @@
+{
+  "id": "cold-call-and-inquiry",
+  "num": "16",
+  "title": "冷电话与询盘处理：从陌生到成交",
+  "titleEn": "Cold Calling & Inquiry Handling",
+  "scene": "冷电话与询盘",
+  "level": "进阶",
+  "duration": "30 min",
+  "color": "#8e44ad",
+  "emoji": "📞",
+  "intro": {
+    "visual": "call",
+    "background": "你需要给潜在买家打冷电话，或者处理收到的询盘。这是外贸人最基础也最关键的技能——如何在30秒内引起对方兴趣，如何专业地回复询盘，如何把陌生客户变成成交客户。",
+    "desc": "本课覆盖外贸冷电话和询盘处理的全流程：冷电话开场话术、需求挖掘、异议处理、结束邀约；询盘分类、快速回复、报价策略、跟进节奏。每个环节都有真实话术和常见错误，帮你从陌生电话小白变成询盘转化高手。",
+    "tasks": ["掌握冷电话30秒开场公式", "学会用SPIN法则挖掘客户需求", "专业处理5种常见询盘类型", "掌握询盘跟进的黄金节奏"],
+    "outcomes": ["冷电话不再紧张，能自信开场", "询盘回复专业高效，转化率提升", "能识别客户质量，不浪费时间在闲逛客上", "建立系统化的询盘跟进流程"]
+  },
+  "oneLiner": {
+    "en": "Hi, this is Quinn from Wenzhou New Era Stationery. I know you're busy, so I'll be brief — we supply eco-friendly refillable markers to retailers across Europe, and I noticed your store focuses on sustainable products. Would you be open to a quick 10-minute call next week to see if there's a fit?",
+    "cn": "您好，我是温州新时代文具的Quinn。我知道您很忙，所以我长话短说——我们为欧洲各地零售商供应环保可换芯马克笔，我注意到您的店铺专注于可持续产品。您下周有空通个10分钟的电话，看看是否有合作机会吗？",
+    "highlights": ["I know you're busy", "I'll be brief", "eco-friendly refillable markers", "sustainable products", "Would you be open to"]
+  },
+  "vocab": [
+    { "word": "cold call", "ipa": "/kəʊld kɔːl/", "ex": "I made 20 cold calls today and got 3 meetings.", "cn": "冷电话（陌生电话）", "exCn": "我今天打了20个冷电话，约到了3个会议。" },
+    { "word": "gatekeeper", "ipa": "/ˈɡeɪtkiːpə(r)/", "ex": "The gatekeeper asked me to send an email first.", "cn": "门卫/前台（拦截电话的人）", "exCn": "前台让我先发邮件。" },
+    { "word": "prospect", "ipa": "/ˈprɒspekt/", "ex": "This buyer is a good prospect for our marker line.", "cn": "潜在客户", "exCn": "这个买家是我们马克笔系列的好潜在客户。" },
+    { "word": "qualify", "ipa": "/ˈkwɒlɪfaɪ/", "ex": "We need to qualify leads before sending samples.", "cn": "筛选/资格确认", "exCn": "我们需要在寄样品前筛选潜在客户。" },
+    { "word": "objection", "ipa": "/əbˈdʒekʃn/", "ex": "The most common objection is 'your price is too high'.", "cn": "异议/反对", "exCn": "最常见的异议是'你们价格太高了'。" },
+    { "word": "follow up", "ipa": "/ˈfɒləʊ ʌp/", "ex": "I'll follow up with the buyer next Monday.", "cn": "跟进", "exCn": "我下周一跟进这个买家。" },
+    { "word": "lead time", "ipa": "/ˈliːd taɪm/", "ex": "Our standard lead time is 35 days.", "cn": "交货周期", "exCn": "我们标准交货周期是35天。" },
+    { "word": "MOQ", "ipa": "/ˌem əʊ ˈkjuː/", "ex": "The MOQ for this model is 5,000 pieces.", "cn": "最小起订量", "exCn": "这款的最小起订量是5000支。" }
+  ],
+  "mistakes": [
+    { "wrong": "Hello, do you want to buy markers? We are very cheap.", "right": "Hi, this is Quinn from Wenzhou New Era Stationery. We help European retailers increase their marker category sales with eco-friendly refillable products. Is this something you'd be interested in learning more about?", "cn": "冷电话不要一上来就推销，要先说明你是谁、能带来什么价值，再问对方是否感兴趣。" },
+    { "wrong": "We received your inquiry, here is our price: $0.5. Buy now!", "right": "Thank you for your inquiry about our refillable markers. To give you an accurate quotation, could you let me know your target quantity and any specific requirements (packaging, certifications)? I'll send a detailed quote within 24 hours.", "cn": "询盘回复不要只给价格，要先感谢、再提问确认需求、承诺回复时间，这样显得专业且能筛选客户质量。" }
+  ],
+  "expressions": {
+    "basic": [
+      { "en": "Hi, this is [name] from [company].", "cn": "您好，我是[公司]的[名字]。", "tag": "冷电话开场" },
+      { "en": "I know you're busy, so I'll be brief.", "cn": "我知道您很忙，所以我长话短说。", "tag": "尊重时间" },
+      { "en": "Would you be open to a quick call next week?", "cn": "您下周有空通个简短的电话吗？", "tag": "邀约" },
+      { "en": "Thank you for your inquiry.", "cn": "感谢您的询盘。", "tag": "询盘回复" },
+      { "en": "Could you let me know your target quantity?", "cn": "您能告诉我您的目标数量吗？", "tag": "确认需求" },
+      { "en": "I'll send a detailed quote within 24 hours.", "cn": "我会在24小时内发送详细报价。", "tag": "承诺时间" },
+      { "en": "Just following up on my previous email.", "cn": "只是跟进一下我之前的邮件。", "tag": "跟进" }
+    ],
+    "advanced": [
+      { "en": "The reason for my call — I noticed your store recently expanded your eco-friendly stationery range. We work with similar retailers in the UK, and our refillable markers have helped them increase category margin by 15%. I thought it might be worth a 10-minute conversation to see if we could do the same for you.", "cn": "我打电话的原因是——我注意到贵店最近扩展了环保文具系列。我们与英国类似的零售商合作，我们的可换芯马克笔帮助他们提升了15%的品类利润率。我想值得通个10分钟的电话，看看我们是否也能为您做到同样的效果。", "tag": "价值导向开场", "from": "Hi, this is [name]" },
+      { "en": "I completely understand price is a key factor. Before I go back to our factory to negotiate a better price, could you share what volume you're planning for the first order? The reason I ask is that our pricing has volume tiers — at 5,000 pcs it's $0.58, but at 20,000 pcs we can do $0.52. Knowing your volume helps me give you the most accurate price from the start.", "cn": "我完全理解价格是关键因素。在我回工厂谈更好的价格之前，您能分享一下首单计划的数量吗？我问这个是因为我们的价格有数量阶梯——5000支是0.58美元，但20000支我们可以做到0.52美元。了解您的数量有助于我从一开始就给您最准确的价格。", "tag": "价格异议处理", "from": "Just following up" }
+    ]
+  },
+  "dialogues": [
+    {
+      "title": "冷电话：绕过前台联系采购经理",
+      "lines": [
+        { "speaker": "you", "en": "Hi, this is Quinn calling from Wenzhou New Era Stationery in China. Could you put me through to the purchasing manager, please?", "cn": "您好，我是中国温州新时代文具的Quinn。请帮我转接采购经理，好吗？" },
+        { "speaker": "client", "en": "Can I ask what this is regarding?", "cn": "请问您有什么事吗？" },
+        { "speaker": "you", "en": "Certainly. We supply eco-friendly refillable markers to several UK stationery retailers, and I'd like to introduce our product range to your buying team. It's a quick introduction — would you mind transferring me? If now's not a good time, I'm happy to send an email first.", "cn": "当然。我们为几家英国文具零售商供应环保可换芯马克笔，我想向您的采购团队介绍我们的产品系列。只是一个简短介绍——您介意帮我转接吗？如果现在不方便，我可以先发邮件。" },
+        { "speaker": "client", "en": "OK, let me transfer you to Sarah in purchasing.", "cn": "好的，我帮您转接采购部的Sarah。" }
+      ]
+    },
+    {
+      "title": "询盘回复：专业确认需求",
+      "lines": [
+        { "speaker": "client", "en": "Hi, I saw your markers on Alibaba. Can you send me your best price for 10,000 pcs?", "cn": "嗨，我在阿里巴巴上看到你们的马克笔。能给我10000支的最优价格吗？" },
+        { "speaker": "you", "en": "Hi Sarah, thank you for your interest in our refillable markers! I'd be happy to send you a detailed quotation. To make sure I give you the most accurate price, could you confirm a few details: 1) Which specific model are you interested in? 2) Do you need custom branding or retail packaging? 3) What's your target delivery date? I'll have the quote ready for you within 24 hours.", "cn": "嗨Sarah，感谢您对我们可换芯马克笔的兴趣！我很乐意给您发送详细报价。为了确保给您最准确的价格，您能确认几个细节吗：1）您对哪款具体型号感兴趣？2）您需要定制品牌或零售包装吗？3）您的目标交货日期是什么时候？我会在24小时内准备好报价。" }
+      ]
+    }
+  ],
+  "exercises": {
+    "fillBlank": [
+      { "q": "I know you're busy, so I'll be ______.", "a": "brief", "hint": "简短的" },
+      { "q": "Would you be ______ to a quick call next week?", "a": "open", "hint": "愿意接受" },
+      { "q": "Just ______ up on my previous email.", "a": "following", "hint": "跟进" },
+      { "q": "Could you let me know your ______ quantity?", "a": "target", "hint": "目标" },
+      { "q": "I'll send a detailed ______ within 24 hours.", "a": "quotation", "hint": "报价单" }
+    ],
+    "scenario": [
+      { "q": "你打冷电话，对方说'我现在很忙，没时间聊'，你该怎么回应？", "modelAnswer": "I completely understand — I won't take more than 30 seconds. The reason I called is that we help UK stationery retailers increase their marker category sales with eco-friendly refillable products. If this is something you might be interested in, I can send a short email with our catalog, and you can look at it when you have time. Would that work for you?", "cn": "我完全理解——我不会超过30秒。我打电话的原因是，我们用环保可换芯产品帮助英国文具零售商提升马克笔品类销售额。如果这是您可能感兴趣的，我可以发一封简短的邮件附我们的目录，您有空的时候再看。这样可以吗？" },
+      { "q": "客户询盘只说'给我你们的最低价'，没有任何其他信息，你该怎么回复？", "modelAnswer": "Thank you for your inquiry! I'd love to give you our best price, but to make sure I'm quoting accurately, could you share a bit more: 1) Which product category are you looking for (markers, highlighters, pens)? 2) What's your approximate order quantity? 3) Do you need any custom packaging or certifications? Once I have these details, I'll send a complete quotation with pricing, lead time, and shipping options within 24 hours.", "cn": "感谢您的询盘！我很乐意给您最优价格，但为了确保报价准确，您能多分享一些信息吗：1）您在找哪个产品类别（马克笔、荧光笔、中性笔）？2）您的大致订单数量是多少？3）您需要定制包装或认证吗？一旦有了这些细节，我会在24小时内发送包含价格、交期和运输选项的完整报价。" }
+    ]
+  },
+  "checklist": [
+    "冷电话前做功课：了解客户公司、产品、市场",
+    "30秒开场公式：我是谁+能带来什么价值+邀约",
+    "绕过前台：说明价值，请求转接，提供邮件备选",
+    "用SPIN法则挖掘需求：现状-问题-影响-需求",
+    "异议处理：先理解认同，再提问，再给方案",
+    "结束时明确下一步：会议时间、邮件发送、样品寄送",
+    "询盘分类：A类（明确需求）/B类（潜在）/C类（闲逛）",
+    "询盘回复24小时内，先感谢再提问确认需求",
+    "报价包含：单价、MOQ、交期、付款方式、有效期",
+    "跟进节奏：第1天回复→第3天跟进→第7天再跟进→第14天最后跟进",
+    "每次跟进都提供新价值（新产品、新价格、行业信息），不要只催"
+  ],
+  "culture": {
+    "title": "西方商务沟通：直接但尊重，简洁但有价值",
+    "content": "欧美买家非常看重时间效率。冷电话的黄金法则是：30秒内说明你是谁、能带来什么价值、你想要什么。不要绕弯子，不要过度寒暄，不要说'你好吗？今天天气真好'这种无意义的话。同样，询盘回复要简洁专业，先给答案再问问题，不要长篇大论介绍公司历史。记住：你的每一句话都应该为对方创造价值，否则就是在浪费对方的时间。"
+  },
+  "aiPractice": {
+    "situation": "你给英国文具零售商Sarah打冷电话，她是采购经理。你需要在30秒内引起她的兴趣，挖掘她的需求，处理她的异议，并最终约到一个15分钟的产品介绍会议。",
+    "role": "Sarah - UK Retail Buyer",
+    "rounds": [
+      { "ai": "Hello, this is Sarah speaking.", "cn": "您好，我是Sarah。", "hint": "30秒开场：我是谁+公司+能带来什么价值+邀约。不要一上来就推销。", "patterns": ["/this is/i", "/from/i", "/stationery|marker/i", "/value|help|increase/i", "/would you be open|quick call|10 minutes/i"], "partial": ["/hello|hi/i", "/calling/i"] },
+      { "ai": "Hmm, I'm actually quite busy right now. Can you just send me an email?", "cn": "嗯，我现在其实很忙。你能发邮件给我吗？", "hint": "尊重她的时间，同意发邮件，但争取一个具体的跟进时间，或者问一个问题让她继续聊。不要直接放弃。", "patterns": ["/understand|completely/i", "/busy|time/i", "/email/i", "/when|follow up|next week/i", "/quick question|one thing/i"], "partial": ["/email/i", "/busy/i", "/sorry/i"] },
+      { "ai": "OK, you have my attention. What makes your markers different from the hundreds of other suppliers emailing me every week?", "cn": "好的，我注意听了。你们的马克笔和每周给我发邮件的数百家其他供应商有什么不同？", "hint": "强调差异化：环保可换芯、EN71认证、欧洲超市验证、利润率提升。用具体数据和案例，不要说'质量好价格低'这种空话。", "patterns": ["/refillable|eco|sustainable/i", "/certification|EN71/i", "/retailer|supermarket|UK|Europe/i", "/margin|profit|increase|sales/i", "/different|unique|advantage/i"], "partial": ["/quality|good|cheap|price/i"] },
+      { "ai": "That does sound interesting. But we're happy with our current supplier. Why would we switch?", "cn": "听起来确实挺有意思。但我们对现在的供应商很满意。为什么要换呢？", "hint": "不要贬低竞争对手，强调互补和增量：可以先试一个小订单，或者补充他们没有的产品线。降低风险，提供样品测试。", "patterns": ["/understand|happy|current supplier/i", "/switch|change|risk/i", "/sample|test|trial|small order/i", "/complement|additional|new product/i", "/no obligation|risk free/i"], "partial": ["/switch|change/i", "/supplier/i"] },
+      { "ai": "OK, let's do this — send me your catalog and a sample set. If the quality is good, we can talk about a trial order. What's the next step?", "cn": "好的，就这么办——给我发你们的目录和样品套装。如果质量好，我们可以谈试订单。下一步是什么？", "hint": "确认下一步：发送目录+样品，确认样品费和运费，给出具体时间，约后续跟进会议。", "patterns": ["/catalog|catalogue/i", "/sample/i", "/freight|shipping|cost/i", "/3-5 days|within|next week/i", "/follow up|meeting|call/i"], "partial": ["/next step|what next/i", "/sample|catalog/i"] }
+    ]
+  }
+}
