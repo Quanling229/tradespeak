@@ -2376,6 +2376,39 @@ function loadCoursesFromRemote(){
         console.log("课程加载完成，共" + window.COURSES.length + "节课");
         return true;
       });
+    })
+    .then(() => {
+      /* 第三步：动态加载独立播客文件（podcasts/podcast-01.json ~ podcast-99.json） */
+      const podcastPromises = [];
+      for(let i = 1; i <= 99; i++){
+        const num = String(i).padStart(2, "0");
+        const url = "podcasts/podcast-" + num + ".json?v=" + Date.now();
+        podcastPromises.push(
+          fetch(url, {cache:"no-store"})
+            .then(r => {
+              if(!r.ok) throw new Error("not found");
+              return r.json();
+            })
+            .then(podcastData => {
+              const exists = window.PODCASTS.some(p => p.id === podcastData.id);
+              if(!exists){
+                window.PODCASTS.push(podcastData);
+                console.log("动态加载播客:", podcastData.titleCn);
+              }
+              return true;
+            })
+            .catch(() => false)
+        );
+      }
+      return Promise.all(podcastPromises).then(() => {
+        window.PODCASTS.sort((a, b) => {
+          const na = parseInt(a.num) || 0;
+          const nb = parseInt(b.num) || 0;
+          return na - nb;
+        });
+        console.log("播客加载完成，共" + window.PODCASTS.length + "期");
+        return true;
+      });
     });
 }
 /* 课程数据结束 */
