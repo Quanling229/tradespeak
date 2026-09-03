@@ -1,0 +1,102 @@
+{
+  "id": "full-trade-process",
+  "num": "15",
+  "title": "外贸全流程：从开发客户到收款售后",
+  "titleEn": "Full Trade Process from Lead to Repeat Order",
+  "scene": "外贸全流程",
+  "level": "入门",
+  "duration": "35 min",
+  "color": "#27ae60",
+  "emoji": "🔄",
+  "intro": {
+    "visual": "process",
+    "background": "你是文具外贸新人，需要完整了解从开发客户到收款售后的全流程。每一步都有关键节点和专业表达，掌握全流程才能在客户沟通中游刃有余。",
+    "desc": "本课系统梳理外贸全流程9大环节：客户开发→询盘处理→报价谈判→订单确认→生产跟进→物流安排→单据准备→收款跟进→售后维护。每个环节都有核心话术和注意事项，帮你建立完整的外贸知识体系。",
+    "tasks": ["掌握外贸全流程9大环节", "每个环节的核心英文表达", "关键节点的邮件和电话话术", "常见问题和风险防范"],
+    "outcomes": ["对外贸全流程有系统认知", "跟客户沟通时知道处于哪个环节", "能独立处理从开发到收款的全流程", "新人快速上手，减少出错"]
+  },
+  "oneLiner": {
+    "en": "Our full process is straightforward: first we send a quotation and samples, then after your confirmation we issue a PI for deposit. Once production is done, we book the vessel, prepare all documents, and you pay the balance before shipment. We'll keep you updated at every step.",
+    "cn": "我们的完整流程很简单：首先我们发送报价和样品，您确认后我们出具形式发票收取定金。生产完成后，我们订舱、准备所有单据，您在发货前支付尾款。我们会在每一步都跟您同步进度。",
+    "highlights": ["quotation", "samples", "PI", "deposit", "production", "book the vessel", "balance", "shipment"]
+  },
+  "vocab": [
+    { "word": "inquiry", "ipa": "/ɪnˈkwaɪəri/", "ex": "Thank you for your inquiry about our marker sets.", "cn": "询盘", "exCn": "感谢您对我们马克笔套装的询盘。" },
+    { "word": "quotation", "ipa": "/kwəʊˈteɪʃn/", "ex": "I'm sending our latest quotation for your review.", "cn": "报价单", "exCn": "我发送我们最新的报价单供您审阅。" },
+    { "word": "proforma invoice", "ipa": "/ˌprəʊfɔːmə ˈɪnvɔɪs/", "ex": "Please find the PI attached for your deposit payment.", "cn": "形式发票（PI）", "exCn": "请查收附件中的形式发票，用于支付定金。" },
+    { "word": "deposit", "ipa": "/dɪˈpɒzɪt/", "ex": "We require 30% deposit to start production.", "cn": "定金", "exCn": "我们需要30%的定金开始生产。" },
+    { "word": "balance", "ipa": "/ˈbæləns/", "ex": "The balance 70% should be paid before shipment.", "cn": "尾款", "exCn": "70%的尾款应在发货前支付。" },
+    { "word": "production", "ipa": "/prəˈdʌkʃn/", "ex": "Production is scheduled to start next Monday.", "cn": "生产", "exCn": "生产计划下周一启动。" },
+    { "word": "shipment", "ipa": "/ˈʃɪpmənt/", "ex": "The shipment is scheduled for the end of this month.", "cn": "发货/装运", "exCn": "发货计划在本月底。" },
+    { "word": "bill of lading", "ipa": "/bɪl əv ˈleɪdɪŋ/", "ex": "We'll send you the bill of lading copy once the vessel departs.", "cn": "提单（B/L）", "exCn": "船开后我们会给您发送提单副本。" }
+  ],
+  "mistakes": [
+    { "wrong": "We will send you goods after you pay.", "right": "Once we receive your deposit, we'll arrange production immediately. The balance should be settled before we release the original documents.", "cn": "不要笼统说'付款后发货'，要明确说明定金和尾款的支付节点，以及单据释放的条件。" },
+    { "wrong": "The production will take a long time.", "right": "The standard lead time is 35 days after deposit and artwork confirmation. I'll send you weekly production updates so you can track the progress.", "cn": "不要说'需要很长时间'，要给出具体的交期，并承诺定期更新进度。" }
+  ],
+  "expressions": {
+    "basic": [
+      { "en": "Thank you for your inquiry.", "cn": "感谢您的询盘。", "tag": "询盘" },
+      { "en": "I'll send you the quotation shortly.", "cn": "我很快会给您发送报价。", "tag": "报价" },
+      { "en": "Would you like to order samples first?", "cn": "您想先订样品吗？", "tag": "样品" },
+      { "en": "Please find the PI attached.", "cn": "请查收附件中的形式发票。", "tag": "订单" },
+      { "en": "Production has started.", "cn": "生产已经开始了。", "tag": "生产" },
+      { "en": "The goods are ready for shipment.", "cn": "货物已准备好发货。", "tag": "发货" },
+      { "en": "Please arrange the balance payment.", "cn": "请安排尾款支付。", "tag": "收款" }
+    ],
+    "advanced": [
+      { "en": "To give you a clear picture of our timeline: once we receive the 30% deposit and approved artwork, production takes 35 days. We'll book the vessel 5 days before completion, and you'll receive the B/L copy within 3 days of departure. The original documents are sent by DHL once we receive the balance.", "cn": "为了让您清楚了解我们的时间线：收到30%定金和确认设计稿后，生产需要35天。我们会在完成前5天订舱，船开后3天内您会收到提单副本。收到尾款后，我们会用DHL寄送原始单据。", "tag": "全流程说明", "from": "Thank you for your inquiry" },
+      { "en": "I want to flag one potential bottleneck early — the EN71-3 testing usually takes 7-10 days, so if you need the certificates before shipment, we should start the testing now rather than waiting for production to finish. That way we can avoid any delays.", "cn": "我想提前指出一个潜在瓶颈——EN71-3检测通常需要7-10天，所以如果您需要在发货前拿到证书，我们应该现在就开始检测，而不是等生产完成。这样我们可以避免任何延误。", "tag": "风险预警", "from": "Production has started" }
+    ]
+  },
+  "dialogues": [
+    {
+      "title": "客户询问完整流程和时间线",
+      "lines": [
+        { "speaker": "client", "en": "Hi Quinn, we're interested in your refillable markers. Can you walk me through your full process and timeline?", "cn": "嗨Quinn，我们对你们的可换芯马克笔感兴趣。你能给我介绍一下完整流程和时间线吗？" },
+        { "speaker": "you", "en": "Absolutely! It's quite straightforward. First, I'll send you our detailed quotation and spec sheet. If you'd like to test the quality, we can send samples — they take 3-5 days to prepare.", "cn": "当然！流程很简单。首先，我会给您发送详细的报价单和规格表。如果您想测试质量，我们可以发送样品——准备需要3-5天。" },
+        { "speaker": "client", "en": "OK, and after we confirm the order?", "cn": "好的，确认订单后呢？" },
+        { "speaker": "you", "en": "Once you confirm, I'll issue a PI for the 30% deposit. After we receive the deposit and your approved artwork, production starts and takes about 35 days. I'll send you weekly updates with photos. About 5 days before completion, we book the vessel. Once the ship departs, you'll get the B/L copy, and you pay the 70% balance. Then we courier the original documents to you.", "cn": "确认后，我会出具形式发票收取30%定金。收到定金和您确认的设计稿后，生产开始，大约需要35天。我会每周给您发送带照片的进度更新。完成前5天左右，我们订舱。船开后，您会收到提单副本，然后支付70%尾款。然后我们用快递把原始单据寄给您。" }
+      ]
+    }
+  ],
+  "exercises": {
+    "fillBlank": [
+      { "q": "We require 30% ______ to start production.", "a": "deposit", "hint": "定金" },
+      { "q": "The ______ 70% should be paid before shipment.", "a": "balance", "hint": "尾款" },
+      { "q": "Please find the ______ invoice attached for your payment.", "a": "proforma", "hint": "形式的" },
+      { "q": "We'll send you the bill of ______ copy once the vessel departs.", "a": "lading", "hint": "提单" },
+      { "q": "The standard ______ time is 35 days after deposit confirmation.", "a": "lead", "hint": "交货周期" }
+    ],
+    "scenario": [
+      { "q": "客户问'你们的完整流程是怎样的？'，你该怎么清晰说明？", "modelAnswer": "Our process is very clear: first, I send you a quotation and samples for quality check. Once you confirm, I issue a PI for 30% deposit. After receiving the deposit and artwork, production takes 35 days with weekly updates. We book the vessel before completion, and after departure you get the B/L copy and pay the 70% balance. Then we send the original documents by courier. Any questions about any step?", "cn": "我们的流程很清晰：首先，我给您发送报价和样品供质量检测。您确认后，我出具形式发票收取30%定金。收到定金和设计稿后，生产需要35天，每周更新进度。我们在完成前订舱，船开后您收到提单副本并支付70%尾款。然后我们用快递寄送原始单据。对任何步骤有问题吗？" }
+    ]
+  },
+  "checklist": [
+    "收到询盘24小时内回复，发送报价和产品信息",
+    "样品费和运费政策清晰说明",
+    "报价包含：单价、MOQ、交期、付款方式、有效期",
+    "订单确认后及时出具PI，催促定金",
+    "定金到账后立即安排生产，发送生产通知",
+    "每周至少一次生产进度更新（带照片）",
+    "生产完成前5天订舱，确认船期",
+    "发货前确认尾款到账",
+    "船开后3天内发送提单副本和单据",
+    "尾款到账后快递原始单据",
+    "客户收到货后主动回访，询问质量和反馈"
+  ],
+  "culture": {
+    "title": "西方客户的流程期待：透明、可预测、有更新",
+    "content": "欧美客户非常看重流程的透明度和可预测性。他们不喜欢'到时候再说'，而是希望在订单开始前就清楚了解每一步的时间节点。主动提供进度更新（即使没有问题）是建立信任的关键。一个好的外贸业务员会在客户问之前就主动更新：'生产已完成50%，质检合格，预计下周五完成。'这种主动沟通会让客户非常安心，也会大大减少客户的焦虑和催促。"
+  },
+  "aiPractice": {
+    "situation": "你和英国采购经理Emma沟通，她第一次从中国采购文具，想了解完整的外贸流程和时间线。她对定金、尾款、单据等环节不太熟悉，你需要清晰耐心地解释。",
+    "role": "Emma - UK First-time Buyer",
+    "rounds": [
+      { "ai": "Hi Quinn, thanks for the quotation. This is our first time importing from China. Can you explain your full process to me? I want to make sure I understand all the steps.", "cn": "嗨Quinn，感谢报价。这是我们第一次从中国进口。你能给我解释一下完整流程吗？我想确保我理解所有步骤。", "hint": "清晰说明全流程：报价→样品→PI→定金→生产→订舱→发货→尾款→单据，给出每个环节的时间。", "patterns": ["/process|steps/i", "/quotation/i", "/sample/i", "/deposit/i", "/production/i", "/shipment/i", "/balance/i", "/document/i"], "partial": ["/process/i", "/how/i", "/steps/i"] },
+      { "ai": "That's helpful. So the deposit is 30% — when exactly do we pay that? And what happens if there's a quality issue during production?", "cn": "很有帮助。定金是30%——我们具体什么时候支付？如果生产过程中出现质量问题怎么办？", "hint": "说明定金支付节点（PI出具后），质量控制流程（产前样确认+过程质检+出货前检验），承诺及时沟通。", "patterns": ["/deposit/i", "/PI|proforma/i", "/quality/i", "/inspection/i", "/production/i", "/communicate/i"], "partial": ["/deposit/i", "/quality/i", "/when/i"] },
+      { "ai": "OK, that makes sense. And the balance payment — we pay before shipment, right? What documents do we receive after payment?", "cn": "好的，有道理。尾款——我们在发货前支付，对吗？付款后我们收到什么单据？", "hint": "确认尾款支付节点（发货前），列出完整单据清单：商业发票、装箱单、提单、产地证、质检报告、保险单。", "patterns": ["/balance/i", "/shipment/i", "/document/i", "/invoice/i", "/packing/i", "/bill of lading/i", "/certificate/i"], "partial": ["/balance/i", "/document/i", "/pay/i"] },
+      { "ai": "Perfect. I think I understand the full process now. Let's start with samples first — how do we order and pay for samples?", "cn": "完美。我想我现在理解完整流程了。我们先从样品开始——我们怎么订购和支付样品？", "hint": "说明样品订购流程：确认型号和数量→发送样品发票→支付样品费和运费→3-5天准备→DHL发货→提供追踪号。", "patterns": ["/sample/i", "/order/i", "/pay/i", "/freight|shipping/i", "/DHL|courier/i", "/tracking/i"], "partial": ["/sample/i", "/how/i", "/order/i"] }
+    ]
+  }
+}

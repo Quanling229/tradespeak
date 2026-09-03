@@ -1,0 +1,124 @@
+{
+  "id": "ep11",
+  "num": "11",
+  "title": "Full Trade Process Breakdown: From Inquiry to Payment",
+  "titleCn": "外贸全流程拆解：从询盘到收款",
+  "desc": "Emma和James用真实对话拆解外贸全流程9大环节，每个环节都有实用表达和注意事项，适合新人建立完整知识体系。",
+  "tags": [
+    "全流程",
+    "新人必听",
+    "干货"
+  ],
+  "lines": [
+    {
+      "speaker": "emma",
+      "en": "Welcome back to TradeTalk! I'm Emma, and today we're breaking down the full foreign trade process — from the first inquiry to final payment. James, you've been in this industry for over a decade — where do we even start?",
+      "cn": "欢迎回到TradeTalk！我是Emma，今天我们要拆解外贸全流程——从第一个询盘到最终收款。James，你在这个行业已经十多年了——我们从哪里开始呢？"
+    },
+    {
+      "speaker": "james",
+      "en": "Great question, Emma. It all starts with the inquiry. A buyer sends you a message asking about your products. The first 24 hours are critical — if you don't respond quickly, they'll move to the next supplier.",
+      "cn": "好问题，Emma。一切都始于询盘。买家给你发消息询问你的产品。前24小时至关重要——如果你不快速回复，他们会找下一个供应商。"
+    },
+    {
+      "speaker": "emma",
+      "en": "Right! And what should that first response include? Just a price?",
+      "cn": "对！那第一次回复应该包含什么？只是价格吗？"
+    },
+    {
+      "speaker": "james",
+      "en": "No, never just a price. A good quotation includes: unit price, MOQ, lead time, payment terms, and validity period. You also want to ask questions about their market and quantity — that shows you're serious about understanding their needs.",
+      "cn": "不，绝不能只是价格。好的报价包含：单价、最小起订量、交货期、付款方式和有效期。你还要问关于他们市场和数量的问题——这表明你认真想了解他们的需求。"
+    },
+    {
+      "speaker": "emma",
+      "en": "That makes sense. After the quotation, what's next? Samples, right?",
+      "cn": "有道理。报价之后呢？样品，对吗？"
+    },
+    {
+      "speaker": "james",
+      "en": "Exactly. Samples are where the buyer tests your quality. Some suppliers charge for samples, some offer them free — but the buyer almost always pays the shipping cost. The key is to send samples quickly, within 3-5 days, and include a catalog and business card.",
+      "cn": "没错。样品是买家测试你质量的环节。有些供应商收样品费，有些免费——但买家几乎总是支付运费。关键是快速发送样品，3-5天内，并附上目录和名片。"
+    },
+    {
+      "speaker": "emma",
+      "en": "And once the buyer approves the samples?",
+      "cn": "买家确认样品后呢？"
+    },
+    {
+      "speaker": "james",
+      "en": "Then you issue a Proforma Invoice, or PI. This is like a preliminary invoice that confirms the order details: product, quantity, price, total amount, payment terms. The buyer pays the deposit — usually 30% — and that's when production officially starts.",
+      "cn": "然后你出具形式发票，也就是PI。这就像一份初步发票，确认订单细节：产品、数量、价格、总金额、付款方式。买家支付定金——通常是30%——这时生产正式开始。"
+    },
+    {
+      "speaker": "emma",
+      "en": "30% deposit, 70% balance — that's the standard, right?",
+      "cn": "30%定金，70%尾款——这是标准，对吗？"
+    },
+    {
+      "speaker": "james",
+      "en": "Yes, that's the most common arrangement. The balance is usually paid before shipment, or sometimes against the bill of lading copy. It depends on the trust level and the relationship.",
+      "cn": "是的，这是最常见的安排。尾款通常在发货前支付，或者有时凭提单副本支付。这取决于信任程度和关系。"
+    },
+    {
+      "speaker": "emma",
+      "en": "Now, production takes about 30-40 days for stationery, right? What should the supplier do during that time?",
+      "cn": "文具的生产大约需要30-40天，对吗？供应商在这段时间应该做什么？"
+    },
+    {
+      "speaker": "james",
+      "en": "Communication is everything. A good supplier sends weekly production updates with photos. 'Production is 50% complete, quality inspection passed, on track for completion next Friday.' That kind of proactive update makes the buyer feel secure and reduces anxious follow-up emails.",
+      "cn": "沟通就是一切。好的供应商每周发送带照片的生产进度更新。'生产已完成50%，质检通过，预计下周五完成。'这种主动更新让买家感到安心，减少焦虑的追问邮件。"
+    },
+    {
+      "speaker": "emma",
+      "en": "And before production finishes, they book the vessel?",
+      "cn": "生产完成前，他们订舱？"
+    },
+    {
+      "speaker": "james",
+      "en": "Exactly. About 5-7 days before completion, you book the shipping space with a freight forwarder. You confirm the vessel name, ETD (estimated time of departure), and ETA (estimated time of arrival). Then you prepare the commercial invoice, packing list, and other documents.",
+      "cn": "没错。完成前5-7天，你跟货代订舱。确认船名、预计开船日和预计到港日。然后准备商业发票、装箱单和其他单据。"
+    },
+    {
+      "speaker": "emma",
+      "en": "What documents are we talking about?",
+      "cn": "我们说的是什么单据？"
+    },
+    {
+      "speaker": "james",
+      "en": "The standard set includes: commercial invoice, packing list, bill of lading (B/L), certificate of origin, and sometimes inspection certificates or insurance documents. These are the documents the buyer needs to clear customs in their country.",
+      "cn": "标准套装包括：商业发票、装箱单、提单、产地证，有时还有检验证书或保险单据。这些是买家在他们国家清关需要的单据。"
+    },
+    {
+      "speaker": "emma",
+      "en": "And the final step — payment and document release?",
+      "cn": "最后一步——付款和放单？"
+    },
+    {
+      "speaker": "james",
+      "en": "Right. Once the vessel departs, you send the buyer a copy of the bill of lading. They pay the balance, and then you send the original documents by courier — usually DHL or FedEx. The buyer uses those originals to clear customs and pick up the goods.",
+      "cn": "对。船开后，你给买家发送提单副本。他们支付尾款，然后你用快递——通常是DHL或FedEx——寄送原始单据。买家用这些原件清关和提货。"
+    },
+    {
+      "speaker": "emma",
+      "en": "And that's the full cycle! But wait — it doesn't end there, right? After-sales is important too.",
+      "cn": "这就是完整周期！但是等等——还没有结束，对吗？售后也很重要。"
+    },
+    {
+      "speaker": "james",
+      "en": "Absolutely! After the buyer receives the goods, you should follow up: 'Did the goods arrive in good condition? Any quality issues? When is your next order?' This is how you turn a first-time buyer into a repeat customer. 80% of your revenue comes from 20% of your customers — the repeat ones.",
+      "cn": "当然！买家收到货后，你应该跟进：'货物完好到达了吗？有质量问题吗？下次订单是什么时候？'这就是你把第一次买家变成回头客的方式。80%的收入来自20%的客户——回头客。"
+    },
+    {
+      "speaker": "emma",
+      "en": "That's a great point to end on. So to recap: inquiry to quotation to samples to PI and deposit to production to booking and shipment to balance payment to document release to after-sales follow-up. Nine steps, each with its own key expressions and pitfalls.",
+      "cn": "这是一个很好的结尾点。总结一下：询盘→报价→样品→PI和定金→生产→订舱发货→尾款→放单→售后跟进。九个步骤，每个都有关键表达和陷阱。"
+    },
+    {
+      "speaker": "james",
+      "en": "Exactly. Master these nine steps, and you'll be able to handle any buyer conversation with confidence. Until next time, keep practicing!",
+      "cn": "没错。掌握这九个步骤，你就能自信地处理任何买家对话。下次见，继续练习！"
+    }
+  ]
+}

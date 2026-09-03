@@ -2304,7 +2304,7 @@ const PODCASTS = [
     desc: "Emma扮演德国采购经理，James扮演供应商，还原一通订单状态确认电话。包含生产进度询问、ETD确认、船期延误处理、以及文件准备，全是真实会遇到的对话。",
     tags: ["真实通话", "订单跟进", "物流沟通"],
     lines: [
-      {speaker:"emma", en:"Good afternoon, James. This is Emma from Bürowelt GmbH in Germany. I hope I'm not catching you at a bad time.", cn:"下午好，James。我是德国Bürowelt GmbH的Emma。希望没有打扰到您。"},
+      {speaker:"emma", en:"Good afternoon, James. This is Emma from Burowelt GmbH in Germany. I hope I'm not catching you at a bad time.", cn:"下午好，James。我是德国Burowelt GmbH的Emma。希望没有打扰到您。"},
       {speaker:"james", en:"Good afternoon, Emma! Not at all — I was just reviewing your order actually. How can I help you today?", cn:"下午好，Emma！完全没有——我正好在看您的订单。今天有什么可以帮您的？"},
       {speaker:"emma", en:"Great. I'm calling about order BW-2026-0847 — the 50,000-piece marker order. Can you give me a quick update on where we are with production?", cn:"太好了。我打电话来是关于订单BW-2026-0847——5万支马克笔的订单。您能给我简单更新一下生产进度吗？"},
       {speaker:"james", en:"Absolutely. Production is about seventy percent complete right now. We've finished the printing and assembly, and we're currently doing the quality inspection and packaging. If everything stays on track, we should be ready for shipment by the 15th.", cn:"当然。生产目前完成了大约70%。我们已经完成了印刷和组装，目前正在做质检和包装。如果一切顺利，我们应该能在15号前准备好发货。"},
@@ -2358,6 +2358,29 @@ function loadCoursesFromRemote(){
               /* 检查课程是否已存在，避免重复 */
               const exists = window.COURSES.some(c => c.id === courseData.id);
               if(!exists){
+                /* 将patterns字符串转换为正则表达式对象（JSON不支持正则字面量） */
+                if(courseData.aiPractice && courseData.aiPractice.rounds){
+                  courseData.aiPractice.rounds.forEach(r => {
+                    if(r.patterns && Array.isArray(r.patterns)){
+                      r.patterns = r.patterns.map(p => {
+                        if(typeof p === "string"){
+                          const m = p.match(/^\/(.*)\/([a-z]*)$/);
+                          return m ? new RegExp(m[1], m[2]) : new RegExp(p);
+                        }
+                        return p;
+                      });
+                    }
+                    if(r.partial && Array.isArray(r.partial)){
+                      r.partial = r.partial.map(p => {
+                        if(typeof p === "string"){
+                          const m = p.match(/^\/(.*)\/([a-z]*)$/);
+                          return m ? new RegExp(m[1], m[2]) : new RegExp(p);
+                        }
+                        return p;
+                      });
+                    }
+                  });
+                }
                 window.COURSES.push(courseData);
                 console.log("动态加载课程:", courseData.title);
               }
@@ -2848,15 +2871,10 @@ function speak(text, {onend, onstart, rate, voice} = {}){
     }
   }
   if(IS_ANDROID_CHROME){
-    /* Android Chrome：优先浏览器原生Web Speech（更稳定，不依赖Google Translate网络），
-       若原生TTS不可用再回退音频流 */
-    if("speechSynthesis" in window && speechSynthesis.getVoices().length > 0){
-      webSpeak(t, {onend, onstart, rate, voice});
-    } else {
-      audioSpeak(t, store.settings.voice, {onend, onstart}).catch(() => {
-        webSpeak(t, {onend, onstart, rate, voice});
-      });
-    }
+    /* Android Chrome：直接使用浏览器原生Web Speech（不依赖Google Translate网络，中国大陆可用）。
+       若原生TTS不可用，webSpeak内部会提示用户安装Google文字转语音引擎。
+       注意：华为/鸿蒙手机需安装Google TTS引擎并下载英文语音包才能发声 */
+    webSpeak(t, {onend, onstart, rate, voice});
   } else {
     webSpeak(t, {onend, onstart, rate, voice});
   }
