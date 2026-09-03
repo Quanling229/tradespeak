@@ -1,7 +1,6 @@
 /* TradeSpeak Service Worker - 离线缓存 + 自动更新检测 */
-/* 版本号升级：v1 → v2，破坏旧缓存，确保手机加载最新代码 */
-/* 最后更新：2026-09-03 自动同步测试 */
-const CACHE_NAME = "tradespeak-v2";
+/* 版本号升级：v1 → v3，破坏旧缓存，确保手机加载最新代码 */
+const CACHE_NAME = "tradespeak-v3";
 const ASSETS = [
   "./index.html",
   "./manifest.json",
