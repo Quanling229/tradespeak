@@ -1,0 +1,89 @@
+{
+  "id": "social-media-marketing",
+  "num": "14",
+  "title": "社媒营销：用LinkedIn和Instagram获客",
+  "titleEn": "Social Media Marketing for B2B",
+  "scene": "社媒营销",
+  "level": "进阶",
+  "duration": "25 min",
+  "color": "#e67e22",
+  "emoji": "📱",
+  "intro": {
+    "visual": "social",
+    "background": "你需要通过LinkedIn和Instagram开发海外文具买家，发布产品内容、互动评论、建立专业形象。",
+    "desc": "社媒是外贸人低成本获客的重要渠道。本课覆盖LinkedIn个人品牌打造、产品内容发布、买家互动开发、Instagram视觉营销等全流程。",
+    "tasks": ["打造LinkedIn专业个人主页", "撰写高互动产品帖子", "通过评论和私信开发买家", "用Instagram展示产品场景"],
+    "outcomes": ["LinkedIn主页专业度提升", "帖子互动率提高", "能主动开发潜在买家", "社媒成为稳定获客渠道"]
+  },
+  "oneLiner": {
+    "en": "Hi, I came across your company profile and noticed you specialize in eco-friendly stationery retail. We manufacture refillable markers that are selling well in EU supermarkets — would you be open to a quick call next week?",
+    "cn": "您好，我看到您的公司资料，注意到您专注于环保文具零售。我们生产的可换芯马克笔在欧洲超市卖得很好——您下周有空快速通个电话吗？",
+    "highlights": ["came across", "specialize in", "refillable markers", "would you be open to"]
+  },
+  "vocab": [
+    { "word": "profile", "ipa": "/ˈprəʊfaɪl/", "ex": "Make sure your LinkedIn profile is complete and professional.", "cn": "个人主页", "exCn": "确保你的LinkedIn个人主页完整且专业。" },
+    { "word": "engagement", "ipa": "/ɪnˈɡeɪdʒmənt/", "ex": "Posts with questions get higher engagement.", "cn": "互动率", "exCn": "带问题的帖子互动率更高。" },
+    { "word": "DM", "ipa": "/ˌdiː ˈem/", "ex": "I sent him a DM after commenting on his post.", "cn": "私信", "exCn": "我在他的帖子下评论后给他发了私信。" },
+    { "word": "hashtag", "ipa": "/ˈhæʃtæɡ/", "ex": "Use relevant hashtags like #stationery #officesupplies to reach buyers.", "cn": "话题标签", "exCn": "使用#文具 #办公用品等相关话题标签来触达买家。" },
+    { "word": "lead", "ipa": "/liːd/", "ex": "Social media is a great source of warm leads.", "cn": "潜在客户", "exCn": "社媒是暖潜在客户的重要来源。" },
+    { "word": "branding", "ipa": "/ˈbrændɪŋ/", "ex": "Consistent branding across all platforms builds trust.", "cn": "品牌塑造", "exCn": "所有平台一致的品牌塑造能建立信任。" }
+  ],
+  "mistakes": [
+    { "wrong": "Hi, buy our markers, they are cheap!", "right": "Love your store's focus on sustainable products — our refillable markers might be a great fit for your eco-conscious customers. Would you like a sample?", "cn": "不要直接发广告，先赞美对方，找到共同点，再自然引入产品。" },
+    { "wrong": "Connect with me, I sell stationery.", "right": "I enjoyed your post about retail trends in Germany. We supply similar retailers with eco-friendly markers — would love to connect and share insights.", "cn": "连接请求不要只说'我卖文具'，要提到对方的内容，说明连接价值。" }
+  ],
+  "expressions": {
+    "basic": [
+      { "en": "I came across your profile and was impressed by your work.", "cn": "我看到了你的主页，对你的工作印象深刻。", "tag": "开场" },
+      { "en": "Would you be open to connecting?", "cn": "你愿意加个好友吗？", "tag": "连接" },
+      { "en": "I'd love to hear your thoughts on this.", "cn": "我很想听听你对这个的看法。", "tag": "互动" },
+      { "en": "Feel free to reach out if you have any questions.", "cn": "有任何问题随时联系我。", "tag": "结尾" }
+    ],
+    "advanced": [
+      { "en": "I noticed your company recently expanded into the UK market — our refillable marker line has been doing very well with UK retailers, and I thought there might be some synergies worth exploring.", "cn": "我注意到贵公司最近拓展了英国市场——我们的可换芯马克笔系列在英国零售商中表现很好，我想可能有一些协同效应值得探讨。", "tag": "精准开发", "from": "I came across your profile" },
+      { "en": "Rather than sending a generic catalog, I thought I'd share a quick case study — a similar stationery chain in Germany increased their marker category sales by 35% after switching to our eco-friendly line. Would you be open to a 15-minute call next week?", "cn": "与其发一份通用目录，我想分享一个简短案例——德国一家类似的文具连锁店在切换到我们的环保系列后，马克笔品类销售额增长了35%。你下周有空通个15分钟的电话吗？", "tag": "价值导向", "from": "Would you be open to connecting" }
+    ]
+  },
+  "dialogues": [
+    {
+      "title": "LinkedIn私信开发买家",
+      "lines": [
+        { "speaker": "you", "en": "Hi Sarah, loved your recent post about sustainable retail trends. We manufacture eco-friendly refillable markers that are selling well in EU supermarkets — thought it might resonate with your product range.", "cn": "嗨Sarah，很喜欢你最近关于可持续零售趋势的帖子。我们生产环保可换芯马克笔，在欧洲超市卖得很好——我想这可能与你的产品系列契合。" },
+        { "speaker": "client", "en": "Thanks for reaching out! Refillable is definitely a growing category for us. Do you have a catalog you can share?", "cn": "感谢联系！可换芯确实是我们增长中的品类。你有目录可以分享吗？" },
+        { "speaker": "you", "en": "Absolutely — I'll send our latest catalog along with a few best-seller SKUs that are particularly popular with UK retailers. Would you also be open to a quick 15-minute call next week to discuss your needs?", "cn": "当然——我会发送最新目录，以及几款在英国零售商中特别受欢迎的畅销SKU。你下周有空快速通个15分钟电话讨论你的需求吗？" }
+      ]
+    }
+  ],
+  "exercises": {
+    "fillBlank": [
+      { "q": "I ______ across your profile and was impressed by your work.", "a": "came", "hint": "偶然看到" },
+      { "q": "Would you be ______ to a quick call next week?", "a": "open", "hint": "愿意接受" },
+      { "q": "Posts with questions get higher ______.", "a": "engagement", "hint": "互动率" }
+    ],
+    "scenario": [
+      { "q": "你在LinkedIn上看到一个潜在买家的帖子，想私信联系，你该怎么写开场白？", "modelAnswer": "Hi [Name], really enjoyed your post about [specific topic from their post]. We work with similar retailers in [their market] on [specific product] — I thought our [product benefit] might be relevant to your range. Would love to connect and share a quick case study if helpful.", "cn": "嗨[名字]，很喜欢你关于[他们帖子中的具体话题]的帖子。我们与[他们市场]的类似零售商合作[具体产品]——我想我们的[产品优势]可能与你的系列相关。如果有帮助的话，很乐意加个好友并分享一个简短案例。" }
+    ]
+  },
+  "checklist": [
+    "LinkedIn个人主页完整：头像、标题、经历、技能",
+    "每周发布2-3条有价值的内容（产品知识、行业洞察、客户案例）",
+    "每天花15分钟互动：评论目标买家的帖子",
+    "连接请求个性化，提到对方的具体内容",
+    "私信先建立价值，再谈产品",
+    "Instagram发布高质量产品场景图，使用相关话题标签"
+  ],
+  "culture": {
+    "title": "西方社媒商务文化：先给价值，再谈销售",
+    "content": "欧美B2B买家对硬广非常反感。在LinkedIn上，成功的开发信逻辑是：先赞美对方的内容→找到共同点→提供价值（行业洞察、案例研究）→最后才自然引入产品。不要一上来就发目录和报价，那会被直接忽略。建立信任需要时间，先成为有价值的连接，再成为供应商。"
+  },
+  "aiPractice": {
+    "situation": "你在LinkedIn上看到英国文具零售商Sarah的帖子，想私信开发她。她的公司专注于环保文具零售，最近发了一篇关于可持续零售趋势的帖子。",
+    "role": "Sarah - UK Retail Buyer",
+    "rounds": [
+      { "ai": "Thanks for connecting, Quinn! I saw your message about refillable markers. Can you tell me more about your product range?", "cn": "感谢加好友，Quinn！我看到了你关于可换芯马克笔的消息。你能多介绍一下你们的产品系列吗？", "hint": "简要介绍产品系列，重点强调环保和可换芯，提到在欧洲市场的表现。", "patterns": ["/refill/i", "/eco/i", "/europe/i", "/range/i"], "partial": ["/marker/i", "/product/i"] },
+      { "ai": "That sounds interesting. What's your minimum order quantity and price range?", "cn": "听起来不错。你们的最小起订量和价格范围是多少？", "hint": "说明MOQ和阶梯价格，强调量大优惠，不要只给一个数字。", "patterns": ["/moq|minimum/i", "/price/i", "/tier|volume/i", "/discount/i"], "partial": ["/price/i", "/order/i"] },
+      { "ai": "The price is a bit higher than our current supplier. Can you do better?", "cn": "价格比我们现在的供应商高一点。能再优惠吗？", "hint": "强调价值差异（环保认证、可换芯、欧盟市场验证），询问订单量，提供阶梯价。", "patterns": ["/value/i", "/certification/i", "/volume/i", "/tier/i"], "partial": ["/price/i", "/cheap/i"] },
+      { "ai": "OK, I'd like to try a sample order first. What's the process?", "cn": "好的，我想先试个样品单。流程是怎样的？", "hint": "说明样品流程：免费样品+运费到付，3-5天发货，确认后下正式订单。", "patterns": ["/sample/i", "/free/i", "/freight|shipping/i", "/process/i"], "partial": ["/sample/i", "/try/i"] }
+    ]
+  }
+}
