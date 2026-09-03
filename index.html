@@ -2319,6 +2319,8 @@ const PODCASTS = [
     ]
   }
 ];
+window.COURSES = COURSES;
+
 /* 远程课程更新：加载成功时覆盖内置数据 */
 function loadCoursesFromRemote(){
   /* 第一步：尝试加载courses.json（完整课程包，兼容旧版本） */
@@ -2328,9 +2330,13 @@ function loadCoursesFromRemote(){
       try{
         const newCourses = new Function("return " + data.courses)();
         const newPodcasts = new Function("return " + data.podcasts)();
-        if(newCourses && newCourses.length > 0){
+        if(newCourses && Array.isArray(newCourses) && newCourses.length > 0){
           window.COURSES = newCourses;
+        }
+        if(newPodcasts && Array.isArray(newPodcasts) && newPodcasts.length > 0){
           window.PODCASTS = newPodcasts;
+        }
+        if(newCourses && newCourses.length > 0){
           store.courseVersion = data.version;
           saveStore();
         }
@@ -2358,29 +2364,6 @@ function loadCoursesFromRemote(){
               /* 检查课程是否已存在，避免重复 */
               const exists = window.COURSES.some(c => c.id === courseData.id);
               if(!exists){
-                /* 将patterns字符串转换为正则表达式对象（JSON不支持正则字面量） */
-                if(courseData.aiPractice && courseData.aiPractice.rounds){
-                  courseData.aiPractice.rounds.forEach(r => {
-                    if(r.patterns && Array.isArray(r.patterns)){
-                      r.patterns = r.patterns.map(p => {
-                        if(typeof p === "string"){
-                          const m = p.match(/^\/(.*)\/([a-z]*)$/);
-                          return m ? new RegExp(m[1], m[2]) : new RegExp(p);
-                        }
-                        return p;
-                      });
-                    }
-                    if(r.partial && Array.isArray(r.partial)){
-                      r.partial = r.partial.map(p => {
-                        if(typeof p === "string"){
-                          const m = p.match(/^\/(.*)\/([a-z]*)$/);
-                          return m ? new RegExp(m[1], m[2]) : new RegExp(p);
-                        }
-                        return p;
-                      });
-                    }
-                  });
-                }
                 window.COURSES.push(courseData);
                 console.log("动态加载课程:", courseData.title);
               }
@@ -2391,18 +2374,24 @@ function loadCoursesFromRemote(){
       }
       return Promise.all(loadPromises).then(() => {
         /* 按课程编号排序 */
-        window.COURSES.sort((a, b) => {
-          const na = parseInt(a.num) || 0;
-          const nb = parseInt(b.num) || 0;
-          return na - nb;
-        });
-        console.log("课程加载完成，共" + window.COURSES.length + "节课");
+        if(window.COURSES && Array.isArray(window.COURSES)){
+          window.COURSES.sort((a, b) => {
+            const na = parseInt(a.num) || 0;
+            const nb = parseInt(b.num) || 0;
+            return na - nb;
+          });
+          console.log("课程加载完成，共" + window.COURSES.length + "节课");
+        } else {
+          console.warn("window.COURSES未定义，跳过排序");
+        }
         return true;
       });
     })
     .then(() => {
       /* 第三步：动态加载独立播客文件（podcasts/podcast-01.json ~ podcast-99.json） */
       const podcastPromises = [];
+window.PODCASTS = PODCASTS;
+
       for(let i = 1; i <= 99; i++){
         const num = String(i).padStart(2, "0");
         const url = "podcasts/podcast-" + num + ".json?v=" + Date.now();
@@ -2424,12 +2413,16 @@ function loadCoursesFromRemote(){
         );
       }
       return Promise.all(podcastPromises).then(() => {
-        window.PODCASTS.sort((a, b) => {
-          const na = parseInt(a.num) || 0;
-          const nb = parseInt(b.num) || 0;
-          return na - nb;
-        });
-        console.log("播客加载完成，共" + window.PODCASTS.length + "期");
+        if(window.PODCASTS && Array.isArray(window.PODCASTS)){
+          window.PODCASTS.sort((a, b) => {
+            const na = parseInt(a.num) || 0;
+            const nb = parseInt(b.num) || 0;
+            return na - nb;
+          });
+          console.log("播客加载完成，共" + window.PODCASTS.length + "期");
+        } else {
+          console.warn("window.PODCASTS未定义，跳过排序");
+        }
         return true;
       });
     });
