@@ -402,6 +402,7 @@ input{font-family:inherit}
 </head>
 <body>
 
+
 <div id="app"></div>
 <div class="toast" id="toast"></div>
 
@@ -2792,8 +2793,13 @@ function unlockAudio(){
 document.addEventListener("touchstart", unlockAudio, {once:true});
 document.addEventListener("click", unlockAudio, {once:true});
 
-function webSpeak(text, {onend, onstart, rate, voice} = {}){
-  if(!("speechSynthesis" in window)){ toast("当前浏览器不支持语音合成，请用 Chrome / Edge / Safari 打开"); onend && onend(); return; }
+function webSpeak(text, {onend, onstart, rate, voice, onerror} = {}){
+  if(!("speechSynthesis" in window)){ 
+    toast("当前浏览器不支持语音合成，请用 Chrome / Edge / Safari 打开"); 
+    onerror && onerror({error: "not-supported"});
+    onend && onend(); 
+    return; 
+  }
   try{ speechSynthesis.cancel(); }catch(e){}
   try{ if(speechSynthesis.paused) speechSynthesis.resume(); }catch(e){}
   refreshVoices();
@@ -2817,38 +2823,26 @@ function webSpeak(text, {onend, onstart, rate, voice} = {}){
   u.onerror = (ev) => {
     if(my !== speakToken) return;
     const err = ev && ev.error;
+    console.warn("webSpeak error:", err, "text:", text.substring(0,50));
     if(err === "not-allowed" || err === "service-unavailable"){
-      toast("🔊 移动端需点击播放按钮才能发声，请点任意播放按钮");
+      toast("🔊 需点击播放按钮才能发声");
       audioUnlocked = false;
-    } else if(err === "synthesis-failed"){
-      /* iOS常见错误：重试一次 */
-      if(isIOS && !window.__speakRetried){
-        window.__speakRetried = true;
-        setTimeout(() => {
-          try{ speechSynthesis.cancel(); }catch(e){}
-          const u2 = new SpeechSynthesisUtterance(text);
-          u2.lang = store.settings.voice || "en-GB";
-          u2.rate = rate || store.settings.rate || 0.88;
-          u2.pitch = voice === "female" ? 1.08 : (voice === "male" ? 0.88 : 0.96);
-          u2.onend = () => { if(my === speakToken) onend && onend(); };
-          speechSynthesis.speak(u2);
-        }, 200);
-        return;
-      }
-      toast("语音合成失败，请再点一次播放");
     }
     window.__speakRetried = false;
+    /* 调用外部onerror回调，让speak函数决定是否回退 */
+    onerror && onerror({error: err});
     onend && onend();
   };
   __keepUtter = u;
   speechSynthesis.speak(u);
-  /* 静默失败看门狗 */
+  /* 静默失败看门狗：3秒内未开始播放，认为失败（给足时间，避免误中断） */
   setTimeout(() => {
     if(my === speakToken && !started && !speechSynthesis.speaking && !speechSynthesis.pending){
-      toast("🔇 未检测到播放，请再点一次；若仍无声，检查设备音量/静音键");
+      console.warn("webSpeak watchdog: no playback detected for:", text.substring(0,50));
+      onerror && onerror({error: "watchdog-timeout"});
       onend && onend();
     }
-  }, 1800);
+  }, 3000);
 }
 
 /* 统一发音入口：优先内置 MP3 → Android 音频流兜底 → Web Speech 兜底 */
@@ -2864,40 +2858,53 @@ function speak(text, {onend, onstart, rate, voice} = {}){
       return;
     }
   }
-  /* 智能选择TTS引擎：
-     1. 如果浏览器有可用的英文语音，优先使用原生Web Speech（质量好，离线可用）
-     2. 如果没有可用语音或原生TTS失败，自动回退到Google Translate在线TTS
-     3. 确保所有设备都能播放音频 */
-  const hasEnglishVoice = VOICES && VOICES.some(v => /^en[-_]/i.test((v.lang || "").replace("_","-")));
-  if(hasEnglishVoice){
-    /* 有原生英文语音，使用webSpeak，如果失败自动回退到audioSpeak */
-    let webSpeakFailed = false;
-    const fallback = () => {
-      if(!webSpeakFailed){
-        webSpeakFailed = true;
+  /* 最可靠的基础版本：直接使用浏览器原生Web Speech API
+     这是所有现代浏览器（Chrome/Edge/Safari）都支持的标准API
+     如果设备有TTS引擎，就能正常播放 */
+  try{
+    if(!("speechSynthesis" in window)){
+      toast("当前浏览器不支持语音合成，请用 Chrome / Edge / Safari 打开");
+      onend && onend();
+      return;
+    }
+    speechSynthesis.cancel();
+    if(speechSynthesis.paused) speechSynthesis.resume();
+    refreshVoices();
+    const u = new SpeechSynthesisUtterance(t);
+    u.lang = (store.settings && store.settings.voice) || "en-GB";
+    u.rate = rate || (store.settings && store.settings.rate) || 0.9;
+    u.pitch = voice === "female" ? 1.08 : (voice === "male" ? 0.88 : 0.96);
+    u.volume = 1.0;
+    const v = pickVoice(voice);
+    if(v){ u.voice = v; u.lang = v.lang || u.lang; }
+    u.onstart = () => { onstart && onstart(); };
+    u.onend = () => { onend && onend(); };
+    u.onerror = (e) => {
+      console.warn("speak error:", e && e.error, "text:", t.substring(0,50));
+      /* 原生TTS失败时，回退到Google Translate在线TTS */
+      audioSpeak(t, store.settings.voice, {onend, onstart}).catch(() => {
+        toast("🔇 语音合成失败，请检查设备音量和网络连接");
+        onend && onend();
+      });
+    };
+    speechSynthesis.speak(u);
+    /* 3秒看门狗：如果原生TTS没有开始播放，回退到在线TTS */
+    const watchdog = setTimeout(() => {
+      if(!speechSynthesis.speaking && !speechSynthesis.pending){
+        console.warn("speak watchdog: no playback, falling back to online TTS");
+        speechSynthesis.cancel();
         audioSpeak(t, store.settings.voice, {onend, onstart}).catch(() => {
-          toast("🔇 语音合成失败，请检查设备音量或网络连接");
+          toast("🔇 语音合成失败，请检查设备音量和网络连接");
           onend && onend();
         });
       }
-    };
-    webSpeak(t, {
-      onend: () => { if(!webSpeakFailed) onend && onend(); },
-      onstart, rate, voice,
-      onerror: fallback
-    });
-    /* 看门狗：2秒内未开始播放，认为原生TTS失败，回退到在线TTS */
-    setTimeout(() => {
-      if(!speechSynthesis.speaking && !speechSynthesis.pending){
-        fallback();
-      }
-    }, 2000);
-  } else {
-    /* 没有原生英文语音，直接使用Google Translate在线TTS */
-    audioSpeak(t, store.settings.voice, {onend, onstart}).catch(() => {
-      toast("🔇 语音合成失败，请检查网络连接");
-      onend && onend();
-    });
+    }, 3000);
+    /* 播放开始时清除看门狗 */
+    u.onstart = () => { clearTimeout(watchdog); onstart && onstart(); };
+  }catch(e){
+    console.error("speak exception:", e);
+    toast("🔇 语音合成异常: " + e.message);
+    onend && onend();
   }
 }
 function stopSpeak(){
