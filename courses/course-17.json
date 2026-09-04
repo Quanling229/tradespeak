@@ -1,0 +1,108 @@
+{
+  "id": "peak-season-supply-chain",
+  "num": "17",
+  "title": "旺季备货与供应链管理：从Q4大促到明年采购计划",
+  "titleEn": "Peak Season Stocking & Supply Chain Management",
+  "scene": "旺季备货与供应链",
+  "level": "进阶",
+  "duration": "35 min",
+  "color": "#d35400",
+  "emoji": "📦",
+  "intro": {
+    "visual": "warehouse",
+    "background": "9月到了，欧美买家开始疯狂备货Q4大促（黑五、网一、圣诞），同时启动明年的采购计划。这是文具外贸人一年中最忙也最关键的时期——马克笔、荧光笔都是季节性强的高频消耗品，旺季断供直接损失销售额，备货过多又会积压库存。如何与客户高效沟通备货计划、管理供应链、规避物流风险，是这节课的核心。",
+    "desc": "本课覆盖旺季备货全流程：采购周期倒推法、安全库存计算、MOQ与阶梯价格谈判、生产进度跟踪、物流旺季应对（缺舱涨价）、质量控制与验货、明年采购计划沟通。每个环节都有真实话术和计算公式，帮你从接单员升级为客户的供应链顾问。",
+    "tasks": ["掌握采购周期倒推法，准确计算最晚下单时间", "学会安全库存计算公式，帮助客户合理备货", "掌握生产进度跟踪的关键节点和话术", "应对物流旺季的缺舱涨价问题", "学会与客户沟通明年采购计划，锁定长期订单"],
+    "outcomes": ["能专业地回复客户的备货咨询，给出具体时间表", "能帮助客户计算安全库存，体现专业价值", "能主动跟踪生产进度，减少客户焦虑", "能在物流旺季给出备选方案，避免交期延误", "能成功引导客户制定明年采购计划，锁定长期订单"]
+  },
+  "oneLiner": {
+    "en": "For the Q4 peak season, we recommend placing your marker order by September 15th to ensure delivery before Black Friday. Based on your historical sales of 50,000 pieces per month, a safety stock of 15,000 pieces would cover any unexpected demand spikes. We can also reserve production capacity for your Q1 2027 order if you confirm the forecast by end of October.",
+    "cn": "针对Q4旺季，我们建议您在9月15日前下单马克笔，以确保黑五前到货。根据您每月5万支的历史销量，1.5万支的安全库存可以应对任何意外的需求激增。如果您在10月底前确认预测，我们还可以为您预留2027年第一季度的产能。",
+    "highlights": ["peak season", "September 15th", "safety stock", "reserve production capacity"]
+  },
+  "vocab": [
+    { "word": "lead time", "ipa": "/ˈliːd taɪm/", "ex": "Our standard lead time is 35 days, but during peak season it can extend to 45 days.", "cn": "交货周期/生产周期", "exCn": "我们标准交货周期是35天，但旺季可能延长到45天。" },
+    { "word": "safety stock", "ipa": "/ˈseɪfti stɒk/", "ex": "We recommend keeping a safety stock of 20% to cover unexpected demand.", "cn": "安全库存", "exCn": "我们建议保留20%的安全库存以应对意外需求。" },
+    { "word": "MOQ", "ipa": "/ˌem əʊ ˈkjuː/", "ex": "The MOQ for custom colors is 10,000 pieces per color.", "cn": "最小起订量", "exCn": "定制颜色的最小起订量是每色1万支。" },
+    { "word": "production capacity", "ipa": "/prəˈdʌkʃn kəˈpæsəti/", "ex": "We can reserve production capacity for your Q1 order if you confirm by October.", "cn": "产能", "exCn": "如果您在10月前确认，我们可以为您预留第一季度的产能。" },
+    { "word": "freight surge", "ipa": "/freɪt sɜːdʒ/", "ex": "We expect a freight surge in October due to peak season demand.", "cn": "运费暴涨", "exCn": "由于旺季需求，我们预计10月份运费会暴涨。" },
+    { "word": "booking window", "ipa": "/ˈbʊkɪŋ ˈwɪndəʊ/", "ex": "The booking window for pre-holiday shipments closes on October 20th.", "cn": "订舱窗口期", "exCn": "节前发货的订舱窗口期在10月20日关闭。" },
+    { "word": "quality inspection", "ipa": "/ˈkwɒləti ɪnˈspekʃn/", "ex": "We conduct a final quality inspection before shipment.", "cn": "质量检验/验货", "exCn": "我们在发货前进行最终质量检验。" },
+    { "word": "demand forecast", "ipa": "/dɪˈmɑːnd ˈfɔːkɑːst/", "ex": "Could you share your Q1 demand forecast so we can plan production?", "cn": "需求预测", "exCn": "您能分享第一季度的需求预测吗，以便我们安排生产？" }
+  ],
+  "mistakes": [
+    { "wrong": "Don't worry, we can deliver in 20 days. Just place the order anytime.", "right": "For Q4 peak season, our production lead time is 35-45 days. To ensure delivery before Black Friday (November 29th), I recommend placing your order by September 15th at the latest. This also gives us enough buffer for any unexpected delays in material sourcing or quality inspection.", "cn": "旺季不要轻易承诺短交期，要给出具体的最晚下单时间，并说明原因（生产周期、缓冲期）。" },
+    { "wrong": "The price is $0.50 per piece. Take it or leave it.", "right": "For peak season orders, we have a tiered pricing structure: 5,000 pcs at $0.55, 10,000 pcs at $0.52, 20,000 pcs at $0.49. If you can combine your Q4 and Q1 orders into one production run, we can offer an additional 3% discount. This also helps us secure raw materials at a better price before the peak season surge.", "cn": "旺季报价不要只给一个价格，要给出阶梯价格和组合订单优惠，引导客户增加订单量。" }
+  ],
+  "expressions": {
+    "basic": [
+      { "en": "For Q4 peak season, our lead time is 35-45 days.", "cn": "Q4旺季，我们的交货周期是35-45天。", "tag": "交期说明" },
+      { "en": "To ensure delivery before Black Friday, please place your order by September 15th.", "cn": "为确保黑五前到货，请在9月15日前下单。", "tag": "最晚下单时间" },
+      { "en": "We recommend a safety stock of 20% to cover unexpected demand.", "cn": "我们建议保留20%的安全库存以应对意外需求。", "tag": "安全库存建议" },
+      { "en": "We can reserve production capacity for your Q1 order.", "cn": "我们可以为您的第一季度订单预留产能。", "tag": "产能预留" },
+      { "en": "We expect freight rates to increase in October due to peak season.", "cn": "由于旺季，我们预计10月份运费会上涨。", "tag": "运费预警" },
+      { "en": "Could you share your Q1 demand forecast?", "cn": "您能分享第一季度的需求预测吗？", "tag": "需求预测" }
+    ],
+    "advanced": [
+      { "en": "Based on your historical sales data of 50,000 pieces per month with a 15% coefficient of variation, I've calculated that a safety stock of 12,500 pieces would give you a 95% service level during peak season. Combined with our 35-day lead time and 7-day ocean transit to Hamburg, your latest reorder point would be when inventory drops to 68,000 pieces. I've prepared a simple Excel template for you to track this.", "cn": "根据您每月5万支的历史销量数据和15%的变异系数，我计算出1.25万支的安全库存可以在旺季达到95%的服务水平。结合我们35天的生产周期和7天到汉堡的海运时间，您的最晚补货点是库存降至6.8万支时。我为您准备了一个简单的Excel模板来跟踪。", "tag": "数据驱动的备货建议", "from": "We recommend a safety stock" },
+      { "en": "Looking ahead to 2027, I'd like to propose a quarterly rolling forecast arrangement. If you can provide a 6-month rolling forecast with firm orders for the first 3 months and tentative forecasts for the next 3 months, we can guarantee capacity allocation, lock in raw material prices, and offer a 5% annual volume rebate. This model has worked well for our other European clients, reducing their stockouts by 40% and inventory costs by 25%. Would you be open to discussing this in our next call?", "cn": "展望2027年，我想提议一个季度滚动预测安排。如果您能提供6个月滚动预测，前3个月为确认订单，后3个月为暂定预测，我们可以保证产能分配、锁定原材料价格，并提供5%的年度数量返利。这个模式在我们其他欧洲客户中效果很好，将缺货率降低了40%，库存成本降低了25%。您愿意在下次电话中讨论这个吗？", "tag": "长期合作模式提议", "from": "We can reserve production capacity" }
+    ]
+  },
+  "dialogues": [
+    {
+      "title": "旺季备货咨询：客户问现在下单还来得及吗",
+      "lines": [
+        { "speaker": "client", "en": "Hi Quinn, I just realized we need more markers for Q4. Is it too late to place an order?", "cn": "嗨Quinn，我刚意识到我们Q4需要更多马克笔。现在下单还来得及吗？" },
+        { "speaker": "you", "en": "Hi Sarah, good to hear from you! Let me check the timeline for you. Today is September 4th. Our peak season lead time is 35-45 days, plus 7-10 days ocean transit to Hamburg. If you place the order by September 15th, we can guarantee delivery by October 30th at the latest — that's a full month before Black Friday. If you can confirm today, I can prioritize your order in our production schedule and potentially deliver by October 25th. Would that work for your timeline?", "cn": "嗨Sarah，很高兴收到您的消息！让我帮您查一下时间线。今天是9月4日。我们旺季的交货周期是35-45天，加上7-10天到汉堡的海运。如果您在9月15日前下单，我们可以保证最晚10月30日到货——比黑五早整整一个月。如果您今天能确认，我可以在生产计划中优先安排您的订单，有可能10月25日就交货。这个时间线符合您的要求吗？" }
+      ]
+    },
+    {
+      "title": "物流旺季应对：客户抱怨运费太贵",
+      "lines": [
+        { "speaker": "client", "en": "The freight quote you sent is 30% higher than last time. That's unacceptable.", "cn": "你发的运费报价比上次高了30%，这无法接受。" },
+        { "speaker": "you", "en": "I completely understand your concern, Sarah. Freight rates have indeed surged 25-35% since August due to the pre-holiday peak season and limited vessel space. Here are three options we can explore: First, if you can ship by October 5th instead of October 20th, we can lock in the current rate before the next round of increases. Second, we can switch from FCL to LCL for this order, which would reduce upfront freight cost by about 15%, though transit time is 5 days longer. Third, if you can combine this order with your Q1 forecast into one 40-foot container, the per-unit freight cost drops by 22%. Which option would you like to explore further?", "cn": "我完全理解您的顾虑，Sarah。自8月以来，由于节前旺季和舱位有限，运费确实暴涨了25-35%。我们可以探讨三个方案：第一，如果您能在10月5日而不是10月20日发货，我们可以在下一轮涨价前锁定当前价格。第二，我们可以将整柜改为拼柜，这将减少约15%的前期运费，不过运输时间会多5天。第三，如果您能将这个订单与第一季度的预测合并成一个40尺柜，单位运费成本会下降22%。您想进一步探讨哪个方案？" }
+      ]
+    }
+  ],
+  "exercises": {
+    "fillBlank": [
+      { "q": "Our peak season ______ time is 35-45 days.", "a": "lead", "hint": "交货周期" },
+      { "q": "We recommend a ______ stock of 20% to cover unexpected demand.", "a": "safety", "hint": "安全库存" },
+      { "q": "We can ______ production capacity for your Q1 order.", "a": "reserve", "hint": "预留" },
+      { "q": "Could you share your Q1 demand ______?", "a": "forecast", "hint": "预测" },
+      { "q": "We expect freight ______ to increase in October due to peak season.", "a": "rates", "hint": "运费/费率" }
+    ],
+    "scenario": [
+      { "q": "客户在9月20日问：'我现在下单5万支马克笔，11月1日前能到货吗？' 你的生产周期是35天，海运到汉堡需要10天。你该如何专业回复？", "modelAnswer": "Hi Sarah, thank you for your order! Let me calculate the timeline carefully. Today is September 20th. With our 35-day production lead time, production would be completed by October 25th. Adding 10 days for ocean transit to Hamburg, the estimated arrival would be November 4th — that's 3 days after your November 1st deadline. However, I have two options to make it work: First, if you can accept air freight for 10,000 pieces (about 20% of the order), those can arrive by October 30th to cover your initial demand, with the remaining 40,000 arriving by sea on November 4th. Second, if you can increase the order to 8,000 pieces, I can move your order to our priority production line, which would reduce lead time to 28 days, ensuring full delivery by October 28th. Which option works better for you?", "cn": "嗨Sarah，感谢您的订单！让我仔细计算一下时间线。今天是9月20日。我们35天的生产周期，生产将在10月25日完成。加上10天到汉堡的海运，预计到货时间是11月4日——比您11月1日的截止日期晚3天。不过，我有两个方案可以实现：第一，如果您能接受1万支（约订单的20%）走空运，这些可以在10月30日前到货，满足您的初始需求，剩余4万支走海运11月4日到货。第二，如果您能将订单增加到8万支，我可以将您的订单移到优先生产线，将生产周期缩短到28天，确保10月28日前全部到货。哪个方案更适合您？" },
+      { "q": "客户说：'我们明年的采购计划还没定，到时候再说吧。' 你该如何引导客户制定明年采购计划？", "modelAnswer": "I completely understand, Sarah — planning ahead can be challenging with market uncertainty. That's actually why I'd like to propose a flexible rolling forecast approach. You don't need to commit to firm orders for the whole year. Instead, if you can share a tentative 6-month forecast (even just approximate quantities), I can: 1) Reserve production capacity for you during peak months, so you never face 'sold out' situations; 2) Lock in raw material prices now, before the expected 8-10% increase next year; 3) Offer a 5% annual volume rebate based on your total yearly purchases. Many of our clients find that even a rough forecast helps them save 15-20% annually compared to placing ad-hoc orders. Would you be open to a quick 15-minute call next week to review your 2026 sales data and build a simple forecast together?", "cn": "我完全理解，Sarah——在市场不确定的情况下提前规划确实有挑战。这正是我想提议灵活滚动预测方式的原因。您不需要承诺全年的确认订单。相反，如果您能分享一个暂定的6个月预测（哪怕只是大致数量），我可以：1）在旺季月份为您预留产能，这样您永远不会遇到'售罄'的情况；2）现在锁定原材料价格，在明年预期8-10%的涨幅之前；3）根据您的年度总采购量提供5%的年度数量返利。我们的许多客户发现，即使是粗略的预测，与临时下单相比，每年也能节省15-20%。您愿意下周花15分钟快速通个电话，回顾一下您2026年的销售数据，一起建立一个简单的预测吗？" }
+    ]
+  },
+  "checklist": [
+    "9月初：主动联系所有核心客户，提醒Q4备货最晚下单时间",
+    "为每个客户计算个性化的最晚下单时间（生产周期+运输时间+缓冲期）",
+    "提供安全库存建议（基于历史销量数据，不是凭空猜测）",
+    "给出阶梯价格，引导客户增加订单量",
+    "9月中旬：确认所有Q4订单，锁定原材料采购",
+    "生产期间：每周向客户更新生产进度（照片+视频）",
+    "10月初：提醒客户物流旺季运费上涨，建议提前订舱",
+    "10月中旬：完成生产，安排验货，确保质量",
+    "10月底：发货，提供提单和物流追踪信息",
+    "11月初：主动联系客户，讨论2027年采购计划和滚动预测",
+    "12月：完成年度复盘，制定下一年度客户发展计划"
+  ],
+  "culture": {
+    "title": "西方采购习惯：提前规划，数据驱动，长期合作",
+    "content": "欧美买家非常看重提前规划和数据驱动的决策。在旺季备货时，他们期望供应商能主动提供具体的时间表、安全库存计算、物流方案，而不是简单地说'尽快发货'。同时，欧美买家越来越倾向于与供应商建立长期合作关系，通过滚动预测、产能预留、年度返利等方式降低供应链风险。作为供应商，你要从'接单员'升级为'供应链顾问'——主动帮客户计算、规划、规避风险，这样客户才会依赖你，把更多订单交给你。记住：在旺季，谁能帮客户省心，谁就能拿到更多订单。"
+  },
+  "aiPractice": {
+    "situation": "你是温州新时代文具的外贸业务员Quinn。英国零售商Sarah在9月初联系你，讨论Q4旺季备货和明年采购计划。你需要专业地回复她的备货咨询，给出具体的时间表和安全库存建议，处理她对运费上涨的顾虑，并成功引导她制定2027年的滚动预测计划。",
+    "role": "Sarah - UK Retail Buyer",
+    "rounds": [
+      { "ai": "Hi Quinn, I need to place a Q4 order for markers. How much lead time do you need, and when should I place the order to ensure delivery before Black Friday?", "cn": "嗨Quinn，我需要下Q4的马克笔订单。你们需要多少交货周期？我应该什么时候下单才能确保黑五前到货？", "hint": "给出具体的最晚下单时间，说明生产周期和运输时间，体现专业性。不要只说'尽快'。", "patterns": ["/lead time|35|45 days/i", "/september 15|latest order/i", "/black friday|november/i", "/ocean transit|shipping/i", "/production schedule/i"], "partial": ["/order|buy/i", "/marker/i"] },
+      { "ai": "That timeline works. But how many should I order? Last year we sold 40,000 pieces in Q4, but this year our store traffic is up 20%. I don't want to stock out, but I also don't want to be stuck with inventory after Christmas.", "cn": "时间线可以。但是我应该订多少？去年Q4我们卖了4万支，但今年我们的店铺流量增长了20%。我不想缺货，但也不想圣诞节后积压库存。", "hint": "基于数据给出安全库存建议，计算具体数量，体现专业价值。可以建议分批发货或灵活补货方案。", "patterns": ["/historical sales|40,000/i", "/20%|traffic increase/i", "/safety stock|buffer/i", "/50,000|48,000|forecast/i", "/split shipment|reorder/i"], "partial": ["/order|quantity/i", "/inventory|stock/i"] },
+      { "ai": "OK, let's do 50,000 pieces. But I just saw your freight quote — it's 30% higher than last quarter. That's a big increase. Can you do anything about it?", "cn": "好，我们订5万支。但我刚看到你们的运费报价——比上季度高了30%，涨幅太大了。你们能想想办法吗？", "hint": "理解客户顾虑，给出具体的备选方案（提前发货、拼柜、合并订单），不要只说'没办法'。", "patterns": ["/understand|concern/i", "/freight surge|peak season/i", "/option 1|option 2|option 3/i", "/october 5|early shipment/i", "/lcl|fcl|combine/i"], "partial": ["/freight|shipping/i", "/expensive|high/i"] },
+      { "ai": "Those are good options. Let's go with shipping by October 5th to lock in the rate. Now, looking ahead to 2027 — we don't have a formal procurement plan yet. We usually just order when we need stock.", "cn": "这些方案不错。我们选择10月5日发货来锁定价格。现在，展望2027年——我们还没有正式的采购计划。我们通常只是需要库存时才下单。", "hint": "不要强迫客户立即承诺，提议灵活的滚动预测方式，说明好处（产能预留、价格锁定、年度返利），引导客户接受。", "patterns": ["/understand|flexible/i", "/rolling forecast|6 month/i", "/reserve capacity|peak season/i", "/lock in price|raw material/i", "/rebate|discount|save/i"], "partial": ["/2027|next year/i", "/plan|forecast/i"] },
+      { "ai": "That rolling forecast idea sounds interesting. But I'm not sure how to build a forecast. Can you help me with that?", "cn": "滚动预测的想法听起来挺有意思。但我不知道怎么做预测。你能帮我吗？", "hint": "主动提供帮助，给出具体的下一步（通话时间、需要的数据、简单模板），降低客户门槛，推动合作落地。", "patterns": ["/absolutely|of course|happy to/i", "/15 minute|30 minute|call/i", "/sales data|history/i", "/excel|template|simple/i", "/next week|schedule/i"], "partial": ["/help|assist/i", "/forecast|plan/i"] }
+    ]
+  }
+}
