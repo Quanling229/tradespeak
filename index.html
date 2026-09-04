@@ -401,6 +401,96 @@ input{font-family:inherit}
 </style>
 </head>
 <body>
+<div id="audio-test-panel" style="position:fixed;top:10px;right:10px;z-index:99999;background:#fff;padding:12px;border:2px solid #2563eb;border-radius:8px;max-width:320px;box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+  <div style="font-weight:bold;font-size:14px;margin-bottom:8px;color:#1e40af;">🔊 音频测试工具</div>
+  <button onclick="testBasicTTS()" style="width:100%;padding:8px;margin-bottom:6px;background:#2563eb;color:white;border:none;border-radius:4px;cursor:pointer;font-size:13px;">1. 测试浏览器基础TTS</button>
+  <button onclick="testWebsiteSpeak()" style="width:100%;padding:8px;margin-bottom:6px;background:#059669;color:white;border:none;border-radius:4px;cursor:pointer;font-size:13px;">2. 测试网站speak函数</button>
+  <button onclick="showVoices()" style="width:100%;padding:8px;margin-bottom:6px;background:#d97706;color:white;border:none;border-radius:4px;cursor:pointer;font-size:13px;">3. 显示可用语音列表</button>
+  <button onclick="closeAudioPanel()" style="width:100%;padding:6px;background:#6b7280;color:white;border:none;border-radius:4px;cursor:pointer;font-size:12px;">关闭</button>
+  <div id="audio-test-result" style="margin-top:8px;font-size:11px;color:#374151;max-height:150px;overflow-y:auto;white-space:pre-wrap;"></div>
+</div>
+<script>
+function audioLog(msg){
+  var el = document.getElementById('audio-test-result');
+  el.innerHTML += msg + '\n';
+  el.scrollTop = el.scrollHeight;
+  console.log('[AudioTest]', msg);
+}
+function testBasicTTS(){
+  var el = document.getElementById('audio-test-result');
+  el.innerHTML = '';
+  audioLog('=== 测试浏览器基础TTS ===');
+  try{
+    if(!('speechSynthesis' in window)){
+      audioLog('✗ 错误: 浏览器不支持speechSynthesis');
+      return;
+    }
+    audioLog('✓ speechSynthesis 可用');
+    var voices = speechSynthesis.getVoices();
+    audioLog('✓ 可用语音数量: ' + voices.length);
+    speechSynthesis.cancel();
+    var u = new SpeechSynthesisUtterance('Hello, this is a basic TTS test. Can you hear me?');
+    u.lang = 'en-US';
+    u.rate = 0.9;
+    u.volume = 1.0;
+    u.onstart = function(){ audioLog('✓ 开始播放'); };
+    u.onend = function(){ audioLog('✓ 播放结束'); };
+    u.onerror = function(e){ audioLog('✗ 错误: ' + (e && e.error)); };
+    speechSynthesis.speak(u);
+    audioLog('✓ 已调用speak()，请听是否有声音');
+    audioLog('如果4秒后没声音，说明浏览器TTS有问题');
+  }catch(e){
+    audioLog('✗ 异常: ' + e.message);
+  }
+}
+function testWebsiteSpeak(){
+  var el = document.getElementById('audio-test-result');
+  el.innerHTML = '';
+  audioLog('=== 测试网站speak函数 ===');
+  try{
+    if(typeof speak !== 'function'){
+      audioLog('✗ 错误: speak函数不存在');
+      return;
+    }
+    audioLog('✓ speak函数存在');
+    speak('Hello, this is a test from the website speak function.', {
+      onstart: function(){ audioLog('✓ onstart: 开始播放'); },
+      onend: function(){ audioLog('✓ onend: 播放结束'); },
+      rate: 0.9
+    });
+    audioLog('✓ 已调用speak()，请听是否有声音');
+  }catch(e){
+    audioLog('✗ 异常: ' + e.message + '\n' + e.stack);
+  }
+}
+function showVoices(){
+  var el = document.getElementById('audio-test-result');
+  el.innerHTML = '';
+  audioLog('=== 可用语音列表 ===');
+  try{
+    var voices = speechSynthesis.getVoices();
+    audioLog('总数量: ' + voices.length);
+    if(voices.length === 0){
+      audioLog('⚠ 没有可用语音！这就是没声音的原因。');
+      audioLog('请安装英文TTS语音包。');
+    }
+    voices.forEach(function(v, i){
+      var isEn = /^en/i.test(v.lang);
+      audioLog((isEn?'[英文]':'[其他]') + ' ' + i + ': ' + v.name + ' (' + v.lang + ')');
+    });
+    var enVoices = voices.filter(function(v){ return /^en/i.test(v.lang); });
+    audioLog('\n英文语音数量: ' + enVoices.length);
+    if(enVoices.length === 0){
+      audioLog('⚠ 没有英文语音！播放英文会失败。');
+    }
+  }catch(e){
+    audioLog('✗ 异常: ' + e.message);
+  }
+}
+function closeAudioPanel(){
+  document.getElementById('audio-test-panel').style.display = 'none';
+}
+</script>
 
 
 <div id="app"></div>
