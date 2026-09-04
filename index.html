@@ -2858,53 +2858,71 @@ function speak(text, {onend, onstart, rate, voice} = {}){
       return;
     }
   }
-  /* 最可靠的基础版本：直接使用浏览器原生Web Speech API
-     这是所有现代浏览器（Chrome/Edge/Safari）都支持的标准API
-     如果设备有TTS引擎，就能正常播放 */
+  /* 使用浏览器原生Web Speech API（所有现代浏览器都支持，离线可用）
+     注意：不使用Google Translate在线TTS，因为在中国大陆无法访问 */
   try{
     if(!("speechSynthesis" in window)){
       toast("当前浏览器不支持语音合成，请用 Chrome / Edge / Safari 打开");
       onend && onend();
       return;
     }
-    speechSynthesis.cancel();
-    if(speechSynthesis.paused) speechSynthesis.resume();
+    /* 停止当前播放，重置状态 */
+    try{ speechSynthesis.cancel(); }catch(e){}
+    try{ if(speechSynthesis.paused) speechSynthesis.resume(); }catch(e){}
+    /* 刷新语音列表 */
     refreshVoices();
+    /* 创建语音合成对象 */
     const u = new SpeechSynthesisUtterance(t);
-    u.lang = (store.settings && store.settings.voice) || "en-GB";
-    u.rate = rate || (store.settings && store.settings.rate) || 0.9;
+    const settingsVoice = (store.settings && store.settings.voice) || "en-GB";
+    const settingsRate = (store.settings && store.settings.rate) || 0.9;
+    u.lang = settingsVoice;
+    u.rate = rate || settingsRate;
     u.pitch = voice === "female" ? 1.08 : (voice === "male" ? 0.88 : 0.96);
     u.volume = 1.0;
+    /* 选择最合适的英文语音 */
     const v = pickVoice(voice);
-    if(v){ u.voice = v; u.lang = v.lang || u.lang; }
-    u.onstart = () => { onstart && onstart(); };
-    u.onend = () => { onend && onend(); };
-    u.onerror = (e) => {
-      console.warn("speak error:", e && e.error, "text:", t.substring(0,50));
-      /* 原生TTS失败时，回退到Google Translate在线TTS */
-      audioSpeak(t, store.settings.voice, {onend, onstart}).catch(() => {
-        toast("🔇 语音合成失败，请检查设备音量和网络连接");
-        onend && onend();
-      });
+    if(v){
+      u.voice = v;
+      u.lang = v.lang || u.lang;
+    }
+    /* 设置事件回调（必须在speak之前设置） */
+    let watchdog = null;
+    u.onstart = () => {
+      if(watchdog){ clearTimeout(watchdog); watchdog = null; }
+      try{ onstart && onstart(); }catch(e){}
     };
-    speechSynthesis.speak(u);
-    /* 3秒看门狗：如果原生TTS没有开始播放，回退到在线TTS */
-    const watchdog = setTimeout(() => {
-      if(!speechSynthesis.speaking && !speechSynthesis.pending){
-        console.warn("speak watchdog: no playback, falling back to online TTS");
-        speechSynthesis.cancel();
-        audioSpeak(t, store.settings.voice, {onend, onstart}).catch(() => {
-          toast("🔇 语音合成失败，请检查设备音量和网络连接");
-          onend && onend();
-        });
+    u.onend = () => {
+      if(watchdog){ clearTimeout(watchdog); watchdog = null; }
+      try{ onend && onend(); }catch(e){}
+    };
+    u.onerror = (e) => {
+      if(watchdog){ clearTimeout(watchdog); watchdog = null; }
+      const err = e && e.error;
+      console.warn("speak onerror:", err, "text:", t.substring(0,50));
+      if(err === "not-allowed" || err === "service-unavailable"){
+        toast("🔊 请点击播放按钮才能发声（浏览器自动播放限制）");
+      } else if(err === "synthesis-failed" || err === "language-unavailable"){
+        toast("🔇 语音合成失败，请检查设备是否安装了英文TTS语音包");
+      } else {
+        toast("🔇 语音播放失败: " + (err || "未知错误"));
       }
-    }, 3000);
-    /* 播放开始时清除看门狗 */
-    u.onstart = () => { clearTimeout(watchdog); onstart && onstart(); };
+      try{ onend && onend(); }catch(e){}
+    };
+    /* 开始播放 */
+    speechSynthesis.speak(u);
+    /* 4秒看门狗：如果没有开始播放，提示用户检查TTS设置
+       （给足时间，避免因为语音加载慢而误判） */
+    watchdog = setTimeout(() => {
+      if(!speechSynthesis.speaking && !speechSynthesis.pending){
+        console.warn("speak watchdog: no playback after 4s");
+        toast("🔇 没有检测到语音播放，请检查：1.设备音量 2.是否安装英文TTS语音包 3.浏览器声音权限");
+        try{ onend && onend(); }catch(e){}
+      }
+    }, 4000);
   }catch(e){
     console.error("speak exception:", e);
     toast("🔇 语音合成异常: " + e.message);
-    onend && onend();
+    try{ onend && onend(); }catch(e){}
   }
 }
 function stopSpeak(){
