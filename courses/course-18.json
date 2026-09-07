@@ -1,0 +1,327 @@
+{
+  "id": "factory-audit-compliance",
+  "num": "18",
+  "title": "客户验厂与质量合规：从BSCI到EN71，让大客户放心下单",
+  "titleEn": "Factory Audit & Quality Compliance: From BSCI to EN71, Win Big Buyer's Trust",
+  "scene": "客户验厂/质量审核沟通",
+  "level": "进阶",
+  "duration": "25分钟",
+  "color": "#7c3aed",
+  "emoji": "🏭",
+  "intro": {
+    "visual": "工厂审核员手持检查表走过马克笔生产线，QC人员在检测油墨重金属含量，墙上挂着BSCI、ISO9001、EN71认证证书",
+    "background": "2026年，欧美大客户对文具供应商的合规要求空前严格。马克笔、荧光笔等儿童接触类产品必须通过EN71-3重金属迁移测试、ASTM D4236毒理评估，工厂还需通过BSCI社会责任审核。Quinn作为外贸新人，需要掌握验厂流程、认证要求和质量沟通话术，才能在大客户审核中顺利通过，拿下长期订单。",
+    "desc": "本节课系统讲解文具外贸中的客户验厂流程、核心认证要求（BSCI/ISO9001/EN71/ASTM D4236）、质量控制体系（IQC/IPQC/FQC），以及与客户审核员沟通的实用英语表达。通过真实场景对话和练习，帮助你在客户验厂时从容应对，用专业的合规表达赢得大客户信任。",
+    "tasks": [
+      "了解客户验厂的完整流程和审核重点",
+      "掌握文具产品核心认证的英文表达和技术要求",
+      "学会用英语介绍工厂的质量控制体系",
+      "能够应对审核员关于合规和安全的提问",
+      "掌握验厂后跟进和整改报告的沟通话术"
+    ],
+    "outcomes": [
+      "能流利介绍工厂的BSCI、ISO9001等认证情况",
+      "能准确解释EN71-3、ASTM D4236等产品安全标准",
+      "能在验厂现场用英语引导审核员并回答专业问题",
+      "能撰写清晰的整改报告和CAP（纠正预防措施）",
+      "能通过专业合规沟通提升大客户信任度和复购率"
+    ]
+  },
+  "oneLiner": {
+    "en": "Factory audit is not an inspection, it is an opportunity to showcase your compliance strength and build long-term trust with major buyers.",
+    "cn": "客户验厂不是检查，而是展示合规实力、与大客户建立长期信任的机会。",
+    "highlights": ["BSCI审核", "EN71安全标准", "质量控制体系", "合规沟通"]
+  },
+  "vocab": [
+    {
+      "word": "factory audit",
+      "ipa": "/ˈfæktəri ˈɔːdɪt/",
+      "ex": "The buyer scheduled a factory audit for next month to evaluate our compliance.",
+      "cn": "工厂审核/验厂",
+      "exCn": "买方安排了下个月的工厂审核，以评估我们的合规情况。"
+    },
+    {
+      "word": "BSCI",
+      "ipa": "/ˌbiː es siː ˈaɪ/",
+      "ex": "We passed the BSCI audit with a rating of A, which means excellent social compliance.",
+      "cn": "商业社会标准认证（Business Social Compliance Initiative）",
+      "exCn": "我们以A级通过了BSCI审核，这意味着优秀的社会责任合规。"
+    },
+    {
+      "word": "EN71",
+      "ipa": "/ˌiː en ˈsevənti wʌn/",
+      "ex": "All our markers comply with EN71-3, ensuring heavy metal migration is below the limit.",
+      "cn": "欧盟玩具安全标准（第3部分为重金属迁移）",
+      "exCn": "我们所有的马克笔都符合EN71-3标准，确保重金属迁移量低于限值。"
+    },
+    {
+      "word": "ASTM D4236",
+      "ipa": "/ˌeɪ es tiː em ˌdiː fɔː ˈtuː θriː sɪks/",
+      "ex": "Our art materials carry the ASTM D4236 conformance statement on every package.",
+      "cn": "美国艺术材料毒性评估标准",
+      "exCn": "我们的艺术材料每个包装上都印有ASTM D4236合规声明。"
+    },
+    {
+      "word": "IQC",
+      "ipa": "/ˌaɪ kjuː ˈsiː/",
+      "ex": "Our IQC team inspects every batch of ink raw materials before production.",
+      "cn": "来料检验（Incoming Quality Control）",
+      "exCn": "我们的来料检验团队在生产前检查每一批油墨原材料。"
+    },
+    {
+      "word": "IPQC",
+      "ipa": "/ˌaɪ piː kjuː ˈsiː/",
+      "ex": "IPQC monitors the injection molding and ink filling processes every two hours.",
+      "cn": "过程检验（In-Process Quality Control）",
+      "exCn": "过程检验每两小时监控一次注塑和油墨灌装工序。"
+    },
+    {
+      "word": "AQL",
+      "ipa": "/ˌeɪ kjuː ˈel/",
+      "ex": "We use AQL 2.5 for major defects and AQL 4.0 for minor defects in final inspection.",
+      "cn": "可接受质量限（Acceptable Quality Limit）",
+      "exCn": "我们在最终检验中对主要缺陷使用AQL 2.5，对次要缺陷使用AQL 4.0。"
+    },
+    {
+      "word": "CAP",
+      "ipa": "/ˌsiː eɪ ˈpiː/",
+      "ex": "We submitted the CAP within five business days after the audit.",
+      "cn": "纠正预防措施（Corrective Action Plan）",
+      "exCn": "我们在审核后五个工作日内提交了纠正预防措施报告。"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Our factory is very good, no problem.",
+      "right": "Our factory holds BSCI and ISO9001 certifications, and all products comply with EN71 and ASTM D4236 standards.",
+      "cn": "不要空泛地说工厂很好，要用具体的认证和标准来证明合规实力。大客户需要可验证的证据，而不是主观评价。"
+    },
+    {
+      "wrong": "We can pass any audit, don't worry.",
+      "right": "We have successfully passed more than ten third-party audits in the past two years, including BSCI, Sedex, and FCCA. We are confident in our compliance system.",
+      "cn": "不要轻易承诺能通过任何审核，要用历史审核记录和具体的审核类型来建立可信度。过度承诺反而会让客户怀疑。"
+    },
+    {
+      "wrong": "The ink is safe, no toxic.",
+      "right": "Our water-based ink is tested by SGS according to EN71-3, and all eight heavy metals are below the detection limit of 0.5 mg/kg.",
+      "cn": "不要简单说墨水安全无毒，要用具体的检测机构、测试标准和数据来证明。特别是儿童文具，客户非常关注重金属和邻苯二甲酸盐等具体指标。"
+    }
+  ],
+  "expressions": {
+    "basic": [
+      {
+        "en": "Welcome to our factory. Let me show you around the production line.",
+        "cn": "欢迎来到我们工厂，我带您参观生产线。",
+        "tag": "验厂接待"
+      },
+      {
+        "en": "We have ISO9001 and BSCI certifications. I can show you the certificates.",
+        "cn": "我们有ISO9001和BSCI认证，我可以给您看证书。",
+        "tag": "认证介绍"
+      },
+      {
+        "en": "All our markers comply with EN71 and ASTM D4236 safety standards.",
+        "cn": "我们所有的马克笔都符合EN71和ASTM D4236安全标准。",
+        "tag": "产品合规"
+      },
+      {
+        "en": "Our QC team does incoming inspection, in-process inspection, and final inspection.",
+        "cn": "我们的质检团队进行来料检验、过程检验和最终检验。",
+        "tag": "质量控制"
+      },
+      {
+        "en": "We use AQL sampling for final inspection, with 2.5 for major defects.",
+        "cn": "我们最终检验使用AQL抽样，主要缺陷采用2.5标准。",
+        "tag": "检验标准"
+      },
+      {
+        "en": "We will submit the corrective action plan within five business days.",
+        "cn": "我们会在五个工作日内提交整改报告。",
+        "tag": "验厂跟进"
+      }
+    ],
+    "advanced": [
+      {
+        "en": "Our compliance framework is built on three pillars: BSCI social audit for labor standards, ISO9001 for quality management, and product-level EN71-3 plus ASTM D4236 for material safety. This layered approach ensures full traceability from raw material to finished goods.",
+        "cn": "我们的合规框架建立在三大支柱上：BSCI社会责任审核保障用工标准，ISO9001保障质量管理，产品层面的EN71-3和ASTM D4236保障材料安全。这种分层方法确保从原材料到成品的全程可追溯。",
+        "tag": "合规体系",
+        "from": "We have ISO9001 and BSCI certifications."
+      },
+      {
+        "en": "For heavy metal migration, we work with SGS Germany to test every ink batch according to EN71-3:2019+A1:2021. The results show lead, cadmium, mercury, and hexavalent chromium are all below 0.5 mg/kg, which is significantly tighter than the EU limit. We keep these test reports on file for at least three years.",
+        "cn": "关于重金属迁移，我们与德国SGS合作，按照EN71-3:2019+A1:2021标准测试每一批油墨。结果显示铅、镉、汞、六价铬均低于0.5 mg/kg，远严于欧盟限值。我们将这些检测报告存档至少三年。",
+        "tag": "检测数据",
+        "from": "All our markers comply with EN71 and ASTM D4236."
+      },
+      {
+        "en": "Our quality gate system operates at four checkpoints: IQC verifies ink viscosity and plastic particle purity before production, IPQC monitors cap fit and nib alignment every two hours on the line, FQC performs 100% functional testing for ink flow and leakage before packing, and OQC conducts AQL-based random inspection per shipment. This multi-layer defense keeps our defect rate below 0.3%.",
+        "cn": "我们的质量关卡系统在四个检查点运行：来料检验在生产前验证油墨粘度和塑料粒子纯度，过程检验每两小时在线上监控笔盖配合和笔头对齐，成品检验在包装前对出墨和漏墨进行100%功能测试，出货检验按批次进行AQL随机抽检。这种多层防御使我们的缺陷率保持在0.3%以下。",
+        "tag": "质量体系",
+        "from": "Our QC team does incoming inspection, in-process inspection, and final inspection."
+      }
+    ]
+  },
+  "dialogues": [
+    {
+      "title": "验厂现场：审核员询问认证和检测",
+      "lines": [
+        {
+          "speaker": "client",
+          "en": "Thank you for hosting this audit. To start, could you walk me through your main certifications?",
+          "cn": "感谢您接待这次审核。首先，能介绍一下你们的主要认证吗？"
+        },
+        {
+          "speaker": "you",
+          "en": "Certainly. We hold ISO9001 for quality management, BSCI for social compliance with an A rating, and all our products are tested to EN71-3 and ASTM D4236. I have the original certificates here for your review.",
+          "cn": "当然。我们拥有ISO9001质量管理认证、A级BSCI社会责任认证，所有产品都通过EN71-3和ASTM D4236测试。我这里有证书原件供您查阅。"
+        },
+        {
+          "speaker": "client",
+          "en": "Excellent. For the marker ink specifically, how do you ensure heavy metal compliance?",
+          "cn": "很好。具体到马克笔油墨，你们如何确保重金属合规？"
+        },
+        {
+          "speaker": "you",
+          "en": "We test every ink batch with SGS Germany according to EN71-3. The eight heavy metals are all below 0.5 mg/kg, well under the EU limit. We also do internal XRF screening before production as a first line of defense. The test reports are filed and traceable by batch number.",
+          "cn": "我们每一批油墨都由德国SGS按照EN71-3标准测试。八种重金属均低于0.5 mg/kg，远低于欧盟限值。生产前我们还进行内部XRF筛查作为第一道防线。检测报告按批次编号存档可追溯。"
+        },
+        {
+          "speaker": "client",
+          "en": "That is very thorough. I would like to see the production line and the QC process next.",
+          "cn": "非常全面。接下来我想看看生产线和质检流程。"
+        },
+        {
+          "speaker": "you",
+          "en": "Absolutely, please follow me. I will show you the IQC incoming inspection area first, then the injection molding and ink filling lines, and finally the FQC functional testing station.",
+          "cn": "好的，请跟我来。我先带您看来料检验区，然后是注塑和油墨灌装线，最后是成品功能检测站。"
+        }
+      ]
+    },
+    {
+      "title": "验厂后：审核发现问题的沟通",
+      "lines": [
+        {
+          "speaker": "client",
+          "en": "Thank you for the factory tour. Overall the compliance level is good, but we found two minor findings: the chemical storage area needs better labeling, and some worker training records are incomplete.",
+          "cn": "感谢您的工厂参观。整体合规水平不错，但我们发现两个小问题：化学品存放区需要更好的标识，部分员工培训记录不完整。"
+        },
+        {
+          "speaker": "you",
+          "en": "Thank you for pointing those out. We take all findings seriously. Could you share the specific details so we can address them precisely?",
+          "cn": "感谢您指出这些问题。我们认真对待所有发现。您能分享具体细节吗，以便我们精准处理？"
+        },
+        {
+          "speaker": "client",
+          "en": "Sure. For chemical storage, the ink solvent containers need GHS-compliant labels with hazard pictograms. For training, the new operators hired in August are missing the safety training sign-off sheets.",
+          "cn": "当然。化学品存放方面，油墨溶剂容器需要符合GHS标准的标签，带有危险象形图。培训方面，8月份入职的新员工缺少安全培训签字表。"
+        },
+        {
+          "speaker": "you",
+          "en": "Understood completely. We will update all chemical labels to GHS standard within three days, and we will schedule supplementary safety training for the August hires this week. We will submit a full CAP with photos and training records within five business days.",
+          "cn": "完全理解。我们将在三天内将所有化学品标签更新为GHS标准，并在本周为8月份入职的员工安排补充安全培训。我们将在五个工作日内提交包含照片和培训记录的完整整改报告。"
+        },
+        {
+          "speaker": "client",
+          "en": "That sounds like a solid plan. We appreciate your responsiveness. Once we review the CAP, we can move forward with the trial order.",
+          "cn": "这听起来是个可靠的计划。我们很欣赏您的响应速度。审核完整改报告后，我们就可以推进试订单了。"
+        }
+      ]
+    }
+  ],
+  "exercises": {
+    "fillBlank": [
+      {
+        "q": "Our factory holds ______ certification for social compliance, with an A rating.",
+        "a": "BSCI",
+        "hint": "商业社会标准认证，四个字母"
+      },
+      {
+        "q": "All markers are tested to ______-3 for heavy metal migration, the EU toy safety standard.",
+        "a": "EN71",
+        "hint": "欧盟玩具安全标准，字母+数字"
+      },
+      {
+        "q": "We use ______ sampling for final inspection, with 2.5 for major defects.",
+        "a": "AQL",
+        "hint": "可接受质量限，三个字母"
+      },
+      {
+        "q": "The ______ team inspects raw materials before production starts.",
+        "a": "IQC",
+        "hint": "来料检验，三个字母"
+      },
+      {
+        "q": "We will submit the ______ within five business days after the audit.",
+        "a": "CAP",
+        "hint": "纠正预防措施，三个字母"
+      }
+    ],
+    "scenario": [
+      {
+        "q": "A buyer asks: 'How do you ensure your marker ink is safe for children?' Write a professional response using specific test standards and data.",
+        "modelAnswer": "Our water-based marker inks are tested by SGS Germany according to EN71-3:2019+A1:2021. All eight heavy metals including lead, cadmium, and mercury are below 0.5 mg/kg, which is significantly tighter than the EU regulatory limit. We also conduct internal XRF screening before each production run as a first-line check. Every batch has a traceable test report kept on file for at least three years, and we can provide copies upon request.",
+        "cn": "我们的水性马克笔油墨由德国SGS按照EN71-3:2019+A1:2021标准测试。铅、镉、汞等八种重金属均低于0.5 mg/kg，远严于欧盟法规限值。每次生产前我们还进行内部XRF筛查作为一线检查。每一批都有可追溯的检测报告，存档至少三年，可根据要求提供副本。"
+      },
+      {
+        "q": "During an audit, the inspector finds that some chemical containers lack proper labels. How do you respond and what action plan do you propose?",
+        "modelAnswer": "Thank you for identifying this. We recognize that proper GHS labeling is critical for chemical safety. We will immediately update all chemical storage containers with GHS-compliant labels including hazard pictograms, signal words, and precautionary statements within three working days. We will also retrain all warehouse staff on chemical handling and labeling requirements. A full corrective action plan with before-and-after photos and training records will be submitted within five business days for your review.",
+        "cn": "感谢您发现这个问题。我们认识到正确的GHS标签对化学品安全至关重要。我们将在三个工作日内立即更新所有化学品存放容器的GHS合规标签，包括危险象形图、信号词和防范说明。我们还将对所有仓库员工进行化学品处理和标签要求的再培训。包含前后对比照片和培训记录的完整整改报告将在五个工作日内提交供您审核。"
+      }
+    ]
+  },
+  "checklist": [
+    "能准确说出BSCI、ISO9001、EN71、ASTM D4236的英文全称和含义",
+    "能用英语介绍工厂的质量控制体系（IQC/IPQC/FQC/OQC）",
+    "能解释AQL抽样标准的基本概念和常用数值",
+    "能在验厂现场用英语引导审核员并回答专业问题",
+    "能针对审核发现的问题制定清晰的CAP（纠正预防措施）",
+    "能用具体的检测数据（如重金属含量<0.5mg/kg）证明产品安全",
+    "知道如何保存和展示检测报告、认证证书等合规文件",
+    "能在验厂后用英语跟进整改情况并推进订单"
+  ],
+  "culture": {
+    "title": "欧美客户验厂文化：透明比完美更重要",
+    "content": "很多外贸新人害怕客户验厂，担心被发现问题。但实际上，欧美大客户并不期望工厂完美无缺，他们更看重的是透明度和改进能力。一个有小问题但能坦诚面对、快速整改的工厂，比一个声称零问题但无法提供证据的工厂更值得信任。\n\n在验厂沟通中，记住三个原则：第一，用数据和文件说话，不要空泛承诺；第二，发现问题时不要辩解，而是立即提出整改方案和时间表；第三，审核结束后主动提交CAP（纠正预防措施），展示你的专业性和改进意愿。\n\n大客户验厂不是考试，而是建立长期合作关系的开始。通过验厂过程展现你的合规实力和沟通能力，往往比报价更能赢得客户的信任和长期订单。"
+  },
+  "aiPractice": {
+    "situation": "你是温州新时代文具的外贸业务员Quinn，一位来自英国的大型文具连锁采购经理正在进行工厂审核。他关注马克笔产品的安全合规、工厂的质量控制体系以及社会责任标准。请用专业的英语应对他的提问，展示你的合规实力。",
+    "role": "英国大型文具连锁采购经理，严谨专业，关注产品安全和工厂合规，提问具体且深入",
+    "rounds": [
+      {
+        "ai": "Good morning, thank you for hosting this audit. To begin, could you tell me what certifications your factory currently holds?",
+        "cn": "早上好，感谢您接待这次审核。首先，能告诉我你们工厂目前持有哪些认证吗？",
+        "hint": "需要提到具体的认证名称，如BSCI、ISO9001，以及产品安全认证如EN71、ASTM D4236",
+        "patterns": "/BSCI|ISO|EN71|ASTM/i",
+        "partial": "/certif|standard|compliance/i"
+      },
+      {
+        "ai": "That is a good range of certifications. Now, specifically for your marker products, how do you ensure the ink is safe for children to use?",
+        "cn": "认证范围很全面。现在，具体到你们的马克笔产品，你们如何确保油墨对儿童使用是安全的？",
+        "hint": "需要提到具体的检测标准（EN71-3）、检测机构（SGS）和具体数据（重金属含量）",
+        "patterns": "/EN71|heavy metal|SGS|migration|lead|cadmium/i",
+        "partial": "/safe|test|ink|non-toxic/i"
+      },
+      {
+        "ai": "I see. Moving on to quality control, can you walk me through your inspection process from raw material to finished goods?",
+        "cn": "明白了。接下来谈谈质量控制，能带我了解从来料到成品的检验流程吗？",
+        "hint": "需要按顺序提到IQC（来料检验）、IPQC（过程检验）、FQC（成品检验）、OQC（出货检验）",
+        "patterns": "/IQC|IPQC|FQC|OQC|incoming|in-process|final|outgoing/i",
+        "partial": "/inspection|quality|check|QC/i"
+      },
+      {
+        "ai": "That is a comprehensive system. One more question: if we place an order and find quality issues after delivery, what is your corrective action process?",
+        "cn": "这是一个全面的体系。最后一个问题：如果我们下单后在交付时发现质量问题，你们的纠正措施流程是什么？",
+        "hint": "需要提到8D报告、根因分析、CAP（纠正预防措施）、以及如何防止问题再次发生",
+        "patterns": "/8D|root cause|CAP|corrective|preventive|action plan/i",
+        "partial": "/solve|fix|improve|prevent|issue|problem/i"
+      },
+      {
+        "ai": "Thank you for the thorough answers. Overall, I am impressed with your compliance system. We will review our notes and get back to you within a week.",
+        "cn": "感谢您详尽的回答。总体而言，你们的合规体系给我留下了深刻印象。我们会审核记录，一周内回复您。",
+        "hint": "需要礼貌感谢，表达合作意愿，并主动提出提供更多信息或安排后续沟通",
+        "patterns": "/thank|look forward|cooperate|contact|provide|follow up/i",
+        "partial": "/thank|appreciate|hope|welcome|order/i"
+      }
+    ]
+  }
+}
