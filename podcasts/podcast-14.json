@@ -1,0 +1,106 @@
+{
+  "id": "podcast-14",
+  "num": "14",
+  "title": "客户验厂不慌张：合规实力才是大客户的敲门砖",
+  "titleEn": "Nail Your Factory Audit: Compliance as Your Competitive Edge",
+  "duration": "12分钟",
+  "hosts": ["Emma", "James"],
+  "description": "Emma和James聊文具外贸中的客户验厂那些事，从BSCI认证到EN71安全标准，从质量控制体系到验厂后跟进，用轻松对话帮你掌握大客户审核的关键要点。",
+  "lines": [
+    {
+      "speaker": "emma",
+      "en": "Welcome back to TradeTalk, everyone. I am Emma, and today we are talking about a topic that makes many new exporters nervous: factory audits.",
+      "cn": "欢迎回到TradeTalk，我是Emma。今天我们聊一个让很多外贸新人紧张的话题：客户验厂。"
+    },
+    {
+      "speaker": "james",
+      "en": "That is right, James here. I remember my first factory audit. I was so worried the inspector would find something wrong. But actually, audits are a great opportunity to show how professional your factory is.",
+      "cn": "没错，我是James。我还记得第一次验厂，特别担心审核员发现问题。但实际上，验厂是展示工厂专业度的好机会。"
+    },
+    {
+      "speaker": "emma",
+      "en": "Exactly. A lot of people think an audit is like an exam where you have to be perfect. But big buyers do not expect perfection. They want to see that you have a system, and that you can improve when issues are found.",
+      "cn": "正是。很多人觉得验厂像考试，必须完美。但大客户并不期望完美，他们想看到你有体系，发现问题后能改进。"
+    },
+    {
+      "speaker": "james",
+      "en": "So what certifications should a stationery factory have? For markers and highlighters specifically.",
+      "cn": "那文具厂应该有哪些认证呢？特别是马克笔和荧光笔。"
+    },
+    {
+      "speaker": "emma",
+      "en": "Great question. For the factory itself, you need ISO9001 for quality management and BSCI or Sedex for social compliance. For the products, EN71 for the European market and ASTM D4236 for the US market are essential.",
+      "cn": "好问题。工厂层面需要ISO9001质量管理认证和BSCI或Sedex社会责任认证。产品层面，欧洲市场需要EN71，美国市场需要ASTM D4236，这些都是必备的。"
+    },
+    {
+      "speaker": "james",
+      "en": "And for children's markers, there are extra requirements, right? Like heavy metal testing and CPC certification for the US.",
+      "cn": "儿童马克笔还有额外要求，对吧？比如重金属检测和美国的CPC认证。"
+    },
+    {
+      "speaker": "emma",
+      "en": "Absolutely. EN71 part 3 specifically tests heavy metal migration. Lead, cadmium, mercury, those are the big ones. Good factories test every ink batch, usually with SGS, and keep records for at least three years.",
+      "cn": "没错。EN71第3部分专门测试重金属迁移，铅、镉、汞是重点。好的工厂每一批油墨都检测，通常用SGS，记录保存至少三年。"
+    },
+    {
+      "speaker": "james",
+      "en": "That is a good point about record keeping. Auditors love traceability. If you can show them a test report for every batch, that builds so much trust.",
+      "cn": "记录保存这点很重要。审核员喜欢可追溯性。如果你能给他们看每一批的检测报告，会建立很大的信任。"
+    },
+    {
+      "speaker": "emma",
+      "en": "Exactly. Now let us talk about the quality control process. A lot of new exporters just say we have QC, but they cannot explain the system. You need to talk about IQC, IPQC, FQC, and OQC.",
+      "cn": "正是。现在聊聊质量控制流程。很多新人只会说我们有质检，但说不出体系。你需要谈到IQC来料检验、IPQC过程检验、FQC成品检验和OQC出货检验。"
+    },
+    {
+      "speaker": "james",
+      "en": "Right. IQC is incoming quality control, checking raw materials like ink and plastic parts before production. IPQC is in-process, checking the line every few hours. FQC is final product check, and OQC is outgoing shipment inspection.",
+      "cn": "对。IQC是来料检验，生产前检查油墨和塑料件等原材料。IPQC是过程检验，每几小时检查一次生产线。FQC是成品检验，OQC是出货检验。"
+    },
+    {
+      "speaker": "emma",
+      "en": "And do not forget AQL sampling. Most buyers use AQL 2.5 for major defects and 4.0 for minor ones. If you can explain that, the auditor knows you understand international quality standards.",
+      "cn": "还有AQL抽样别忘了。大多数买家主要缺陷用AQL 2.5，次要缺陷用4.0。如果你能解释这个，审核员就知道你懂国际质量标准。"
+    },
+    {
+      "speaker": "james",
+      "en": "Now, what happens when the auditor finds a problem? A lot of people panic or try to argue. That is the worst thing you can do.",
+      "cn": "那如果审核员发现问题怎么办？很多人会慌或者辩解，这是最糟糕的。"
+    },
+    {
+      "speaker": "emma",
+      "en": "So true. The right response is to thank them, take notes, and immediately propose a corrective action plan with a timeline. You say something like, thank you for pointing that out, we will fix this within three days and submit a full CAP with photos.",
+      "cn": "太对了。正确的回应是感谢他们，做好记录，立即提出带时间表的整改方案。你可以说，感谢您指出，我们会在三天内整改，并提交带照片的完整CAP。"
+    },
+    {
+      "speaker": "james",
+      "en": "CAP stands for Corrective Action Plan. And the key is to submit it within five business days. Buyers love responsiveness. A factory that fixes problems quickly is better than one that claims to have no problems at all.",
+      "cn": "CAP是纠正预防措施。关键是在五个工作日内提交。买家喜欢响应快的。一个能快速解决问题的工厂，比一个声称完全没问题的工厂更好。"
+    },
+    {
+      "speaker": "emma",
+      "en": "That is such an important mindset shift. Audits are not about being perfect. They are about being transparent and showing you have a culture of continuous improvement.",
+      "cn": "这个心态转变太重要了。验厂不是要完美，而是要透明，展示你有持续改进的文化。"
+    },
+    {
+      "speaker": "james",
+      "en": "Before we wrap up, any final tips for someone facing their first factory audit?",
+      "cn": "结束前，给第一次面对验厂的人一些最终建议吧？"
+    },
+    {
+      "speaker": "emma",
+      "en": "Sure. Number one, prepare your documents in advance: certificates, test reports, training records. Number two, do a self-audit before the real one. Number three, be honest. If you do not know an answer, say you will check and get back to them. Never make things up.",
+      "cn": "好的。第一，提前准备好文件：证书、检测报告、培训记录。第二，正式验厂前先做一次自查。第三，诚实。如果不知道答案，就说你会查清楚再回复，千万不要编造。"
+    },
+    {
+      "speaker": "james",
+      "en": "Great advice. And remember, a successful audit often leads to a trial order, and then a long-term partnership. So treat it as the beginning of a relationship, not a test you have to pass.",
+      "cn": "好建议。记住，成功的验厂通常会带来试订单，然后是长期合作。所以把它当作关系的开始，而不是一场必须通过的考试。"
+    },
+    {
+      "speaker": "emma",
+      "en": "Perfect. That is all for today. Thank you for listening to TradeTalk. We will see you next time.",
+      "cn": "太好了。今天就到这里。感谢收听TradeTalk，我们下次见。"
+    }
+  ]
+}
