@@ -1,0 +1,334 @@
+{
+  "id": "trade-show-preparation-negotiation",
+  "num": "19",
+  "title": "展会筹备与现场谈判：从广交会到客户跟进",
+  "titleEn": "Trade Show Preparation & Booth Negotiation: From Canton Fair to Follow-up",
+  "scene": "展会现场接待与谈判",
+  "level": "进阶",
+  "duration": "25分钟",
+  "color": "#0891b2",
+  "emoji": "🎪",
+  "intro": {
+    "visual": "广交会文具展区，Quinn站在布置精美的展位前，手持马克笔样品与一位欧洲客户热情交谈，桌上摆放着产品目录、名片盒和定制小礼品，背景板上清晰展示着马克笔和荧光笔产品",
+    "background": "2026年秋季广交会即将在10月开幕，这是文具外贸人一年中最重要的获客渠道。Quinn作为外贸新人，第一次参加大型展会，面临展前准备不足、现场不知道如何开口、客户名片回来后不知道怎么跟进等痛点。展会不是简单的摆摊，而是一套从展前精准邀约、现场高效谈判到展后72小时黄金跟进的完整系统。掌握这套系统，能让Quinn在展会上脱颖而出，把流量变成订单。",
+    "desc": "本节课系统讲解文具外贸展会的全流程实战：展前如何做客户画像和精准邀约、展位如何布置突出马克笔荧光笔产品、现场接待的标准话术和15分钟高效沟通法、价格谈判的节奏把控、以及展后72小时黄金跟进的客户分层和邮件模板。通过真实场景对话和练习，帮助Quinn第一次参展就能从容应对，把展会流量转化为实际订单。",
+    "tasks": [
+      "掌握展前客户画像分析和精准邀约的方法",
+      "学会展位布置和产品展示的技巧，突出马克笔荧光笔",
+      "掌握现场接待的标准流程和破冰话术",
+      "学会15分钟高效沟通法，快速判断客户意向",
+      "掌握价格谈判的节奏和技巧，不轻易降价",
+      "学会展后72小时黄金跟进的客户分层和邮件模板"
+    ],
+    "outcomes": [
+      "能在展前通过LinkedIn和邮件精准邀约目标客户",
+      "能在展位上用标准话术接待客户并快速建立信任",
+      "能在15分钟内完成需求挖掘、产品介绍和意向判断",
+      "能在价格谈判中掌握主动权，用价值而非低价成交",
+      "能在展后72小时内完成客户分层并发送个性化跟进邮件",
+      "能把展会流量转化为实际询盘和订单"
+    ]
+  },
+  "oneLiner": {
+    "en": "A trade show is not a booth, it is a three-stage system: pre-show targeting, in-show connection, and post-show follow-up within 72 hours.",
+    "cn": "展会不是摆个摊位，而是一套三段式系统：展前精准邀约、展中高效连接、展后72小时黄金跟进。",
+    "highlights": ["展前邀约", "现场谈判", "72小时跟进", "客户分层"]
+  },
+  "vocab": [
+    {
+      "word": "trade show",
+      "ipa": "/treɪd ʃəʊ/",
+      "ex": "We will exhibit our new marker collection at the Canton Fair next month.",
+      "cn": "贸易展会/展销会",
+      "exCn": "我们下个月将在广交会上展示新的马克笔系列。"
+    },
+    {
+      "word": "booth",
+      "ipa": "/buːθ/",
+      "ex": "Our booth is in Hall 15, Booth C23, right next to the main entrance.",
+      "cn": "展位/展台",
+      "exCn": "我们的展位在15号馆C23号，就在主入口旁边。"
+    },
+    {
+      "word": "MOQ",
+      "ipa": "/ˌem əʊ ˈkjuː/",
+      "ex": "The MOQ for custom printed markers is 5,000 pieces per color.",
+      "cn": "最小起订量（Minimum Order Quantity）",
+      "exCn": "定制印刷马克笔的最小起订量是每色5000支。"
+    },
+    {
+      "word": "lead time",
+      "ipa": "/liːd taɪm/",
+      "ex": "Our standard lead time is 30 days after sample confirmation and deposit.",
+      "cn": "交货周期/生产周期",
+      "exCn": "我们的标准交货周期是样品确认和收到定金后30天。"
+    },
+    {
+      "word": "quotation",
+      "ipa": "/kwəʊˈteɪʃn/",
+      "ex": "I will send you a detailed quotation within 24 hours after the show.",
+      "cn": "报价单/报价",
+      "exCn": "展会结束后24小时内我会给您发送详细报价单。"
+    },
+    {
+      "word": "sample",
+      "ipa": "/ˈsɑːmpl/",
+      "ex": "We can provide free samples, but the courier fee is on your side.",
+      "cn": "样品",
+      "exCn": "我们可以提供免费样品，但快递费由贵方承担。"
+    },
+    {
+      "word": "follow up",
+      "ipa": "/ˈfɒləʊ ʌp/",
+      "ex": "I will follow up with you next week to check if you have any questions.",
+      "cn": "跟进/后续联系",
+      "exCn": "我下周会跟您跟进，看看您有没有什么问题。"
+    },
+    {
+      "word": "target price",
+      "ipa": "/ˈtɑːɡɪt praɪs/",
+      "ex": "Could you share your target price so I can check if we can meet it?",
+      "cn": "目标价格/心理价位",
+      "exCn": "您能分享一下您的目标价格吗，这样我可以看看我们能否做到。"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Welcome! What do you want? How much do you need?",
+      "right": "Welcome to our booth. Are you looking for markers or highlighters specifically? I can show you our best-selling collections.",
+      "cn": "不要一上来就盘问客户要什么、要多少，这会让客户感到被推销。应该先欢迎，然后用开放式问题引导客户说出需求，同时展示产品建立兴趣。"
+    },
+    {
+      "wrong": "This is our best price, we cannot go any lower.",
+      "right": "This price is based on our standard MOQ of 5,000 pieces. If you can increase the quantity to 10,000, I can apply for a better price from my manager. Also, we offer better terms for repeat orders.",
+      "cn": "不要直接说这是最低价不能再降，这会把谈判路堵死。应该把价格和数量、付款方式、返单等条件绑定，让客户觉得降价是有条件的，同时引导客户增加订单量。"
+    },
+    {
+      "wrong": "Here is my catalog, contact me if you are interested.",
+      "right": "It was great meeting you. As discussed, you are interested in our refillable highlighters with custom packaging. I will send you a detailed quotation and sample offer within 24 hours. May I add your WhatsApp so we can stay in touch?",
+      "cn": "不要只递目录说有兴趣联系我，这样客户大概率不会联系你。应该在告别时复述客户的具体需求，承诺明确的跟进时间，并主动添加即时通讯联系方式，把一次性接触变成持续连接。"
+    }
+  ],
+  "expressions": {
+    "basic": [
+      {
+        "en": "Welcome to our booth. Are you looking for markers or highlighters?",
+        "cn": "欢迎来到我们展位。您是在找马克笔还是荧光笔？",
+        "tag": "展位接待"
+      },
+      {
+        "en": "This is our best-selling marker set. It comes in 24 colors with a reusable case.",
+        "cn": "这是我们最畅销的马克笔套装，24色配可重复使用的笔盒。",
+        "tag": "产品介绍"
+      },
+      {
+        "en": "What is your target market? We have different certifications for Europe and the US.",
+        "cn": "您的目标市场是哪里？我们针对欧洲和美国有不同的认证。",
+        "tag": "需求挖掘"
+      },
+      {
+        "en": "Our MOQ is 5,000 pieces per color, and lead time is 30 days.",
+        "cn": "我们的最小起订量是每色5000支，交货周期30天。",
+        "tag": "商务条款"
+      },
+      {
+        "en": "I will send you a detailed quotation within 24 hours after the show.",
+        "cn": "展会结束后24小时内我会给您发送详细报价单。",
+        "tag": "展后承诺"
+      },
+      {
+        "en": "May I add your WhatsApp so we can stay in touch after the show?",
+        "cn": "我可以加您的WhatsApp吗，这样展会后我们可以保持联系。",
+        "tag": "联系方式"
+      }
+    ],
+    "advanced": [
+      {
+        "en": "Before we discuss pricing, could you share your expected order volume and target launch date? This helps me recommend the most cost-effective configuration, because our unit price drops significantly at the 10,000 and 20,000 piece tiers, and we can also optimize packaging to reduce your landed cost.",
+        "cn": "在讨论价格之前，您能分享一下预期订单量和目标上市日期吗？这有助于我推荐最具性价比的配置，因为我们的单价在1万支和2万支档位会大幅下降，我们还可以优化包装来降低您的到岸成本。",
+        "tag": "谈判前置",
+        "from": "Our MOQ is 5,000 pieces per color, and lead time is 30 days."
+      },
+      {
+        "en": "I understand your target price, and I want to be transparent with you. At that price point, we would need to use a standard fiber nib instead of the premium Japanese nib, and reduce the ink volume by 15 percent. If quality consistency is important for your brand, I would recommend keeping the current specification and looking at a 12-month framework agreement, which would unlock a 7 percent annual rebate.",
+        "cn": "我理解您的目标价格，我想对您坦诚。在那个价位，我们需要使用标准纤维笔头而不是优质日本笔头，并且减少15%的墨水量。如果质量一致性对您的品牌很重要，我建议保持当前规格，考虑签订12个月框架协议，这可以解锁7%的年度返点。",
+        "tag": "价格谈判",
+        "from": "Our MOQ is 5,000 pieces per color, and lead time is 30 days."
+      },
+      {
+        "en": "It was a pleasure meeting you, Mr. Smith. To recap our discussion: you are looking for a refillable highlighter range with custom blister packaging for the German market, with an initial order of 8,000 sets and a target delivery before November 15. I will send you a formal quotation with two pricing options, a sample proposal, and our EN71 test reports by tomorrow morning. I have also saved your WhatsApp, so I will send a quick confirmation message today.",
+        "cn": "很高兴认识您，史密斯先生。回顾一下我们的讨论：您正在为德国市场寻找可换芯荧光笔系列，定制吸塑包装，首单8000套，目标11月15日前交货。我会在明天上午之前给您发送正式报价单（含两个价格选项）、样品方案和我们的EN71检测报告。我也保存了您的WhatsApp，今天会发一条快速确认消息。",
+        "tag": "告别总结",
+        "from": "I will send you a detailed quotation within 24 hours after the show."
+      }
+    ]
+  },
+  "dialogues": [
+    {
+      "title": "展位接待：15分钟高效沟通",
+      "lines": [
+        {
+          "speaker": "client",
+          "en": "Hello, nice markers. Do you have refillable ones?",
+          "cn": "你好，马克笔不错。你们有可换芯的吗？"
+        },
+        {
+          "speaker": "you",
+          "en": "Welcome! Yes, we do. Our refillable marker is actually one of our most popular items for the European market. Let me show you. This one uses a pump system, so you can refill the ink up to five times. Which market are you selling to?",
+          "cn": "欢迎！有的，我们的可换芯马克笔实际上是欧洲市场最受欢迎的产品之一。我给您看看，这款采用泵式系统，可以重复加墨多达5次。您是销往哪个市场？"
+        },
+        {
+          "speaker": "client",
+          "en": "Germany, mainly stationery retail chains. We need EN71 certification and custom packaging.",
+          "cn": "主要是德国的文具零售连锁店。我们需要EN71认证和定制包装。"
+        },
+        {
+          "speaker": "you",
+          "en": "Perfect, all our markers are EN71-3 tested by SGS, and I have the reports here. For custom packaging, we offer both blister and display box options. What is your expected order quantity for the first order?",
+          "cn": "太好了，我们所有马克笔都通过了SGS的EN71-3检测，报告就在这里。定制包装方面，我们提供吸塑和展示盒两种选项。您首单的预期订单量是多少？"
+        },
+        {
+          "speaker": "client",
+          "en": "Around 10,000 sets. What is your price and lead time?",
+          "cn": "大约1万套。你们的价格和交货周期是多少？"
+        },
+        {
+          "speaker": "you",
+          "en": "For 10,000 sets with custom packaging, the unit price is 2.35 USD FOB Ningbo. Lead time is 30 days after sample confirmation. If you can do 20,000 sets, the price drops to 2.15 USD. Would you like me to prepare a detailed quotation with both options?",
+          "cn": "1万套定制包装的单价是2.35美元FOB宁波，交货周期是样品确认后30天。如果能做到2万套，价格降到2.15美元。需要我准备一份包含两个选项的详细报价单吗？"
+        },
+        {
+          "speaker": "client",
+          "en": "Yes, please. Can you also send samples?",
+          "cn": "好的，麻烦了。你们也能寄样品吗？"
+        },
+        {
+          "speaker": "you",
+          "en": "Absolutely. Samples are free, you just cover the courier fee, around 35 USD by DHL. I can send them tomorrow along with the quotation. May I have your business card and add your WhatsApp? I will send a quick confirmation later today.",
+          "cn": "当然。样品免费，您只需要承担快递费，DHL大约35美元。我明天可以和报价单一起寄给您。能给我您的名片并加一下您的WhatsApp吗？我今天晚些时候会发一条快速确认消息。"
+        }
+      ]
+    },
+    {
+      "title": "展后跟进：72小时黄金跟进邮件",
+      "lines": [
+        {
+          "speaker": "client",
+          "en": "Hi Quinn, thanks for the quotation. The price is a bit higher than we expected. Can you do better?",
+          "cn": "你好Quinn，感谢报价。价格比我们预期的高一些，能再优惠点吗？"
+        },
+        {
+          "speaker": "you",
+          "en": "Hi Mr. Smith, thank you for your feedback. I completely understand, and I want to work with you to find the best solution. The current price includes the premium Japanese nib and full-color custom packaging. If we switch to a standard nib, I can reduce the price by 0.15 USD. Alternatively, if you can confirm a 12-month framework with three orders per year, I can apply for a special distributor price of 2.10 USD for the first order. Which option works better for you?",
+          "cn": "您好史密斯先生，感谢您的反馈。我完全理解，我想和您一起找到最佳方案。当前价格包含优质日本笔头和全彩定制包装。如果换成标准笔头，我可以降价0.15美元。或者，如果您能确认一个12个月的框架协议，每年三单，我可以申请特殊经销商价，首单2.10美元。哪个选项更适合您？"
+        },
+        {
+          "speaker": "client",
+          "en": "The framework option sounds interesting. Let me discuss with my team and get back to you.",
+          "cn": "框架协议这个选项听起来不错。我和团队讨论一下再回复你。"
+        },
+        {
+          "speaker": "you",
+          "en": "That sounds great. Take your time. In the meantime, I have arranged the samples to be sent today by DHL, tracking number will follow. I will also send you a one-page company profile so your team can review our capabilities. Please let me know if you need any additional information.",
+          "cn": "太好了，您慢慢考虑。同时，我已经安排今天通过DHL寄出样品，快递单号稍后给您。我还会发一份一页纸的公司简介，方便您的团队了解我们的能力。如果需要任何其他信息，请随时告诉我。"
+        }
+      ]
+    }
+  ],
+  "exercises": {
+    "fillBlank": [
+      {
+        "q": "Our ______ is 5,000 pieces per color, and lead time is 30 days.",
+        "a": "MOQ",
+        "hint": "最小起订量，三个字母"
+      },
+      {
+        "q": "I will send you a detailed ______ within 24 hours after the show.",
+        "a": "quotation",
+        "hint": "报价单，q开头"
+      },
+      {
+        "q": "May I add your ______ so we can stay in touch after the show?",
+        "a": "WhatsApp",
+        "hint": "常用即时通讯工具，W开头"
+      },
+      {
+        "q": "Samples are free, but the ______ fee is on your side.",
+        "a": "courier",
+        "hint": "快递费，c开头"
+      },
+      {
+        "q": "Could you share your ______ price so I can check if we can meet it?",
+        "a": "target",
+        "hint": "目标价格，t开头"
+      }
+    ],
+    "scenario": [
+      {
+        "q": "A client comes to your booth and says: 'Nice markers, but your price is too high.' Write a professional response that does not immediately discount, but explores options.",
+        "modelAnswer": "Thank you for your feedback. I understand price is important, and I want to make sure you are getting the best value. Our price includes premium Japanese nibs, SGS-tested EN71 compliant ink, and full custom packaging. If we adjust any of these elements, we can reduce the cost. For example, switching to standard fiber nibs saves 0.15 USD per piece. Also, if your order quantity reaches 20,000 sets, the unit price drops by 8 percent automatically. What is your target price and expected quantity? I can calculate the best configuration for you.",
+        "cn": "感谢您的反馈。我理解价格很重要，我想确保您获得最佳价值。我们的价格包含优质日本笔头、SGS检测的EN71合规墨水和全定制包装。如果调整这些元素，我们可以降低成本。例如，换成标准纤维笔头每支节省0.15美元。另外，如果您的订单量达到2万套，单价自动下降8%。您的目标价格和预期数量是多少？我可以为您计算最佳配置。"
+      },
+      {
+        "q": "You meet a potential client at the show but only have 5 minutes. Write a concise closing statement that recaps the discussion and promises follow-up.",
+        "modelAnswer": "It was great meeting you, and I appreciate your time. To summarize quickly: you are interested in our 24-color marker set with custom display boxes for the UK market, with an initial order around 5,000 sets. I will send you a detailed quotation, our UK compliance documents, and a sample offer by tomorrow morning. I have saved your WhatsApp, so I will send a quick confirmation message later today. Please let me know if there is anything else you need in the meantime.",
+        "cn": "很高兴认识您，感谢您的时间。快速总结一下：您对我们面向英国市场的24色马克笔套装和定制展示盒感兴趣，首单约5000套。我会在明天上午之前给您发送详细报价单、英国合规文件和样品方案。我已保存您的WhatsApp，今天晚些时候会发一条快速确认消息。如果在此期间您还需要什么，请随时告诉我。"
+      }
+    ]
+  },
+  "checklist": [
+    "展前已通过LinkedIn和邮件联系至少20个目标客户并预约面谈",
+    "展位布置突出主打产品，背景板能一眼看出是做马克笔荧光笔的",
+    "准备好电子目录、报价模板、检测报告、名片和定制小礼品",
+    "能在客户走近3秒内开口欢迎并用开放式问题引导需求",
+    "能在15分钟内完成需求挖掘、产品介绍、商务条款和意向判断",
+    "在名片背后记录客户的具体需求、目标价、数量和跟进要点",
+    "告别时复述客户需求、承诺跟进时间并主动添加WhatsApp",
+    "展后72小时内完成客户分层（A/B/C类）并发送个性化跟进邮件"
+  ],
+  "culture": {
+    "title": "广交会文化：效率至上，关系为王",
+    "content": "广交会是全球最大的贸易展会之一，每年春秋两季在广州举办。对于文具外贸人来说，这是一年中最重要的获客渠道，但也是最考验效率的场合。\n\n在广交会，客户的时间非常宝贵。一个采购商可能一天要逛几十个展位，每个展位停留不超过15分钟。所以，你必须在最短时间内抓住客户注意力，快速判断意向，并留下深刻印象。不要试图在展位上完成所有谈判，展会的目标是建立连接和获取线索，真正的成交在展后跟进。\n\n广交会还有一个重要文化：关系。中国商人相信做生意先做朋友。所以，不要只谈生意，适当的寒暄、一杯茶、一个小礼品，都能拉近关系。对于意向明确的客户，邀请共进晚餐是非常有效的加深关系的方式。很多大订单，都是在展会后的餐桌上谈成的。\n\n记住：展会不是终点，而是起点。展前准备决定你能见到谁，展中表现决定客户对你的印象，展后跟进决定谁最终下单。三段都做好，才能把流量变成订单。"
+  },
+  "aiPractice": {
+    "situation": "你是温州新时代文具的外贸业务员Quinn，正在参加广交会。一位来自英国的大型文具连锁采购经理走到你的展位，对你们的可换芯荧光笔系列很感兴趣。请用专业的英语接待客户，完成需求挖掘、产品介绍、商务条款沟通，并在告别时安排展后跟进。",
+    "role": "英国大型文具连锁采购经理，时间紧张，关注产品质量、认证、价格和交货期，提问直接且专业",
+    "rounds": [
+      {
+        "ai": "Hello, these refillable highlighters look interesting. Do you have them in custom colors?",
+        "cn": "你好，这些可换芯荧光笔看起来不错。你们有定制颜色吗？",
+        "hint": "需要先欢迎客户，然后回答定制颜色的问题，同时询问客户的目标市场和需求",
+        "patterns": "/welcome|custom|color|market|MOQ/i",
+        "partial": "/yes|we have|custom|color/i"
+      },
+      {
+        "ai": "We sell mainly in the UK and EU. We need EN71 certification and retail-ready packaging. What is your MOQ and lead time?",
+        "cn": "我们主要在英国和欧盟销售。我们需要EN71认证和零售包装。你们的最小起订量和交货周期是多少？",
+        "hint": "需要提到EN71认证和检测报告，然后给出MOQ和交货周期，同时可以提到数量折扣",
+        "patterns": "/EN71|SGS|certif|MOQ|lead time|quantity|discount/i",
+        "partial": "/certif|MOQ|lead time|days/i"
+      },
+      {
+        "ai": "The price seems a bit high. Our current supplier charges 1.80 USD per set. Can you match that?",
+        "cn": "价格似乎有点高。我们目前的供应商是每套1.80美元。你们能做到吗？",
+        "hint": "不要直接降价，需要解释价格包含的价值（优质笔头、合规墨水、定制包装），然后提出数量折扣或框架协议等替代方案",
+        "patterns": "/value|quality|nib|ink|packaging|quantity|framework|rebate|alternative/i",
+        "partial": "/price|high|reduce|discount|quantity/i"
+      },
+      {
+        "ai": "Okay, I need to discuss with my team. Can you send samples and a quotation after the show?",
+        "cn": "好的，我需要和团队讨论一下。展会后你能寄样品和发报价单吗？",
+        "hint": "需要热情回应，确认样品政策（免费样品+客户付快递费），承诺报价时间，主动添加WhatsApp，复述客户需求",
+        "patterns": "/sample|free|courier|quotation|24 hours|WhatsApp|follow up|recap/i",
+        "partial": "/sample|quotation|send|follow up/i"
+      },
+      {
+        "ai": "Alright, here is my card. I look forward to your quotation.",
+        "cn": "好的，这是我的名片。期待你的报价。",
+        "hint": "需要礼貌告别，感谢客户时间，复述关键需求，承诺具体跟进时间，添加WhatsApp确认，表达合作意愿",
+        "patterns": "/thank|pleasure|recap|quotation|sample|WhatsApp|look forward|cooperate/i",
+        "partial": "/thank|nice|meet|follow up|contact/i"
+      }
+    ]
+  }
+}
