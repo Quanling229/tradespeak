@@ -1,0 +1,121 @@
+{
+  "id": "podcast-ppwr-packaging",
+  "num": "16",
+  "title": "PPWR来了！文具出口商必须知道的包装新规",
+  "titleEn": "PPWR is Here! What Stationery Exporters Must Know About Packaging Rules",
+  "hosts": ["Emma", "James"],
+  "duration": "18 min",
+  "description": "Emma和James深入解读2026年8月正式实施的欧盟PPWR包装新规，从可回收性等级到EPR注册，从包装最小化到数字产品护照，帮文具出口商搞懂这个影响深远的法规。",
+  "lines": [
+    {
+      "speaker": "emma",
+      "en": "Welcome back to TradeTalk, everyone. I'm Emma, and today we're talking about something that's been sending shockwaves through the export community — the EU PPWR regulation.",
+      "cn": "欢迎回到TradeTalk，大家好。我是Emma，今天我们要聊一件在外贸圈引起震动的事情——欧盟PPWR法规。"
+    },
+    {
+      "speaker": "james",
+      "en": "That's right, Emma. PPWR, or the Packaging and Packaging Waste Regulation, officially came into full force on August 12th, 2026. And it's not just another guideline — it's a directly applicable regulation across all 27 EU member states.",
+      "cn": "没错，Emma。PPWR，即《包装与包装废弃物法规》，于2026年8月12日正式全面实施。而且它不仅仅是另一个指南——它是直接适用于所有27个欧盟成员国的法规。"
+    },
+    {
+      "speaker": "emma",
+      "en": "James, why should stationery exporters care about this? I mean, markers and highlighters aren't exactly food packaging.",
+      "cn": "James，为什么文具出口商要关心这个？我的意思是，马克笔和荧光笔又不是食品包装。"
+    },
+    {
+      "speaker": "james",
+      "en": "Great question, Emma. PPWR applies to ALL packaging — that means the cardboard boxes, the blister packs, the plastic windows, even the CDU display boxes you send to retailers. If you export markers to Europe, every layer of packaging is covered.",
+      "cn": "问得好，Emma。PPWR适用于所有包装——也就是说纸盒、吸塑包装、塑料窗口，甚至你发给零售商的CDU展示盒都算。如果你出口马克笔到欧洲，每一层包装都在管辖范围内。"
+    },
+    {
+      "speaker": "emma",
+      "en": "So what are the core requirements? Let's break it down for our listeners.",
+      "cn": "那么核心要求是什么？让我们为听众梳理一下。"
+    },
+    {
+      "speaker": "james",
+      "en": "First and foremost — recyclability. From August 2026, all packaging must be recyclable. But it gets more specific: from 2030, packaging must achieve Grade A, B, or C recyclability. Grade A means 80 percent or more recyclable, Grade B is 70 percent, and Grade C is 50 percent.",
+      "cn": "首先也是最重要的——可回收性。从2026年8月起，所有包装必须可回收。但还有更具体的：从2030年起，包装必须达到A、B或C级可回收性。A级意味着80%或以上可回收，B级是70%，C级是50%。"
+    },
+    {
+      "speaker": "emma",
+      "en": "That's a big deal for marker packaging. A lot of suppliers use laminated cardboard boxes with plastic windows — that's mixed material, which is hard to recycle.",
+      "cn": "这对马克笔包装来说是个大问题。很多供应商使用带塑料窗口的覆膜纸盒——那是混合材料，很难回收。"
+    },
+    {
+      "speaker": "james",
+      "en": "Exactly. And that's why we're seeing more and more suppliers switch to lamination-free boxes and monomaterial PET blister packs. Single material = easier recycling = better grade.",
+      "cn": "完全正确。这就是为什么我们看到越来越多的供应商改用去覆膜纸盒和单一材质PET吸塑包装。单一材质=更容易回收=更好的等级。"
+    },
+    {
+      "speaker": "emma",
+      "en": "What about EPR? I keep hearing that term but I'm not sure who's responsible.",
+      "cn": "那EPR呢？我一直听到这个词，但不确定是谁的责任。"
+    },
+    {
+      "speaker": "james",
+      "en": "EPR stands for Extended Producer Responsibility. In the EU, it's the importer's responsibility to register for EPR in each member state and pay the recycling fees. But here's the thing — the importer needs accurate data from YOU, the supplier. They need to know the exact material composition, weight, and type of packaging for every SKU.",
+      "cn": "EPR代表生产者延伸责任。在欧盟，是进口商的责任在每个成员国注册EPR并支付回收费。但关键是——进口商需要从你，也就是供应商那里获得准确的数据。他们需要知道每个SKU包装的确切材料成分、重量和类型。"
+    },
+    {
+      "speaker": "emma",
+      "en": "So if a supplier can't provide that data, the importer might just walk away?",
+      "cn": "所以如果供应商不能提供这些数据，进口商可能就直接走人了？"
+    },
+    {
+      "speaker": "james",
+      "en": "Precisely. And that's already happening. I've heard of several German retailers dropping Chinese suppliers because they couldn't provide proper material documentation for EPR registration.",
+      "cn": "正是如此。而且这已经在发生了。我听说有几家德国零售商放弃了中国供应商，因为他们无法为EPR注册提供适当的材料文档。"
+    },
+    {
+      "speaker": "emma",
+      "en": "What about packaging minimisation? I read something about empty space limits.",
+      "cn": "那包装最小化呢？我读到一些关于空空间限制的内容。"
+    },
+    {
+      "speaker": "james",
+      "en": "Good catch. PPWR requires packaging to be minimised, and specifically for e-commerce and transport packaging, the empty space cannot exceed 50 percent. So if you're shipping a single marker in a box that's 80 percent air, that's a violation.",
+      "cn": "问得好。PPWR要求包装最小化，特别是对于电商和运输包装，空空间不得超过50%。所以如果你用一个80%都是空气的盒子发一支马克笔，那就是违规。"
+    },
+    {
+      "speaker": "emma",
+      "en": "That makes sense. I've seen some ridiculous packaging online — a tiny highlighter in a massive box.",
+      "cn": "这很合理。我在网上见过一些离谱的包装——一支小小的荧光笔装在一个巨大的盒子里。"
+    },
+    {
+      "speaker": "james",
+      "en": "Exactly. And there's also the recycled content requirement. From 2030, plastic packaging must contain a minimum percentage of post-consumer recycled content, or PCR. The exact percentages are still being finalised, but suppliers should start increasing PCR now.",
+      "cn": "没错。还有回收成分要求。从2030年起，塑料包装必须包含最低比例的消费后回收成分，即PCR。确切比例仍在最终确定中，但供应商现在就应该开始增加PCR含量。"
+    },
+    {
+      "speaker": "emma",
+      "en": "James, this all sounds quite overwhelming. What's your advice for stationery exporters who are just starting to prepare?",
+      "cn": "James，这一切听起来相当令人不知所措。你对刚刚开始准备的文具出口商有什么建议？"
+    },
+    {
+      "speaker": "james",
+      "en": "Three things. First, audit your current packaging — identify what's mixed material, what's laminated, what's oversized. Second, start switching to monomaterial and lamination-free options. Third, prepare a standard documentation package: material data sheets, weight breakdowns, and a declaration of conformity. Have this ready for every customer inquiry.",
+      "cn": "三件事。第一，审核你目前的包装——找出哪些是混合材料、哪些有覆膜、哪些尺寸过大。第二，开始改用单一材质和去覆膜方案。第三，准备一套标准文档包：材料数据表、重量明细和符合性声明。每次客户询盘都准备好这个。"
+    },
+    {
+      "speaker": "emma",
+      "en": "And here's the silver lining — compliant packaging can actually be a selling point. If you can say your markers come in Grade A recyclable packaging with 30 percent PCR, that's a competitive advantage.",
+      "cn": "而且好消息是——合规包装实际上可以成为卖点。如果你能说你的马克笔采用A级可回收包装，PCR含量30%，那就是竞争优势。"
+    },
+    {
+      "speaker": "james",
+      "en": "Absolutely. European buyers are actively looking for sustainable suppliers. Don't see PPWR as a burden — see it as an opportunity to differentiate yourself from competitors who are still ignoring the regulation.",
+      "cn": "完全正确。欧洲买家正在积极寻找可持续供应商。不要把PPWR看作负担——把它看作一个机会，让你与那些仍在忽视该法规的竞争对手区分开来。"
+    },
+    {
+      "speaker": "emma",
+      "en": "Great advice, James. And that's a wrap for today's episode. Remember — PPWR is here, it's real, and it's not going away. The suppliers who prepare now will win the orders of tomorrow.",
+      "cn": "很好的建议，James。今天的节目就到这里。记住——PPWR已经来了，它是真实的，而且不会消失。现在就准备的供应商将赢得明天的订单。"
+    },
+    {
+      "speaker": "james",
+      "en": "Until next time, keep learning, keep exporting, and keep those markers green. Bye for now!",
+      "cn": "下次再见，继续学习，继续出口，让你的马克笔保持环保。再见！"
+    }
+  ]
+}
