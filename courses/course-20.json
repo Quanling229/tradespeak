@@ -1,0 +1,334 @@
+{
+  "id": "ppwr-packaging-compliance",
+  "num": "20",
+  "title": "欧盟PPWR包装新规与环保合规",
+  "titleEn": "EU PPWR Packaging Regulation & Eco Compliance",
+  "scene": "合规谈判",
+  "level": "高级",
+  "duration": "35 min",
+  "color": "#2d6a4f",
+  "emoji": "♻️",
+  "intro": {
+    "visual": "欧盟旗帜 + 回收标志 + 文具包装",
+    "background": "2026年8月12日，欧盟《包装与包装废弃物法规》（PPWR, Regulation (EU) 2025/40）正式全面实施。这是欧盟近年来影响最深远的产品法规之一，直接适用于所有27个成员国，无需各国转化为国内法。对于出口文具到欧洲的中国供应商来说，PPWR意味着包装必须可回收、必须最小化、必须标注材质标识，客户会在询盘中直接问你的包装是否合规。马克笔的塑料笔身、荧光笔的吸塑包装、彩盒的覆膜，都在PPWR的管辖范围内。不懂PPWR，可能会失去欧洲大客户。",
+    "desc": "系统学习欧盟PPWR包装新规的核心要求，掌握可回收性、EPR注册、包装标识、最小化要求等关键概念，能够用专业英语与欧洲客户讨论包装合规问题，提供符合PPWR要求的文具包装方案。",
+    "tasks": [
+      "理解PPWR法规的适用范围和时间节点",
+      "掌握可回收性要求和性能等级（A/B/C级）",
+      "学习EPR（生产者延伸责任）注册义务和费用",
+      "了解包装标识要求（材质标签、回收标志、数字护照）",
+      "掌握包装最小化和空空间限制要求",
+      "能够用英语与客户讨论包装合规改进方案"
+    ],
+    "outcomes": [
+      "能解释PPWR是什么以及为什么对文具出口重要",
+      "能识别马克笔/荧光笔包装中不符合PPWR的部分",
+      "能用英语向客户说明你的包装合规措施",
+      "能回应客户关于EPR注册和回收费用的问题",
+      "能提出可回收包装改进方案（如去覆膜、单一材质）",
+      "能在报价中体现环保包装的附加值"
+    ]
+  },
+  "oneLiner": {
+    "en": "The EU PPWR regulation is now in force — your marker packaging must be recyclable, minimised, and properly labelled, or European buyers will look elsewhere.",
+    "cn": "欧盟PPWR法规已正式实施——你的马克笔包装必须可回收、最小化、正确标识，否则欧洲买家会转向其他供应商。",
+    "highlights": ["PPWR", "Recyclability", "EPR", "Packaging Labelling"]
+  },
+  "vocab": [
+    {
+      "word": "PPWR",
+      "ipa": "/ˌpiː piː dʌbəl juː ˈɑːr/",
+      "ex": "The PPWR applies to all packaging placed on the EU market from August 2026.",
+      "cn": "包装与包装废弃物法规（Packaging and Packaging Waste Regulation）",
+      "exCn": "从2026年8月起，PPWR适用于所有投放欧盟市场的包装。"
+    },
+    {
+      "word": "recyclability",
+      "ipa": "/ˌriːˌsaɪkləˈbɪləti/",
+      "ex": "Our cardboard boxes achieve Grade A recyclability because we removed the lamination.",
+      "cn": "可回收性，可回收能力",
+      "exCn": "我们的纸盒达到A级可回收性，因为我们去掉了覆膜。"
+    },
+    {
+      "word": "EPR",
+      "ipa": "/ˌiː piː ˈɑːr/",
+      "ex": "As an importer, your client is responsible for EPR registration in each member state.",
+      "cn": "生产者延伸责任（Extended Producer Responsibility）",
+      "exCn": "作为进口商，你的客户负责在每个成员国完成EPR注册。"
+    },
+    {
+      "word": "monomaterial",
+      "ipa": "/ˌmɒnəʊməˈtɪəriəl/",
+      "ex": "We switched to monomaterial PET blister packs so they can be easily recycled.",
+      "cn": "单一材质",
+      "exCn": "我们改用单一材质PET吸塑包装，以便更容易回收。"
+    },
+    {
+      "word": "post-consumer recycled",
+      "ipa": "/pəʊst kənˈsjuːmə ˌriːˈsaɪkld/",
+      "ex": "From 2030, plastic packaging must contain a minimum percentage of post-consumer recycled content.",
+      "cn": "消费后回收成分（PCR）",
+      "exCn": "从2030年起，塑料包装必须包含最低比例的消费后回收成分。"
+    },
+    {
+      "word": "empty space",
+      "ipa": "/ˈempti speɪs/",
+      "ex": "E-commerce packaging may not exceed 50 percent empty space under the new rules.",
+      "cn": "空空间，空隙率",
+      "exCn": "根据新规，电商包装的空空间不得超过50%。"
+    },
+    {
+      "word": "digital product passport",
+      "ipa": "/ˈdɪdʒɪtl ˈprɒdʌkt ˈpɑːspɔːt/",
+      "ex": "The PPWR introduces a digital product passport for certain packaging categories.",
+      "cn": "数字产品护照（DPP）",
+      "exCn": "PPWR为特定包装类别引入了数字产品护照。"
+    },
+    {
+      "word": "declaration of conformity",
+      "ipa": "/ˌdekləˈreɪʃn əv kənˈfɔːməti/",
+      "ex": "We provide a declaration of conformity with every shipment to EU customers.",
+      "cn": "符合性声明",
+      "exCn": "我们每次向欧盟客户发货都提供符合性声明。"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Our packaging is recyclable because we use paper boxes.",
+      "right": "Our paper boxes are recyclable, but the lamination and plastic window need to be removed to meet PPWR requirements.",
+      "cn": "错误：以为用纸盒就是可回收。实际上，纸盒上的覆膜和塑料窗口会影响可回收性，PPWR要求包装设计为材料回收。"
+    },
+    {
+      "wrong": "EPR is the supplier's responsibility, so we don't need to worry about it.",
+      "right": "EPR registration is the importer's responsibility in the EU, but we need to provide accurate packaging material data and support their compliance.",
+      "cn": "错误：以为EPR是供应商的责任。实际上，EPR注册是欧盟进口商的责任，但供应商需要提供准确的包装材料数据并支持其合规。"
+    },
+    {
+      "wrong": "We can add any recycling logo to our packaging.",
+      "right": "Recycling labels must follow the national schemes in each EU country — for example, the Green Dot in Germany and Spain, or Ecoembes in Spain.",
+      "cn": "错误：以为可以随便加回收标志。实际上，回收标识必须遵循每个欧盟国家的国家体系——例如德国和西班牙的绿点（Green Dot），西班牙的Ecoembes。"
+    }
+  ],
+  "expressions": {
+    "basic": [
+      {
+        "en": "Our packaging complies with the new EU PPWR regulation.",
+        "cn": "我们的包装符合新的欧盟PPWR法规。",
+        "tag": "合规声明"
+      },
+      {
+        "en": "We use recyclable materials for all our marker packaging.",
+        "cn": "我们所有马克笔包装都使用可回收材料。",
+        "tag": "材料说明"
+      },
+      {
+        "en": "The cardboard box is made from recycled paper.",
+        "cn": "纸盒由再生纸制成。",
+        "tag": "环保材料"
+      },
+      {
+        "en": "We can provide the packaging material data for your EPR registration.",
+        "cn": "我们可以为您的EPR注册提供包装材料数据。",
+        "tag": "数据支持"
+      },
+      {
+        "en": "Our packaging is minimised to reduce waste.",
+        "cn": "我们的包装经过最小化设计以减少浪费。",
+        "tag": "最小化"
+      },
+      {
+        "en": "We removed the plastic window to improve recyclability.",
+        "cn": "我们去掉了塑料窗口以提高可回收性。",
+        "tag": "改进措施"
+      }
+    ],
+    "advanced": [
+      {
+        "en": "Our monomaterial PET blister packs achieve Grade B recyclability, and we're working towards Grade A by removing the aluminium foil layer.",
+        "cn": "我们的单一材质PET吸塑包装达到B级可回收性，我们正在通过去掉铝箔层来争取达到A级。",
+        "tag": "可回收等级",
+        "from": "We use recyclable materials for all our marker packaging."
+      },
+      {
+        "en": "Under Article 7 of the PPWR, plastic packaging will require minimum post-consumer recycled content from 2030 — our current PCR content is 15 percent and we're targeting 30 percent by 2029.",
+        "cn": "根据PPWR第7条，从2030年起塑料包装将要求最低消费后回收成分——我们目前的PCR含量为15%，目标是到2029年达到30%。",
+        "tag": "PCR含量",
+        "from": "The cardboard box is made from recycled paper."
+      },
+      {
+        "en": "We can supply a full technical documentation file including material composition, recyclability assessment, and a declaration of conformity to support your EPR obligations across all 27 member states.",
+        "cn": "我们可以提供完整的技术文档，包括材料成分、可回收性评估和符合性声明，以支持您在所有27个成员国的EPR义务。",
+        "tag": "技术文档",
+        "from": "We can provide the packaging material data for your EPR registration."
+      }
+    ]
+  },
+  "dialogues": [
+    {
+      "title": "场景A：客户询问PPWR合规性",
+      "lines": [
+        {
+          "speaker": "client",
+          "en": "Hi Quinn, we noticed the PPWR regulation came into force in August. Can you confirm your marker packaging is compliant?",
+          "cn": "Quinn你好，我们注意到PPWR法规8月生效了。你能确认你们的马克笔包装是合规的吗？"
+        },
+        {
+          "speaker": "you",
+          "en": "Yes, absolutely. We've been preparing for PPWR for over a year. Our cardboard boxes are now lamination-free, and we switched to monomaterial PET blister packs.",
+          "cn": "是的，完全合规。我们已经为PPWR准备了一年多。我们的纸盒现在已经去覆膜，并且改用了单一材质PET吸塑包装。"
+        },
+        {
+          "speaker": "client",
+          "en": "That's good to hear. What recyclability grade have you achieved?",
+          "cn": "很高兴听到这个。你们达到了什么可回收等级？"
+        },
+        {
+          "speaker": "you",
+          "en": "Our current packaging achieves Grade B, which means over 70 percent recyclability. We're targeting Grade A by Q2 next year by optimising the ink coverage on the boxes.",
+          "cn": "我们目前的包装达到B级，即可回收率超过70%。我们的目标是明年第二季度通过优化纸盒油墨覆盖率达到A级。"
+        },
+        {
+          "speaker": "client",
+          "en": "Excellent. Can you provide the material composition data for our EPR registration in Germany and France?",
+          "cn": "太好了。你能为我们在德国和法国的EPR注册提供材料成分数据吗？"
+        },
+        {
+          "speaker": "you",
+          "en": "Certainly. We'll include a detailed material breakdown with every quotation — paper weight, plastic type, and total packaging weight per unit. We can also provide a declaration of conformity if needed.",
+          "cn": "当然。我们会在每份报价中包含详细的材料明细——纸张克重、塑料类型、每件产品的总包装重量。如果需要，我们还可以提供符合性声明。"
+        }
+      ]
+    },
+    {
+      "title": "场景B：客户要求包装改进方案",
+      "lines": [
+        {
+          "speaker": "client",
+          "en": "Quinn, our retail team wants to reduce packaging waste for the highlighter range. Do you have any suggestions under the PPWR framework?",
+          "cn": "Quinn，我们的零售团队希望减少荧光笔系列的包装浪费。在PPWR框架下你有什么建议吗？"
+        },
+        {
+          "speaker": "you",
+          "en": "Definitely. First, we can remove the plastic blister entirely and use a cardboard hang box — this eliminates mixed materials and improves recyclability to Grade A.",
+          "cn": "当然。首先，我们可以完全去掉塑料吸塑，改用纸质挂盒——这消除了混合材料，可回收性提升到A级。"
+        },
+        {
+          "speaker": "client",
+          "en": "That sounds promising. Will it affect the product protection during transport?",
+          "cn": "听起来很有希望。这会影响运输过程中的产品保护吗？"
+        },
+        {
+          "speaker": "you",
+          "en": "Not at all. We'll add a cardboard insert to hold the highlighters securely. The empty space will be well under the 50 percent limit for e-commerce packaging.",
+          "cn": "完全不会。我们会加一个纸托来固定荧光笔。空空间会远低于电商包装50%的限制。"
+        },
+        {
+          "speaker": "client",
+          "en": "Great. Can you send me a sample and a cost comparison?",
+          "cn": "太好了。你能给我寄个样品和成本对比吗？"
+        },
+        {
+          "speaker": "you",
+          "en": "I'll send samples by DHL this week. The unit cost is actually 8 percent lower because we're removing the plastic component — it's both greener and cheaper.",
+          "cn": "我这周就通过DHL寄样品。单位成本实际上降低了8%，因为我们去掉了塑料部件——既更环保又更便宜。"
+        }
+      ]
+    }
+  ],
+  "exercises": {
+    "fillBlank": [
+      {
+        "q": "The EU PPWR regulation requires all packaging to be ____ from August 2026.",
+        "a": "recyclable",
+        "hint": "可回收的，形容词。PPWR的核心要求之一。"
+      },
+      {
+        "q": "From 2030, packaging must achieve recyclability Grade A, B, or C, meaning at least ____ percent recyclability.",
+        "a": "70",
+        "hint": "数字。A级可回收率≥80%，B级≥70%，C级≥50%。"
+      },
+      {
+        "q": "EPR stands for Extended ____ Responsibility.",
+        "a": "Producer",
+        "hint": "生产者。EPR是欧盟包装回收的核心制度。"
+      },
+      {
+        "q": "E-commerce packaging may not exceed ____ percent empty space under PPWR.",
+        "a": "50",
+        "hint": "数字。包装最小化要求之一。"
+      },
+      {
+        "q": "Using a single material for packaging, such as monomaterial PET, is called ____ packaging.",
+        "a": "monomaterial",
+        "hint": "单一材质。与混合材料（multimaterial）相对。"
+      }
+    ],
+    "scenario": [
+      {
+        "q": "Your German client emails asking whether your marker sets comply with PPWR and if you can support their EPR registration. Write a professional reply in English.",
+        "modelAnswer": "Dear [Client], Thank you for your question. Yes, our marker packaging fully complies with the EU PPWR regulation. We use lamination-free cardboard boxes and monomaterial PET blister packs, achieving Grade B recyclability. We can provide complete material composition data, including paper weight, plastic type, and total packaging weight per unit, to support your EPR registration in Germany. We can also issue a declaration of conformity with each shipment. Please let me know if you need any specific documentation. Best regards, Quinn",
+        "cn": "亲爱的客户，感谢您的提问。是的，我们的马克笔包装完全符合欧盟PPWR法规。我们使用去覆膜纸盒和单一材质PET吸塑包装，达到B级可回收性。我们可以提供完整的材料成分数据，包括纸张克重、塑料类型和每件产品的总包装重量，以支持您在德国的EPR注册。我们还可以随每批货物出具符合性声明。如果您需要任何特定文件，请告诉我。此致，Quinn"
+      },
+      {
+        "q": "A French buyer says your current highlighter blister pack uses mixed materials and is not recyclable. Propose a PPWR-compliant alternative and explain the benefits.",
+        "modelAnswer": "You're absolutely right, and thank you for raising this. We propose switching to a monomaterial cardboard hang box with a paper insert. This eliminates the plastic-aluminium combination entirely, improving recyclability from Grade C to Grade A. The empty space remains under 40 percent, well within the PPWR limit. Additionally, the unit cost is about 8 percent lower because we remove the plastic component. I can send samples this week for your evaluation.",
+        "cn": "您说得完全正确，感谢您提出这个问题。我们建议改用带纸托的单一材质纸质挂盒。这完全消除了塑料-铝组合，可回收性从C级提升到A级。空空间保持在40%以下，远低于PPWR限制。此外，单位成本降低约8%，因为我们去掉了塑料部件。我这周可以寄样品供您评估。"
+      }
+    ]
+  },
+  "checklist": [
+    "我能解释PPWR是什么以及2026年8月12日这个关键日期",
+    "我能说出PPWR对包装的三个核心要求（可回收、最小化、标识）",
+    "我能区分可回收性等级A/B/C及其对应的可回收率",
+    "我能解释EPR是谁的责任以及供应商需要提供什么数据",
+    "我能识别马克笔/荧光笔包装中不符合PPWR的部分（覆膜、混合材质、塑料窗口）",
+    "我能用英语向客户说明我的包装合规措施和改进计划",
+    "我能提出至少两种PPWR合规的包装改进方案",
+    "我能在报价中体现环保包装的附加值（成本降低、合规保障）"
+  ],
+  "culture": {
+    "title": "欧洲消费者的环保意识与采购决策",
+    "content": "在欧洲，环保不再是加分项，而是准入门槛。根据欧盟2025年的调查，78%的欧洲消费者表示会考虑产品包装的环保性，其中德国和北欧国家的消费者最为严格。大型零售商如德国的DM、Rossmann，法国的Carrefour，英国的Boots，都已经将PPWR合规作为供应商准入的硬性条件。\n\n对于文具品类，欧洲消费者特别关注：\n1. 包装是否过度——一支马克笔用一个大吸塑盒会被批评为\"包装垃圾\"\n2. 是否可回收——混合材质包装会被消费者协会点名\n3. 是否有清晰的回收标识——消费者希望知道该把包装扔进哪个颜色的垃圾桶\n\n在与欧洲买家沟通时，主动展示你的PPWR合规措施，不仅能避免被淘汰，还能成为差异化竞争优势。很多中国供应商还停留在\"我们的产品质量好\"的阶段，而你已经能讨论\"我们的包装达到B级可回收性，PCR含量15%\"，这会让买家对你的专业度刮目相看。\n\n另外要注意：欧洲不同国家的回收体系不同。德国是双轨制（Duales System），绿点标志（Green Dot）是付费使用的；西班牙是Ecoembes体系；法国是Citeo体系。不要以为一个标志可以全欧洲通用，需要根据客户所在国家提供相应的标识支持。"
+  },
+  "aiPractice": {
+    "situation": "你是温州新时代文具的外贸业务员Quinn。一位德国大型文具连锁采购经理Anna主动联系你，询问你们的马克笔套装是否符合欧盟PPWR包装新规。她表示如果合规，可能会下一个5万套的试订单；如果不合规，他们会转向其他已经合规的供应商。你需要用专业的英语展示你们的PPWR合规措施，回应她的技术问题，并争取这个订单。",
+    "role": "Anna Müller，德国Müller文具连锁采购经理，负责环保合规审核，对PPWR非常了解，问题专业且直接。",
+    "rounds": [
+      {
+        "ai": "Hello Quinn, thanks for taking my call. As you know, the PPWR regulation came into force in August. Can you tell me what measures you've taken to ensure your marker packaging is compliant?",
+        "cn": "Quinn你好，感谢接我的电话。如你所知，PPWR法规8月生效了。你能告诉我你们采取了哪些措施来确保马克笔包装合规吗？",
+        "hint": "主动介绍你们的PPWR准备工作，提到去覆膜纸盒、单一材质PET吸塑等具体措施。",
+        "patterns": "/(lamination|monomaterial|recyclab|compliant|PPWR)/i",
+        "partial": "/(packaging|box|plastic|paper)/i"
+      },
+      {
+        "ai": "That's a good start. What recyclability grade have you achieved for the current packaging? And do you have any third-party assessment to back this up?",
+        "cn": "这是个好的开始。你们目前的包装达到了什么可回收等级？你们有第三方评估来支持这个说法吗？",
+        "hint": "说明可回收等级（B级，70%以上），提到可以提供SGS或类似机构的可回收性评估报告。",
+        "patterns": "/(grade [abc]|70|assessment|SGS|certif|report)/i",
+        "partial": "/(recyclab|test|verif|third)/i"
+      },
+      {
+        "ai": "I see. For our EPR registration in Germany, we need precise material composition data per SKU. Can you provide the paper weight, plastic type, and total packaging weight for each marker set?",
+        "cn": "我明白了。对于我们在德国的EPR注册，我们需要每个SKU的精确材料成分数据。你能提供每套马克笔的纸张克重、塑料类型和总包装重量吗？",
+        "hint": "确认可以提供详细的材料明细，说明会随报价一起提供，甚至可以提供符合性声明。",
+        "patterns": "/(material|composition|weight|EPR|declaration|conformity|data)/i",
+        "partial": "/(provide|send|include|quotation|detail)/i"
+      },
+      {
+        "ai": "One more thing — our sustainability team has a target to use 30 percent post-consumer recycled content in plastic packaging by 2028. What's your current PCR content, and can you increase it?",
+        "cn": "还有一件事——我们的可持续发展团队的目标是到2028年在塑料包装中使用30%的消费后回收成分。你们目前的PCR含量是多少？能提高吗？",
+        "hint": "说明目前的PCR含量（如15%），表示可以根据客户需求提高到30%，但可能需要调整模具和价格。",
+        "patterns": "/(PCR|recycled content|15|30|percent|increase|mould|mold|price)/i",
+        "partial": "/(current|target|future|plan|work)/i"
+      },
+      {
+        "ai": "Excellent. I think we have a good foundation. Can you send me the full technical documentation package, including material data sheets, recyclability assessment, and a sample of the packaging, by next Friday? If everything checks out, we can proceed with a 50,000-unit trial order.",
+        "cn": "太好了。我认为我们有很好的基础。你能在下周五前把完整的技术文档包发给我吗？包括材料数据表、可回收性评估和包装样品。如果一切没问题，我们可以进行5万套的试订单。",
+        "hint": "确认会按时提供所有文档和样品，表达对订单的期待，主动提出如果有任何问题随时沟通。",
+        "patterns": "/(send|sample|documentation|order|50|trial|friday|confirm)/i",
+        "partial": "/(yes|sure|absolutely|thank|look forward)/i"
+      }
+    ]
+  }
+}
