@@ -1,0 +1,334 @@
+{
+  "id": "peak-season-lead-time",
+  "num": "21",
+  "title": "Q4旺季备货与交期管理",
+  "titleEn": "Q4 Peak Season Inventory Planning & Lead Time Management",
+  "scene": "交期谈判",
+  "level": "进阶",
+  "duration": "32 min",
+  "color": "#c2410c",
+  "emoji": "📦",
+  "intro": {
+    "visual": "集装箱港口 + 圣诞文具套装 + 日历时间线",
+    "background": "每年9月到11月是文具外贸的黄金旺季——欧洲客户开始为黑五、圣诞、新年备货，马克笔套装、荧光笔礼盒、圣诞主题文具需求量暴增。但旺季也是交期最紧张的时候：工厂排期饱和、原材料涨价、海运舱位一舱难求、港口拥堵、海外仓爆仓。一笔旺季订单从确认样品到入仓上架，动辄需要60到90天。很多新人业务员因为不懂旺季交期管理，要么承诺了做不到的交期失去客户信任，要么没有提前备货眼睁睁看着订单被竞争对手抢走。掌握旺季备货和交期管理的英语表达，是Q4拿下大订单的关键。",
+    "desc": "系统学习Q4旺季备货的时间规划、交期构成、风险预判和客户沟通技巧，能够用专业英语与客户讨论生产排期、海运舱位、分批交货等旺季核心问题，帮助客户制定合理的备货计划。",
+    "tasks": [
+      "理解Q4旺季的时间节点和备货周期",
+      "掌握交期的完整构成（生产+质检+海运+清关+入仓）",
+      "学习旺季常见风险（舱位紧张、港口拥堵、原材料涨价）",
+      "掌握分批交货和紧急补货的沟通策略",
+      "能够用英语为客户制定倒推式备货时间表",
+      "学会在交期紧张时管理客户预期"
+    ],
+    "outcomes": [
+      "能解释为什么旺季需要提前60-90天下单",
+      "能用英语向客户说明完整交期的各个环节",
+      "能预判旺季常见风险并提前告知客户",
+      "能提出分批交货方案缓解旺季产能压力",
+      "能为客户制定从销售日倒推的备货时间表",
+      "能在交期紧张时保持客户信任"
+    ]
+  },
+  "oneLiner": {
+    "en": "In peak season, lead time is not just a number — it is a 60 to 90 day journey from factory floor to retail shelf, and every day counts.",
+    "cn": "旺季的交期不只是一个数字——它是从工厂车间到零售货架的60到90天旅程，每一天都至关重要。",
+    "highlights": ["Lead Time", "Peak Season", "Inventory Planning", "Sea Freight"]
+  },
+  "vocab": [
+    {
+      "word": "lead time",
+      "ipa": "/liːd taɪm/",
+      "ex": "Our standard lead time is 30 days, but in peak season it can extend to 45 days.",
+      "cn": "交期，从下单到交货的时间",
+      "exCn": "我们的标准交期是30天，但旺季可能延长到45天。"
+    },
+    {
+      "word": "peak season",
+      "ipa": "/piːk ˈsiːzn/",
+      "ex": "We recommend placing your order before September to avoid peak season delays.",
+      "cn": "旺季，高峰期",
+      "exCn": "我们建议您在9月前下单，以避免旺季延误。"
+    },
+    {
+      "word": "production capacity",
+      "ipa": "/prəˈdʌkʃn kəˈpæsəti/",
+      "ex": "Our factory is running at full production capacity until mid-November.",
+      "cn": "生产能力，产能",
+      "exCn": "我们工厂到11月中旬都满负荷生产。"
+    },
+    {
+      "word": "sea freight",
+      "ipa": "/siː freɪt/",
+      "ex": "Sea freight from Ningbo to Hamburg takes about 28 to 34 days in peak season.",
+      "cn": "海运，海运费",
+      "exCn": "旺季从宁波到汉堡的海运大约需要28到34天。"
+    },
+    {
+      "word": "port congestion",
+      "ipa": "/pɔːt kənˈdʒestʃən/",
+      "ex": "Port congestion in Los Angeles is adding an extra 5 to 7 days to our delivery schedule.",
+      "cn": "港口拥堵",
+      "exCn": "洛杉矶的港口拥堵使我们的交货计划额外增加了5到7天。"
+    },
+    {
+      "word": "partial shipment",
+      "ipa": "/ˈpɑːʃl ˈʃɪpmənt/",
+      "ex": "We can arrange partial shipment — 50 percent in October and the rest in November.",
+      "cn": "分批装运，分批交货",
+      "exCn": "我们可以安排分批交货——10月交50%，其余11月交。"
+    },
+    {
+      "word": "buffer stock",
+      "ipa": "/ˈbʌfə stɒk/",
+      "ex": "We always keep a buffer stock of 10,000 marker sets for urgent orders.",
+      "cn": "缓冲库存，安全库存",
+      "exCn": "我们总是保持1万套马克笔的缓冲库存以应对紧急订单。"
+    },
+    {
+      "word": "countdown planning",
+      "ipa": "/ˈkaʊntdaʊn ˈplænɪŋ/",
+      "ex": "Let's do countdown planning from your Black Friday sale date to make sure everything arrives on time.",
+      "cn": "倒推式计划，倒计时规划",
+      "exCn": "让我们从您的黑五销售日期倒推规划，确保一切准时到达。"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "Don't worry, we can deliver in 30 days even in peak season.",
+      "right": "In peak season, our lead time extends to 45 days for production, plus 30 days for sea freight — so total is about 75 days.",
+      "cn": "错误：为了拿单盲目承诺短交期。旺季工厂排期饱和、海运舱位紧张，实际交期会比平时长很多。承诺做不到的交期最终会失去客户信任。"
+    },
+    {
+      "wrong": "The goods will arrive before Christmas, I promise.",
+      "right": "Based on current schedules, the goods are expected to arrive around December 10th, which gives you two weeks before Christmas. However, port congestion could cause delays of up to one week.",
+      "cn": "错误：只给一个确定日期不说明风险。旺季有很多不确定因素，应该给出预计到达时间并说明可能的风险和缓冲时间，让客户有合理预期。"
+    },
+    {
+      "wrong": "If you order now, we can still make it for Black Friday.",
+      "right": "For Black Friday sales on November 27th, the latest order date was July 20th. If you order now, we can deliver for the Christmas and New Year season instead.",
+      "cn": "错误：不看时间节点盲目接单。黑五的货需要提前4个月下单，9月再下单已经赶不上黑五了。应该诚实告知客户，并推荐下一个销售窗口（圣诞/新年）。"
+    }
+  ],
+  "expressions": {
+    "basic": [
+      {
+        "en": "Our standard lead time is 30 days for production.",
+        "cn": "我们的标准生产交期是30天。",
+        "tag": "标准交期"
+      },
+      {
+        "en": "In peak season, lead time can be longer than usual.",
+        "cn": "旺季交期可能比平时长。",
+        "tag": "旺季提醒"
+      },
+      {
+        "en": "Sea freight to Europe takes about 30 days.",
+        "cn": "到欧洲的海运大约需要30天。",
+        "tag": "海运时间"
+      },
+      {
+        "en": "We recommend placing your order as early as possible.",
+        "cn": "我们建议您尽早下单。",
+        "tag": "提前下单"
+      },
+      {
+        "en": "We can arrange partial shipment if needed.",
+        "cn": "如果需要，我们可以安排分批交货。",
+        "tag": "分批交货"
+      },
+      {
+        "en": "We will keep you updated on the production progress.",
+        "cn": "我们会随时向您更新生产进度。",
+        "tag": "进度更新"
+      }
+    ],
+    "advanced": [
+      {
+        "en": "Let's work backwards from your target in-store date — accounting for 35 days production, 7 days QC and consolidation, 30 days ocean freight, and 10 days customs clearance and warehousing, you should place the order by September 15th at the latest.",
+        "cn": "让我们从您的目标上架日期倒推——考虑35天生产、7天质检和拼柜、30天海运、10天清关和入仓，您最晚应该在9月15日前下单。",
+        "tag": "倒推式规划",
+        "from": "We recommend placing your order as early as possible."
+      },
+      {
+        "en": "Given the current port congestion and capacity constraints, I would strongly advise building a 10 to 15 day buffer into your planning — better to have stock early than to miss the holiday selling window.",
+        "cn": "考虑到当前的港口拥堵和舱位紧张，我强烈建议您在计划中预留10到15天的缓冲——早到货比错过假日销售窗口要好。",
+        "tag": "缓冲建议",
+        "from": "In peak season, lead time can be longer than usual."
+      },
+      {
+        "en": "We can offer a split delivery solution — 40 percent of the order ships by air express for your initial launch, and the remaining 60 percent goes by sea freight to replenish inventory, which balances speed and cost effectively.",
+        "cn": "我们可以提供分批发货方案——订单的40%通过空运快递发货用于您的初始上架，剩余60%走海运补充库存，这样能有效平衡速度和成本。",
+        "tag": "空运+海运组合",
+        "from": "We can arrange partial shipment if needed."
+      }
+    ]
+  },
+  "dialogues": [
+    {
+      "title": "场景A：客户9月询问能否赶上黑五",
+      "lines": [
+        {
+          "speaker": "client",
+          "en": "Hi Quinn, I need 20,000 Christmas marker sets for Black Friday. Can you deliver before November 20th?",
+          "cn": "Quinn你好，我需要2万套圣诞马克笔用于黑五。你能在11月20日前交货吗？"
+        },
+        {
+          "speaker": "you",
+          "en": "Thank you for the inquiry, but I have to be honest with you. For Black Friday on November 27th, the latest order date was mid-July. At this point, even with air freight, it would be very tight.",
+          "cn": "感谢您的询盘，但我必须诚实地告诉您。对于11月27日的黑五，最晚下单日期是7月中旬。到这个时候，即使空运也非常紧张。"
+        },
+        {
+          "speaker": "client",
+          "en": "That's disappointing. What's the earliest you can deliver then?",
+          "cn": "这太令人失望了。那你们最早什么时候能交货？"
+        },
+        {
+          "speaker": "you",
+          "en": "If you confirm the order this week, we can start production immediately. Estimated delivery to your warehouse would be around December 10th, which is perfect for the Christmas and New Year selling season. We can also reserve 5,000 sets from our buffer stock for immediate shipment if you need something right away.",
+          "cn": "如果您本周确认订单，我们可以立即开始生产。预计到达您仓库的时间大约是12月10日，这非常适合圣诞和新年销售季。如果您急需一些货，我们也可以从缓冲库存中预留5000套立即发货。"
+        },
+        {
+          "speaker": "client",
+          "en": "December 10th works for us. Can you guarantee that date?",
+          "cn": "12月10日对我们来说可以。你能保证这个日期吗？"
+        },
+        {
+          "speaker": "you",
+          "en": "Based on current factory schedules and shipping availability, December 10th is our target. However, I would recommend building in a one-week buffer for potential port congestion. We will send you weekly production updates and tracking information so you always know exactly where your order is.",
+          "cn": "根据当前的工厂排期和船期，12月10日是我们的目标。但是，我建议预留一周的缓冲时间以应对可能的港口拥堵。我们会每周向您发送生产更新和物流追踪信息，这样您总能准确知道您的订单在哪里。"
+        }
+      ]
+    },
+    {
+      "title": "场景B：客户要求分批交货缓解资金压力",
+      "lines": [
+        {
+          "speaker": "client",
+          "en": "Quinn, we want to order 30,000 highlighter sets, but paying for everything at once is difficult for our cash flow. Do you have any flexibility?",
+          "cn": "Quinn，我们想订3万套荧光笔，但一次性付款对我们的现金流来说有点困难。你们有什么灵活的方案吗？"
+        },
+        {
+          "speaker": "you",
+          "en": "Absolutely, we understand. We can arrange partial shipment in three batches — 10,000 sets in mid-October, 10,000 in early November, and the final 10,000 in late November. Each batch is invoiced separately, so you only pay for what ships.",
+          "cn": "当然，我们理解。我们可以安排分三批交货——10月中旬1万套，11月初1万套，最后1万套11月底。每批单独开票，这样您只需为已发货的部分付款。"
+        },
+        {
+          "speaker": "client",
+          "en": "That sounds good. But will the unit price be higher for partial shipments?",
+          "cn": "听起来不错。但是分批交货的单价会更高吗？"
+        },
+        {
+          "speaker": "you",
+          "en": "The unit price remains the same because we are producing all 30,000 sets in one production run. The only additional cost would be slightly higher per-unit shipping for smaller containers, but we can consolidate each batch with other orders going to your region to keep freight costs down.",
+          "cn": "单价保持不变，因为我们是一次性生产全部3万套。唯一的额外成本是小柜的单位运费可能略高，但我们可以把每批货和发往您地区的其他订单拼柜，以降低运费成本。"
+        },
+        {
+          "speaker": "client",
+          "en": "Excellent. Let's go with the three-batch plan. Can you send me the revised payment schedule?",
+          "cn": "太好了。我们就按三批方案来。你能把修改后的付款计划发给我吗？"
+        },
+        {
+          "speaker": "you",
+          "en": "I will send the updated proforma invoice within 24 hours. It will show 30 percent deposit to start production, then 70 percent against each batch's shipping documents. This way, your total cash outflow is spread over three months instead of one.",
+          "cn": "我会在24小时内发送更新后的形式发票。上面会显示30%定金开始生产，然后每批发货单据付款70%。这样您的总现金支出分散在三个月而不是一个月。"
+        }
+      ]
+    }
+  ],
+  "exercises": {
+    "fillBlank": [
+      {
+        "q": "The total lead time includes production, quality control, sea freight, and customs ____.",
+        "a": "clearance",
+        "hint": "清关。货物到达目的港后需要经过海关检查和放行。"
+      },
+      {
+        "q": "In peak season, we recommend building a 10 to 15 day ____ into your delivery schedule.",
+        "a": "buffer",
+        "hint": "缓冲。为应对可能的延误而预留的额外时间。"
+      },
+      {
+        "q": "If you cannot take delivery of the full order at once, we can arrange ____ shipment.",
+        "a": "partial",
+        "hint": "分批的。将订单分成多批分别交货。"
+      },
+      {
+        "q": "Sea freight from Ningbo to Hamburg takes about 28 to 34 days in ____ season.",
+        "a": "peak",
+        "hint": "旺季的。每年Q4是海运最繁忙的时期。"
+      },
+      {
+        "q": "We always keep a ____ stock of best-selling items for urgent orders.",
+        "a": "buffer",
+        "hint": "缓冲/安全。为应对紧急订单而常备的库存。"
+      }
+    ],
+    "scenario": [
+      {
+        "q": "Your UK client wants to order 15,000 Christmas marker sets on September 20th and insists they must be on shelves by December 1st for the holiday season. Calculate the total lead time and explain whether this is feasible, and propose an alternative if not.",
+        "modelAnswer": "Thank you for your order, but I need to be transparent about the timeline. Let's calculate: production takes 35 days (until October 25th), QC and consolidation 5 days (until October 30th), sea freight from Ningbo to Felixstowe 30-35 days (arriving around December 5th), plus customs clearance and delivery to your warehouse 7-10 days (around December 15th). This means December 1st is not achievable with sea freight. However, we have two options: first, we can ship 5,000 sets by air express (arriving in 7-10 days) for your initial launch, with the remaining 10,000 by sea. Second, we can deliver the full order by December 15th, which still gives you two weeks of peak holiday selling before Christmas. Which option works better for you?",
+        "cn": "感谢您的订单，但我需要对时间线保持透明。让我们计算一下：生产需要35天（到10月25日），质检和拼柜5天（到10月30日），从宁波到费利克斯托的海运30-35天（大约12月5日到达），加上清关和送货到您仓库7-10天（大约12月15日）。这意味着12月1日通过海运是无法实现的。但是，我们有两个选择：第一，我们可以空运5000套（7-10天到达）用于您的初始上架，剩余10000套走海运。第二，我们可以在12月15日前交付全部订单，这仍然给您圣诞节前两周的假日销售高峰期。哪个方案更适合您？"
+      },
+      {
+        "q": "A German client is worried about port congestion and asks if you can guarantee the delivery date. How do you respond professionally while managing expectations?",
+        "modelAnswer": "I appreciate your concern about port congestion — it is a valid consideration in peak season. While I cannot guarantee an exact date due to factors outside our control such as port operations and weather, I can guarantee that we will ship on the agreed date and provide you with full visibility throughout the journey. Here is what we will do: first, we will book the vessel 30 days in advance to secure space. Second, we will send you weekly production photos and tracking updates. Third, we will monitor the destination port situation and notify you immediately if any delays are expected. Finally, I strongly recommend building a 7 to 10 day buffer into your planning — this is standard practice for Q4 shipments. If timing is absolutely critical, we can discuss partial air freight for a portion of the order. Would you like me to prepare a detailed timeline with milestones for your review?",
+        "cn": "我理解您对港口拥堵的担忧——这在旺季是一个合理的考虑。虽然由于港口操作和天气等我们无法控制的因素，我不能保证确切的日期，但我可以保证我们会在约定日期发货，并在整个过程中为您提供完全的透明度。以下是我们将做的：第一，我们会提前30天订舱以确保舱位。第二，我们会每周向您发送生产照片和物流追踪更新。第三，我们会监控目的港情况，如果预计有任何延误会立即通知您。最后，我强烈建议在您的计划中预留7到10天的缓冲——这是Q4发货的标准做法。如果时间绝对关键，我们可以讨论部分订单空运。您需要我准备一份带有关键节点的详细时间表供您审阅吗？"
+      }
+    ]
+  },
+  "checklist": [
+    "我能解释旺季交期为什么比平时长（产能、舱位、港口拥堵）",
+    "我能计算完整交期（生产+质检+海运+清关+入仓）",
+    "我能用英语为客户制定倒推式备货时间表",
+    "我能诚实告知客户某个销售窗口是否还赶得上",
+    "我能提出分批交货方案缓解客户资金压力",
+    "我能在交期紧张时管理客户预期而不失去信任",
+    "我能解释缓冲库存的作用并利用它促成紧急订单",
+    "我能提出空运+海运组合方案平衡速度和成本"
+  ],
+  "culture": {
+    "title": "欧美零售商的采购节奏与文化差异",
+    "content": "理解欧美客户的采购节奏是旺季拿单的关键。欧洲和美国的零售商有非常固定的年度采购日历，不是你想什么时候卖就什么时候下单的。\n\n**黑五（Black Friday，11月最后一个周五）**：这是欧美全年最大的购物日。大型零售商如Walmart、Target、Amazon的黑五商品，通常在**6-7月**就已经完成采购，8-9月生产，10月海运，11月初入仓。9月再问黑五的货，基本已经来不及了。\n\n**圣诞节（Christmas，12月25日）**：圣诞礼品的采购窗口比黑五稍晚，**7-8月**下单，9-10月生产，11月海运，12月初入仓。11月下单只能赶新年了。\n\n**新年返校季（Back to School，1-2月）**：这是文具品类的另一个高峰。美国的返校季采购通常在前一年的**10-11月**完成，欧洲稍晚，12月-1月。\n\n**文化差异要点**：\n1. **欧美客户重视计划性**：他们喜欢提前规划，不喜欢临时抱佛脚。如果你能主动提醒客户\"现在该为圣诞备货了\"，会显得非常专业。\n2. **德国客户尤其严谨**：他们会要求详细的时间表、每个节点的确认，甚至会来工厂验货。不要给模糊的交期，要给精确到周的计划。\n3. **美国客户看重速度**：他们可能愿意为更快的交货付更多钱。空运+海运组合方案对美国客户特别有吸引力。\n4. **不要怕说\"来不及\"**：中国业务员常怕拒绝客户，但欧美客户更尊重诚实。明确告诉客户\"黑五赶不上了，但圣诞可以\"，比承诺一个做不到的交期然后失约要好得多。\n5. **主动提供备货建议**：在8-9月主动给老客户发邮件，附上根据他们去年销量制定的备货建议，这是拿下大订单的有效策略。"
+  },
+  "aiPractice": {
+    "situation": "你是温州新时代文具的外贸业务员Quinn。一位英国大型文具连锁采购经理David主动联系你，想要订购25,000套圣诞主题马克笔套装。他希望货物能在12月1日前上架销售，但现在已经是9月下旬了。你需要诚实地评估交期可行性，管理客户预期，并提出替代方案（分批交货、空运+海运组合、缓冲库存等），最终促成这个订单。",
+    "role": "David Wilson，英国Paperchase文具连锁采购经理，负责圣诞季礼品采购，时间敏感但愿意听专业建议。",
+    "rounds": [
+      {
+        "ai": "Hello Quinn, thanks for taking my call. We need 25,000 Christmas marker sets and they absolutely must be on our shelves by December 1st. Can you make this happen?",
+        "cn": "Quinn你好，感谢接我的电话。我们需要25,000套圣诞马克笔套装，而且必须在12月1日前上架。你能做到吗？",
+        "hint": "先计算完整交期，诚实评估12月1日是否可行，不要盲目承诺。",
+        "patterns": "/(december|lead time|production|sea freight|shipping|deliver)/i",
+        "partial": "/(time|date|schedule|plan)/i"
+      },
+      {
+        "ai": "I see. So December 1st is not possible with standard sea freight. That is quite frustrating. What options do we have then? We really need these for the holiday season.",
+        "cn": "我明白了。所以标准海运12月1日是不可能的。这太令人沮丧了。那我们有什么选择？我们真的需要这些货用于假日季。",
+        "hint": "提出至少两个替代方案：1）空运部分+海运部分；2）推迟到12月中旬；3）利用缓冲库存。",
+        "patterns": "/(air|sea|partial|buffer|stock|december|january|option|alternative)/i",
+        "partial": "/(ship|deliver|order|quantity)/i"
+      },
+      {
+        "ai": "The air freight option sounds interesting but it is quite expensive. Can you give me a cost comparison between full sea freight, full air freight, and the mixed option? Also, what is your buffer stock situation?",
+        "cn": "空运方案听起来不错但相当贵。你能给我一个全海运、全空运和混合方案的成本对比吗？另外，你们的缓冲库存情况如何？",
+        "hint": "给出具体的成本对比数字，说明缓冲库存的数量和可以立即发货的时间。",
+        "patterns": "/(cost|price|compare|buffer|stock|quantity|immediate|ready)/i",
+        "partial": "/(percent|dollar|usd|cheaper|expensive)/i"
+      },
+      {
+        "ai": "Okay, let us say we go with the mixed option — 8,000 sets from buffer stock by air, and 17,000 sets by sea. When exactly will each batch arrive, and what is the payment schedule?",
+        "cn": "好的，假设我们选择混合方案——8000套缓冲库存空运，17000套海运。每批具体什么时候到达？付款计划是怎样的？",
+        "hint": "给出精确的到货日期（考虑清关和入仓时间），说明分批付款的安排。",
+        "patterns": "/(arrive|date|october|november|december|payment|deposit|balance|document)/i",
+        "partial": "/(batch|shipment|percent|week)/i"
+      },
+      {
+        "ai": "That works for us. One last thing — how will you keep us updated on the sea freight shipment? We have had suppliers disappear after shipping before, and we want to make sure we know where our goods are at all times.",
+        "cn": "这对我们来说可以。最后一件事——你们会如何让我们了解海运货物的进度？我们以前遇到过供应商发货后就失联的情况，我们希望确保随时知道货物在哪里。",
+        "hint": "说明你的沟通机制：每周更新、生产照片、物流追踪、目的港监控，建立信任。",
+        "patterns": "/(update|weekly|tracking|photo|progress|monitor|communicate|trust|report)/i",
+        "partial": "/(every|week|send|notify|inform)/i"
+      }
+    ]
+  }
+}
