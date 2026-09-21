@@ -1,0 +1,33 @@
+{
+  "brand": "Play Speak",
+  "tagline": "Learn to speak the language of kindergarten & playground foreign trade.",
+  "updated": "2026-09-21",
+  "courses": [
+    {"id":"industry-overview","num":"01","title":"教玩具行业与产品全景","titleEn":"Teaching Toy Industry & Product Landscape","scene":"行业入门","level":"入门","duration":"25 min","color":"#3d5a45","emoji":"🏫","desc":"认识教玩具三大产品线，掌握行业核心术语，理解项目制外贸和标准品外贸的区别。"},
+    {"id":"wood-material","num":"02","title":"实木家具材质与工艺术语","titleEn":"Solid Wood Materials & Craft Terms","scene":"产品认知","level":"入门","duration":"28 min","color":"#8b6f47","emoji":"🪵","desc":"掌握教玩具常用木材、表面处理、安全工艺的英语表达。"},
+    {"id":"outdoor-playground","num":"03","title":"户外游乐设备基础","titleEn":"Outdoor Playground Equipment Basics","scene":"产品认知","level":"入门","duration":"30 min","color":"#2d6a8f","emoji":"🛝","desc":"掌握户外游乐设备的产品词汇、材质和非标定制概念。"},
+    {"id":"learning-zones","num":"04","title":"幼儿园功能区设计术语","titleEn":"Kindergarten Learning Zones Design","scene":"产品认知","level":"入门","duration":"26 min","color":"#b08a4f","emoji":"🎨","desc":"掌握功能区设计的英语术语，能和客户讨论空间规划方案。"},
+    {"id":"en71","num":"05","title":"EN71玩具安全标准详解","titleEn":"EN71 Toy Safety Standard Explained","scene":"认证合规","level":"进阶","duration":"32 min","color":"#c2410c","emoji":"🛡️","desc":"掌握EN71标准的核心内容和英语沟通表达。"},
+    {"id":"en1176","num":"06","title":"EN1176户外游乐安全标准","titleEn":"EN1176 Outdoor Playground Safety Standard","scene":"认证合规","level":"高级","duration":"35 min","color":"#1e5f8f","emoji":"🎢","desc":"掌握EN1176核心概念和英语沟通。"},
+    {"id":"ce-tuv","num":"07","title":"CE认证与TUV测试报告","titleEn":"CE Marking & TUV Test Reports","scene":"认证合规","level":"进阶","duration":"30 min","color":"#7a3e8f","emoji":"📋","desc":"掌握CE流程和文件沟通。"},
+    {"id":"wood-cert","num":"08","title":"木材环保认证（FSC/E0/甲醛）","titleEn":"Wood Eco Certification: FSC / E0 / Formaldehyde","scene":"认证合规","level":"进阶","duration":"28 min","color":"#4a7c59","emoji":"🌳","desc":"掌握木材环保认证和英语沟通。"},
+    {"id":"project-inquiry","num":"09","title":"整园项目询盘回复","titleEn":"Replying to Full-Kindergarten Project Inquiries","scene":"商务谈判","level":"进阶","duration":"32 min","color":"#c2410c","emoji":"📩","desc":"掌握整园项目询盘的专业回复流程和英语表达。"},
+    {"id":"custom-design","num":"10","title":"非标定制方案沟通","titleEn":"Custom Design: From Renderings to CAD Drawings","scene":"商务谈判","level":"高级","duration":"35 min","color":"#8b4a6f","emoji":"✏️","desc":"掌握非标定制全流程的英语表达。"},
+    {"id":"quotation-moq","num":"11","title":"项目报价与MOQ谈判","titleEn":"Project Quotation & MOQ Negotiation","scene":"商务谈判","level":"进阶","duration":"30 min","color":"#b08a4f","emoji":"💰","desc":"掌握项目报价和MOQ谈判的英语表达。"},
+    {"id":"payment-contract","num":"12","title":"付款方式与合同条款","titleEn":"Payment Terms & Contract Clauses","scene":"商务谈判","level":"进阶","duration":"30 min","color":"#5a6f8f","emoji":"📑","desc":"掌握付款方式和合同条款的英语表达。"},
+    {"id":"production-lead","num":"13","title":"生产排期与交期管理","titleEn":"Production Schedule & Lead Time Management","scene":"生产物流","level":"进阶","duration":"28 min","color":"#c2410c","emoji":"🏭","desc":"掌握生产排期和交期沟通的英语表达。"},
+    {"id":"packaging-shipping","num":"14","title":"大件包装与整柜拼柜","titleEn":"Bulk Packaging, FCL & LCL Shipping","scene":"生产物流","level":"高级","duration":"32 min","color":"#2d6a8f","emoji":"📦","desc":"掌握大件包装、熏蒸、整柜拼柜的英语表达。"},
+    {"id":"installation","num":"15","title":"现场安装指导英语","titleEn":"On-Site Installation Guidance","scene":"生产物流","level":"进阶","duration":"30 min","color":"#4a7c59","emoji":"🔧","desc":"掌握现场安装指导的英语表达。"},
+    {"id":"after-sales","num":"16","title":"售后与质量问题处理","titleEn":"After-Sales & Quality Issue Handling","scene":"生产物流","level":"高级","duration":"30 min","color":"#8f3e3e","emoji":"🔄","desc":"掌握售后和质量问题处理的英语表达。"},
+    {"id":"customer-dev","num":"17","title":"海外客户开发","titleEn":"Overseas Customer Development","scene":"市场拓展","level":"进阶","duration":"30 min","color":"#3d5a8f","emoji":"🌍","desc":"掌握教玩具客户开发的英语表达。"},
+    {"id":"market-culture","num":"18","title":"市场文化差异","titleEn":"Market Cultural Differences: EU / Middle East / SEA","scene":"市场拓展","level":"高级","duration":"32 min","color":"#7a3e8f","emoji":"🕌","desc":"掌握不同市场的文化差异和沟通策略。"},
+    {"id":"exhibition","num":"19","title":"展会接待英语","titleEn":"Exhibition Reception: GESS / Canton Fair","scene":"市场拓展","level":"进阶","duration":"28 min","color":"#c2410c","emoji":"🎪","desc":"掌握展会接待的英语表达。"},
+    {"id":"pet-business","num":"20","title":"宠物用品新赛道初探","titleEn":"Pet Supplies Business: New Track Exploration","scene":"新赛道","level":"入门","duration":"25 min","color":"#b06a4f","emoji":"🐾","desc":"了解宠物用品赛道的英语表达。"}
+  ],
+  "podcasts": [
+    {"id":"podcast-01","num":"01","title":"欢迎来到 Play Speak","titleEn":"Welcome to Play Speak","desc":"Emma 和 James 聊新品牌 Play Speak 的定位——从马克笔外贸到教玩具/幼儿园家具赛道的转型故事。"},
+    {"id":"podcast-02","num":"02","title":"从马克笔到幼儿园家具","titleEn":"From Markers to Kindergarten Furniture","desc":"聊聊外贸人转型赛道的真实感受——为什么从教玩具切入比文具更有想象空间。"},
+    {"id":"podcast-03","num":"03","title":"EN71 还是 EN1176？","titleEn":"EN71 or EN1176? The Safety Standards You Must Know","desc":"搞清楚两个最常被问的认证——别再用玩具标准糊弄户外客户了。"},
+    {"id":"podcast-04","num":"04","title":"整园项目报价全过程","titleEn":"Pricing a Whole-Kindergarten Project, Step by Step","desc":"从询盘到 20 万美金订单的完整英语流程——问什么、怎么报、怎么跟进。"}
+  ]
+}
