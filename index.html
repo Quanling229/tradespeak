@@ -80,8 +80,55 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hira
 .ai-hint.show{display:block}
 .small-note{font-size:12px;color:#8a7a64;text-align:center;padding:20px}
 .loading{text-align:center;padding:40px;color:#8a7a64}
+.badge{display:inline-block;font-size:10px;padding:2px 6px;border-radius:4px;margin-left:4px}
+.badge.basic{background:#e0ede0;color:#4a7c59}
+.badge.adv{background:#fdf4e3;color:#b08a4f}
 .footer{text-align:center;padding:30px 20px;font-size:12px;color:#8a7a64}
 @media(max-width:600px){.header h1{font-size:22px}.grid{grid-template-columns:1fr}.container{padding:10px}}
+.tools-subtabs{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.tools-subtab{padding:8px 16px;border-radius:20px;background:#fff;border:1px solid #e8e0d4;font-size:13px;font-weight:600;color:#8a7a64;cursor:pointer;transition:all .2s}
+.tools-subtab.active{background:#4a7c59;color:#fff;border-color:#4a7c59}
+.task-section{background:#fff;border-radius:12px;padding:16px;margin-bottom:12px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.task-section h4{font-size:14px;color:#4a7c59;margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.task-section .time-tag{font-size:11px;color:#8a7a64;font-weight:400}
+.task-item{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid #f5f0e6;font-size:13px}
+.task-item:last-child{border-bottom:none}
+.task-item input[type=checkbox]{width:18px;height:18px;margin-top:2px;accent-color:#4a7c59;cursor:pointer}
+.task-item.done span{text-decoration:line-through;color:#b0a090}
+.task-progress{text-align:center;font-size:12px;color:#8a7a64;margin-top:10px;padding-top:10px;border-top:1px solid #f5f0e6}
+.task-progress b{color:#4a7c59;font-size:14px}
+.reset-btn{background:none;border:1px solid #d4c8b0;color:#8a7a64;padding:4px 12px;border-radius:6px;font-size:11px;cursor:pointer;margin-left:auto}
+.skill-card{background:#fff;border-radius:12px;padding:16px;margin-bottom:12px;box-shadow:0 2px 8px rgba(0,0,0,.06);border-left:4px solid var(--sc,#4a7c59)}
+.skill-card .code{font-size:20px;font-weight:800;color:var(--sc,#4a7c59)}
+.skill-card .full{font-size:12px;color:#8a7a64;font-style:italic;margin-bottom:8px}
+.skill-card .meaning{font-size:13px;color:#5a4a38;margin-bottom:8px}
+.skill-card .meta-row{font-size:12px;color:#8a7a64;margin-bottom:4px}
+.skill-card .meta-row b{color:#4a7c59}
+.skill-card .scenario{background:#faf7f2;padding:8px 10px;border-radius:6px;font-size:12px;color:#5a4a38;margin-top:8px}
+.skill-card .example{font-size:12px;color:#4a7c59;font-style:italic;margin-top:6px}
+.risk-badge{display:inline-block;font-size:10px;padding:2px 8px;border-radius:8px;font-weight:600}
+.risk-low{background:#d4edda;color:#155724}
+.risk-mid{background:#fff3cd;color:#856404}
+.risk-high{background:#f8d7da;color:#721c24}
+.email-card{background:#fff;border-radius:12px;padding:16px;margin-bottom:12px;box-shadow:0 2px 8px rgba(0,0,0,.06);cursor:pointer;transition:transform .15s}
+.email-card:hover{transform:translateY(-2px);box-shadow:0 4px 14px rgba(0,0,0,.1)}
+.email-card .num{font-size:11px;font-weight:700;color:#fff;background:#3d5a8f;padding:2px 8px;border-radius:10px;display:inline-block;margin-bottom:8px}
+.email-card h3{font-size:15px;font-weight:700;color:#2c2418;margin-bottom:4px}
+.email-card .scenario{font-size:12px;color:#8a7a64;margin-bottom:8px}
+.email-detail{background:#fff;border-radius:12px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,.06);display:none}
+.email-detail.active{display:block}
+.email-detail .subject{background:#eef5ee;padding:10px;border-radius:8px;margin-bottom:12px;font-size:13px}
+.email-detail .subject b{color:#4a7c59}
+.email-detail pre{white-space:pre-wrap;font-family:inherit;font-size:13px;line-height:1.7;color:#2c2418;background:#faf7f2;padding:14px;border-radius:8px;margin-bottom:12px}
+.email-detail .cn{font-size:12px;color:#8a7a64;padding:10px;background:#fdf4e3;border-radius:8px;margin-bottom:10px}
+.email-detail .tips{font-size:12px;color:#4a7c59;padding:10px;background:#eef5ee;border-radius:8px}
+.copy-btn{background:#4a7c59;color:#fff;border:none;border-radius:6px;padding:8px 16px;font-size:13px;cursor:pointer;margin-bottom:12px}
+.copy-btn:active{background:#3a6647}
+.copied-msg{color:#4a7c59;font-size:12px;margin-left:10px;display:none}
+.cost-item{padding:10px;background:#faf7f2;border-radius:8px;margin-bottom:8px}
+.cost-item .item-name{font-weight:700;font-size:13px;color:#2c2418;margin-bottom:4px}
+.cost-item .item-cn{font-size:12px;color:#8a7a64;margin-bottom:4px}
+.cost-item .item-formula{font-size:12px;color:#4a7c59;font-style:italic}
 </style>
 </head>
 <body>
@@ -93,6 +140,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hira
 <div class="tab active" data-panel="learn"><span class="emoji">🏫</span>业务场景</div>
 <div class="tab" data-panel="podcast"><span class="emoji">🎧</span>播客磨耳朵</div>
 <div class="tab" data-panel="ai"><span class="emoji">🤖</span>AI陪练</div>
+<div class="tab" data-panel="tools"><span class="emoji">🛠️</span>基本功</div>
 </div>
 <div class="container">
 <div class="panel active" id="panel-learn">
@@ -122,12 +170,49 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hira
 </div>
 </div>
 </div>
+<div class="panel" id="panel-tools">
+<div class="section-title">🛠️ 外贸新人基本功工作台</div>
+<div class="tools-subtabs">
+<div class="tools-subtab active" data-sub="daily">📋 每日工作台</div>
+<div class="tools-subtab" data-sub="skills">📐 硬技能速查</div>
+<div class="tools-subtab" data-sub="email">✉️ 邮件模板库</div>
+</div>
+<div id="tools-daily" class="tools-subpanel">
+<div class="task-section">
+<h4>🌅 上午：处理成交事项 <span class="time-tag">9:00-12:00</span><button class="reset-btn" onclick="resetTasks('morning')">重置</button></h4>
+<div id="tasks-morning"></div>
+</div>
+<div class="task-section">
+<h4>☀️ 下午：开发新客户+学习 <span class="time-tag">13:00-17:00</span><button class="reset-btn" onclick="resetTasks('afternoon')">重置</button></h4>
+<div id="tasks-afternoon"></div>
+</div>
+<div class="task-section">
+<h4>🌙 晚上：黄金时间+复盘 <span class="time-tag">20:00-23:00</span><button class="reset-btn" onclick="resetTasks('evening')">重置</button></h4>
+<div id="tasks-evening"></div>
+</div>
+<div class="task-progress">今日完成进度：<b id="task-progress-text">0/0</b> 项 <button class="reset-btn" onclick="resetAllTasks()" style="margin-left:10px">全部重置</button></div>
+</div>
+<div id="tools-skills" class="tools-subpanel" style="display:none">
+<div class="tools-subtabs" style="margin-bottom:12px">
+<div class="tools-subtab skill-cat active" data-cat="trade">📦 贸易术语</div>
+<div class="tools-subtab skill-cat" data-cat="payment">💰 付款方式</div>
+<div class="tools-subtab skill-cat" data-cat="docs">📄 单证清单</div>
+<div class="tools-subtab skill-cat" data-cat="cost">🧮 报价费用</div>
+</div>
+<div id="skills-content"><div class="loading">Loading...</div></div>
+</div>
+<div id="tools-email" class="tools-subpanel" style="display:none">
+<div id="email-list"><div class="loading">Loading templates...</div></div>
+<div id="email-detail" class="email-detail"></div>
+</div>
+</div>
 </div>
 <div class="footer">© Play Speak · Built for Quinn · Kindergarten &amp; Playground Foreign Trade English</div>
 <script>
 var COURSES=[], PODCASTS=[];
 var BASE = 'https://Quanling229.github.io/tradespeak/';
-var aiState = {round:0, course:null, recognition:null};
+var currentCourse = null;
+var aiState = {round:0, course:null, speaking:false, recognition:null};
 var ALL_VOICES = [];
 function refreshVoices(){
   if(!('speechSynthesis' in window)) return;
@@ -514,6 +599,199 @@ if('webkitSpeechRecognition' in window || 'SpeechRecognition' in window){
   micBtn.style.display = 'none';
 }
 loadMaster();
+initToolsPanel();
+var SKILLS_DATA = null;
+var EMAIL_DATA = null;
+var DAILY_TASKS = {morning: [], afternoon: [], evening: []};
+function initToolsPanel(){
+  document.querySelectorAll('.tools-subtab[data-sub]').forEach(function(t){
+    t.addEventListener('click', function(){
+      document.querySelectorAll('.tools-subtab[data-sub]').forEach(function(x){x.classList.remove('active');});
+      document.querySelectorAll('.tools-subpanel').forEach(function(x){x.style.display='none';});
+      t.classList.add('active');
+      document.getElementById('tools-'+t.dataset.sub).style.display='block';
+      if(t.dataset.sub==='skills' && !SKILLS_DATA){loadSkills();}
+      if(t.dataset.sub==='email' && !EMAIL_DATA){loadEmails();}
+    });
+  });
+  document.querySelectorAll('.skill-cat').forEach(function(t){
+    t.addEventListener('click', function(){
+      document.querySelectorAll('.skill-cat').forEach(function(x){x.classList.remove('active');});
+      t.classList.add('active');
+      renderSkillCategory(t.dataset.cat);
+    });
+  });
+  loadDailyTasks();
+}
+function loadDailyTasks(){
+  fetch(BASE+'ps-skills.json?_='+Date.now())
+    .then(function(r){return r.json();})
+    .then(function(data){
+      DAILY_TASKS.morning = data.dailyRoutine.morning.tasks;
+      DAILY_TASKS.afternoon = data.dailyRoutine.afternoon.tasks;
+      DAILY_TASKS.evening = data.dailyRoutine.evening.tasks;
+      renderDailyTasks();
+    })
+    .catch(function(e){
+      document.getElementById('tasks-morning').innerHTML='<div class="small-note">Failed to load tasks.</div>';
+    });
+}
+function getTaskKey(period, idx){return 'playspeak_task_'+period+'_'+idx;}
+function renderDailyTasks(){
+  ['morning','afternoon','evening'].forEach(function(period){
+    var container = document.getElementById('tasks-'+period);
+    var html = '';
+    DAILY_TASKS[period].forEach(function(task, idx){
+      var done = localStorage.getItem(getTaskKey(period, idx)) === '1';
+      html += '<div class="task-item'+(done?' done':'')+'">'+
+        '<input type="checkbox" data-period="'+period+'" data-idx="'+idx+'"'+(done?' checked':'')+'>'+
+        '<span>'+task+'</span></div>';
+    });
+    container.innerHTML = html;
+    container.querySelectorAll('input[type=checkbox]').forEach(function(cb){
+      cb.addEventListener('change', function(){
+        var period = cb.dataset.period;
+        var idx = cb.dataset.idx;
+        localStorage.setItem(getTaskKey(period, idx), cb.checked?'1':'0');
+        cb.parentElement.classList.toggle('done', cb.checked);
+        updateTaskProgress();
+      });
+    });
+  });
+  updateTaskProgress();
+}
+function updateTaskProgress(){
+  var total = DAILY_TASKS.morning.length + DAILY_TASKS.afternoon.length + DAILY_TASKS.evening.length;
+  var done = 0;
+  ['morning','afternoon','evening'].forEach(function(period){
+    DAILY_TASKS[period].forEach(function(_, idx){
+      if(localStorage.getItem(getTaskKey(period, idx)) === '1') done++;
+    });
+  });
+  document.getElementById('task-progress-text').textContent = done+'/'+total;
+}
+function resetTasks(period){
+  DAILY_TASKS[period].forEach(function(_, idx){localStorage.removeItem(getTaskKey(period, idx));});
+  renderDailyTasks();
+}
+function resetAllTasks(){
+  ['morning','afternoon','evening'].forEach(function(period){
+    DAILY_TASKS[period].forEach(function(_, idx){localStorage.removeItem(getTaskKey(period, idx));});
+  });
+  renderDailyTasks();
+}
+function loadSkills(){
+  fetch(BASE+'ps-skills.json?_='+Date.now())
+    .then(function(r){return r.json();})
+    .then(function(data){SKILLS_DATA = data; renderSkillCategory('trade');})
+    .catch(function(e){document.getElementById('skills-content').innerHTML='<div class="small-note">Failed to load. Please refresh.</div>';});
+}
+function renderSkillCategory(cat){
+  if(!SKILLS_DATA) return;
+  var container = document.getElementById('skills-content');
+  var html = '';
+  if(cat==='trade'){
+    SKILLS_DATA.tradeTerms.forEach(function(t){
+      html += '<div class="skill-card" style="--sc:#4a7c59">'+
+        '<div class="code">'+t.code+'</div>'+
+        '<div class="full">'+t.full+' · '+t.cn+'</div>'+
+        '<div class="meaning">'+t.meaning+'</div>'+
+        '<div class="meta-row"><b>风险转移：</b>'+t.riskTransfer+'</div>'+
+        '<div class="meta-row"><b>费用划分：</b>'+t.costSplit+'</div>'+
+        '<div class="scenario"><b>教玩具场景：</b>'+t.scenario+'</div>'+
+        '<div class="example">📌 '+t.example+'</div></div>';
+    });
+  } else if(cat==='payment'){
+    SKILLS_DATA.paymentTerms.forEach(function(p){
+      var riskClass = p.risk.indexOf('低')===0?'risk-low':(p.risk.indexOf('中高')===0||p.risk.indexOf('高')===0?'risk-high':'risk-mid');
+      html += '<div class="skill-card" style="--sc:#b08a4f">'+
+        '<div class="code">'+p.code+' <span class="risk-badge '+riskClass+'">'+p.risk+'</span></div>'+
+        '<div class="full">'+p.full+' · '+p.cn+'</div>'+
+        '<div class="meaning">'+p.meaning+'</div>'+
+        '<div class="scenario"><b>教玩具场景：</b>'+p.scenario+'</div>'+
+        '<div class="example">📌 '+p.example+'</div></div>';
+    });
+  } else if(cat==='docs'){
+    SKILLS_DATA.documents.forEach(function(d){
+      html += '<div class="skill-card" style="--sc:#3d5a8f">'+
+        '<div class="code">'+d.code+'</div>'+
+        '<div class="full">'+d.full+' · '+d.cn+'</div>'+
+        '<div class="meta-row"><b>出具方：</b>'+d.issuer+'</div>'+
+        '<div class="meaning">'+d.purpose+'</div>'+
+        '<div class="scenario"><b>教玩具场景：</b>'+d.scenario+'</div>'+
+        '<div class="meta-row" style="margin-top:8px"><b>必须包含：</b>'+d.mustInclude+'</div></div>';
+    });
+  } else if(cat==='cost'){
+    SKILLS_DATA.quoteCostItems.forEach(function(c){
+      html += '<div class="cost-item">'+
+        '<div class="item-name">'+c.item+'</div>'+
+        '<div class="item-cn">'+c.cn+'</div>'+
+        '<div class="item-formula">💡 '+c.formula+'</div></div>';
+    });
+  }
+  container.innerHTML = html;
+}
+function loadEmails(){
+  fetch(BASE+'ps-email-templates.json?_='+Date.now())
+    .then(function(r){return r.json();})
+    .then(function(data){EMAIL_DATA = data; renderEmailList();})
+    .catch(function(e){document.getElementById('email-list').innerHTML='<div class="small-note">Failed to load. Please refresh.</div>';});
+}
+function renderEmailList(){
+  var container = document.getElementById('email-list');
+  var html = '';
+  EMAIL_DATA.templates.forEach(function(t, idx){
+    html += '<div class="email-card" data-idx="'+idx+'">'+
+      '<span class="num">'+t.id.toUpperCase()+'</span>'+
+      '<h3>'+t.title+'</h3>'+
+      '<div class="scenario">'+t.scenario+'</div></div>';
+  });
+  container.innerHTML = html;
+  container.querySelectorAll('.email-card').forEach(function(card){
+    card.addEventListener('click', function(){showEmailDetail(parseInt(card.dataset.idx));});
+  });
+}
+function showEmailDetail(idx){
+  var t = EMAIL_DATA.templates[idx];
+  var container = document.getElementById('email-detail');
+  var html = '<button class="back-btn" onclick="backToEmailList()">← 返回模板列表</button>';
+  html += '<h2 style="font-size:18px;color:#3d5a8f;margin-bottom:4px">'+t.title+'</h2>';
+  html += '<p style="font-size:13px;color:#8a7a64;margin-bottom:12px">'+t.scenario+'</p>';
+  html += '<button class="copy-btn" onclick="copyEmail(this)">📋 一键复制邮件正文</button><span class="copied-msg">✅ 已复制到剪贴板！</span>';
+  html += '<div class="subject"><b>Subject:</b> '+t.subject+'</div>';
+  html += '<pre class="email-body">'+t.body+'</pre>';
+  html += '<div class="cn"><b>📝 中文说明：</b>'+t.cn+'</div>';
+  html += '<div class="tips"><b>💡 使用技巧：</b>'+t.tips+'</div>';
+  container.innerHTML = html;
+  container.classList.add('active');
+  document.getElementById('email-list').style.display='none';
+  window.scrollTo(0,0);
+}
+function backToEmailList(){
+  document.getElementById('email-detail').classList.remove('active');
+  document.getElementById('email-detail').innerHTML='';
+  document.getElementById('email-list').style.display='block';
+}
+function copyEmail(btn){
+  var body = btn.parentElement.querySelector('.email-body').textContent;
+  var subject = btn.parentElement.querySelector('.subject').textContent.replace('Subject: ','');
+  var fullText = 'Subject: '+subject+'\n\n'+body;
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(fullText).then(function(){
+      btn.nextElementSibling.style.display='inline';
+      setTimeout(function(){btn.nextElementSibling.style.display='none';},2000);
+    });
+  } else {
+    var ta = document.createElement('textarea');
+    ta.value = fullText;
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    btn.nextElementSibling.style.display='inline';
+    setTimeout(function(){btn.nextElementSibling.style.display='none';},2000);
+  }
+}
 </script>
 </body>
 </html>
