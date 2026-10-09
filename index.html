@@ -129,6 +129,53 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hira
 .cost-item .item-name{font-weight:700;font-size:13px;color:#2c2418;margin-bottom:4px}
 .cost-item .item-cn{font-size:12px;color:#8a7a64;margin-bottom:4px}
 .cost-item .item-formula{font-size:12px;color:#4a7c59;font-style:italic}
+.level-progress{display:flex;align-items:center;gap:6px;margin-bottom:20px;padding:12px 16px;background:#fff;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.level-dot{width:28px;height:28px;border-radius:50%;background:#e8e0d4;color:#8a7a64;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .3s}
+.level-dot.active{background:#4a7c59;color:#fff;transform:scale(1.15)}
+.level-dot.done{background:#4a7c59;color:#fff}
+.level-dot.done::after{content:"✓"}
+.level-dot.done span{display:none}
+.level-line{flex:1;height:3px;background:#e8e0d4;border-radius:2px;position:relative;overflow:hidden}
+.level-line.filled::after{content:"";position:absolute;left:0;top:0;height:100%;width:100%;background:#4a7c59;animation:fillLine .5s ease}
+@keyframes fillLine{from{width:0}to{width:100%}}
+.level-title{text-align:center;margin-bottom:16px}
+.level-title .step-num{font-size:12px;color:#8a7a64;font-weight:600;letter-spacing:1px}
+.level-title h3{font-size:22px;color:#4a7c59;margin:4px 0}
+.level-title .step-desc{font-size:13px;color:#8a7a64}
+.level-content{background:#fff;border-radius:12px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,.06);min-height:300px;margin-bottom:16px}
+.level-nav{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.level-nav button{padding:10px 24px;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;transition:all .2s}
+.btn-prev{background:#f5f0e6;color:#8a7a64}
+.btn-prev:hover{background:#e8e0d4}
+.btn-next{background:#4a7c59;color:#fff}
+.btn-next:hover{background:#3a6647}
+.btn-next:disabled{background:#c8d4cc;cursor:not-allowed}
+.btn-finish{background:linear-gradient(135deg,#d4a843,#b08a4f);color:#fff}
+.vocab-learn-item{padding:14px;background:#faf7f2;border-radius:10px;margin-bottom:10px;border:2px solid transparent;transition:all .2s;cursor:pointer}
+.vocab-learn-item.learned{border-color:#4a7c59;background:#eef5ee}
+.vocab-learn-item .vl-head{display:flex;align-items:center;gap:10px}
+.vocab-learn-item .check-circle{width:22px;height:22px;border-radius:50%;border:2px solid #d4c8b0;display:flex;align-items:center;justify-content:center;font-size:12px;color:transparent;flex-shrink:0}
+.vocab-learn-item.learned .check-circle{background:#4a7c59;border-color:#4a7c59;color:#fff}
+.vocab-learn-item .word{font-weight:700;font-size:16px;color:#2c2418}
+.vocab-learn-item .ipa{font-size:12px;color:#8a7a64}
+.vocab-learn-item .vl-detail{margin-top:8px;padding-top:8px;border-top:1px solid #e8e0d4;display:none}
+.vocab-learn-item.open .vl-detail{display:block}
+.vocab-learn-item .vl-ex{font-size:13px;color:#5a4a38;font-style:italic}
+.vocab-learn-item .vl-cn{font-size:12px;color:#8a7a64;margin-top:4px}
+.trade-knowledge-card{background:linear-gradient(135deg,#eef5ee,#f0f4f9);border-radius:12px;padding:18px;margin-bottom:12px;border-left:4px solid #3d5a8f}
+.trade-knowledge-card .tk-label{font-size:11px;font-weight:700;color:#3d5a8f;background:#fff;padding:3px 10px;border-radius:10px;display:inline-block;margin-bottom:8px}
+.trade-knowledge-card h4{font-size:16px;color:#2c2418;margin-bottom:6px}
+.trade-knowledge-card .tk-en{font-size:14px;color:#4a7c59;font-weight:600;margin-bottom:4px}
+.trade-knowledge-card .tk-cn{font-size:13px;color:#5a4a38;margin-bottom:8px}
+.trade-knowledge-card .tk-scenario{font-size:12px;color:#8a7a64;background:#fff;padding:8px 10px;border-radius:6px}
+.completion-badge{text-align:center;padding:30px 20px;background:linear-gradient(135deg,#4a7c59,#6b9b7a);border-radius:16px;color:#fff;margin-bottom:16px}
+.completion-badge .trophy{font-size:48px;margin-bottom:10px}
+.completion-badge h3{font-size:24px;margin-bottom:6px}
+.completion-badge p{font-size:14px;opacity:.9}
+.checklist-item{display:flex;align-items:center;gap:10px;padding:8px 0;font-size:14px;border-bottom:1px solid #f5f0e6}
+.checklist-item:last-child{border-bottom:none}
+.checklist-item input{width:18px;height:18px;accent-color:#4a7c59}
+.checklist-item.checked span{text-decoration:line-through;color:#b0a090}
 </style>
 </head>
 <body>
@@ -301,97 +348,298 @@ function loadCourseDetail(num){
     .then(function(c){renderCourseDetail(c);})
     .catch(function(e){alert('Failed to load course');});
 }
+var LEVELS_CONFIG = [
+  {num:1, emoji:'🎬', title:'场景导入', desc:'了解背景，掌握一句话核心'},
+  {num:2, emoji:'📖', title:'词汇闯关', desc:'逐个学习高频词汇'},
+  {num:3, emoji:'💡', title:'外贸知识卡', desc:'穿插基础外贸知识点'},
+  {num:4, emoji:'💬', title:'表达升级', desc:'从基础表达到专业表达'},
+  {num:5, emoji:'⚠️', title:'避坑指南', desc:'常见错误与正确说法'},
+  {num:6, emoji:'🎭', title:'对话演练', desc:'真实场景微对话'},
+  {num:7, emoji:'✏️', title:'迷你练习', desc:'填空+情景题检验'},
+  {num:8, emoji:'🏆', title:'通关自测', desc:'文化贴士+自测清单'}
+];
+var levelState = {course:null, currentLevel:0, vocabLearned:[], checklistChecked:[]};
 function renderCourseDetail(c){
   document.getElementById('course-grid').style.display='none';
   var d = document.getElementById('course-detail');
   d.classList.add('active');
+  levelState.course = c;
+  levelState.vocabLearned = [];
+  levelState.checklistChecked = [];
+  var saved = localStorage.getItem('playspeak_level_'+c.num);
+  if(saved){
+    try{
+      var s = JSON.parse(saved);
+      levelState.currentLevel = s.currentLevel || 0;
+      levelState.vocabLearned = s.vocabLearned || [];
+      levelState.checklistChecked = s.checklistChecked || [];
+    }catch(e){levelState.currentLevel=0;}
+  } else {
+    levelState.currentLevel = 0;
+  }
+  renderLevel();
+}
+function saveLevelState(){
+  if(!levelState.course) return;
+  localStorage.setItem('playspeak_level_'+levelState.course.num, JSON.stringify({
+    currentLevel: levelState.currentLevel,
+    vocabLearned: levelState.vocabLearned,
+    checklistChecked: levelState.checklistChecked
+  }));
+}
+function renderLevel(){
+  var c = levelState.course;
+  var d = document.getElementById('course-detail');
+  var lv = LEVELS_CONFIG[levelState.currentLevel];
   var html = '<button class="back-btn" onclick="backToList()">← 返回课程列表</button>';
-  html += '<h2>'+c.emoji+' '+c.title+'</h2>';
-  html += '<div class="en">'+c.titleEn+'</div>';
-  html += '<p style="font-size:14px;color:#5a4a38;margin-bottom:12px">'+c.intro.background+'</p>';
-  html += '<h4>💡 一句话掌握</h4>';
-  html += '<div class="expr-basic"><b>'+c.oneLiner.en+'</b><br><span style="font-size:12px;color:#8a7a64">'+c.oneLiner.cn+'</span><br>'+
-    '<button class="speak-btn tts" data-text="'+c.oneLiner.en.replace(/"/g,'&quot;')+'">🔊 Play</button></div>';
-  html += '<h4>📖 高频词汇 ('+c.vocab.length+')</h4>';
-  c.vocab.forEach(function(v){
-    html += '<div class="vocab-item">'+
-      '<span class="word tts" data-text="'+v.word.replace(/"/g,'&quot;')+'">🔊 '+v.word+'</span>'+
-      '<span class="ipa">'+v.ipa+'</span>'+
-      '<div class="ex">'+v.ex+'</div>'+
-      '<div class="cn">'+v.cn+' — '+v.exCn+'</div>'+
-    '</div>';
-  });
-  if(c.mistakes && c.mistakes.length){
-    html += '<h4>⚠️ 常见错误</h4>';
-    c.mistakes.forEach(function(m){
-      html += '<div style="padding:10px;background:#fbe9e7;border-radius:8px;margin-bottom:6px;font-size:13px">'+
-        '<div style="color:#c2410c">❌ '+m.wrong+'</div>'+
-        '<div style="color:#4a7c59;margin-top:4px">✅ '+m.right+'</div>'+
-        '<div style="font-size:12px;color:#8a7a64;margin-top:4px">'+m.cn+'</div></div>';
-    });
-  }
-  html += '<h4>💬 高频表达</h4>';
-  c.expressions.basic.forEach(function(e){
-    html += '<div class="expr-basic"><b>'+e.en+'</b><br><span style="font-size:12px;color:#8a7a64">'+e.cn+'</span>'+
-      '<span class="expr-tag">'+e.tag+'</span>'+
-      '<button class="speak-btn tts" data-text="'+e.en.replace(/"/g,'&quot;')+'">🔊</button></div>';
-  });
-  if(c.expressions.advanced){
-    c.expressions.advanced.forEach(function(e){
-      html += '<div class="expr-adv"><b>'+e.en+'</b><br><span style="font-size:12px;color:#8a7a64">'+e.cn+'</span>'+
-        '<span class="expr-tag">'+e.tag+'</span>'+
-        '<div style="font-size:11px;color:#b08a43;margin-top:4px">⬆ from: '+e.from+'</div>'+
-        '<button class="speak-btn tts" data-text="'+e.en.replace(/"/g,'&quot;')+'">🔊</button></div>';
-    });
-  }
-  if(c.dialogues && c.dialogues.length){
-    c.dialogues.forEach(function(dlg){
-      html += '<h4>🎭 '+dlg.title+'</h4>';
-      dlg.lines.forEach(function(ln){
-        html += '<div class="dialogue-line '+ln.speaker+'">'+
-          '<div class="speaker">'+(ln.speaker==='you'?'You':'Client')+'</div>'+
-          '<div class="en">'+ln.en+'</div>'+
-          '<div class="cn">'+ln.cn+'</div>'+
-          '<button class="speak-btn tts" data-text="'+ln.en.replace(/"/g,'&quot;')+'">🔊</button></div>';
-      });
-    });
-  }
-  if(c.exercises){
-    html += '<h4>✏️ 迷你练习</h4>';
-    c.exercises.fillBlank.forEach(function(f,i){
-      html += '<div class="fill-item" data-answer="'+f.a.toLowerCase().replace(/"/g,'&quot;')+'">'+
-        '<div class="q">'+(i+1)+'. '+f.q+'</div>'+
-        '<input type="text" placeholder="Type your answer...">'+
-        '<button class="speak-btn check-btn" style="margin-top:6px">Check Answer</button>'+
-        '<div class="feedback"></div>'+
-        '<div style="font-size:11px;color:#8a7a64;margin-top:4px">Hint: '+f.hint+'</div></div>';
-    });
-    if(c.exercises.scenario){
-      c.exercises.scenario.forEach(function(s){
-        html += '<div class="fill-item" style="background:#eef5ee">'+
-          '<div class="q"><b>Scenario:</b> '+s.q+'</div>'+
-          '<button class="speak-btn reveal-btn" style="margin-top:6px">Reveal Model Answer</button>'+
-          '<div class="model-answer" style="display:none;margin-top:8px;font-size:13px;background:#fff;padding:8px;border-radius:6px">'+
-          '<div><b>EN:</b> '+s.modelAnswer+'</div>'+
-          '<div style="font-size:12px;color:#8a7a64;margin-top:4px">'+s.cn+'</div></div></div>';
-      });
+  html += '<h2 style="margin-bottom:4px">'+c.emoji+' '+c.title+'</h2>';
+  html += '<div class="en" style="margin-bottom:16px">'+c.titleEn+'</div>';
+  html += '<div class="level-progress">';
+  for(var i=0;i<LEVELS_CONFIG.length;i++){
+    var dotClass = 'level-dot';
+    if(i < levelState.currentLevel) dotClass += ' done';
+    else if(i === levelState.currentLevel) dotClass += ' active';
+    html += '<div class="'+dotClass+'"><span>'+(i+1)+'</span></div>';
+    if(i < LEVELS_CONFIG.length-1){
+      html += '<div class="level-line'+(i < levelState.currentLevel?' filled':'')+'"></div>';
     }
   }
-  if(c.checklist && c.checklist.length){
-    html += '<h4>✅ 自测清单</h4><ul class="checklist">';
-    c.checklist.forEach(function(ck){html += '<li>'+ck+'</li>';});
-    html += '</ul>';
+  html += '</div>';
+  html += '<div class="level-title">';
+  html += '<div class="step-num">第 '+lv.num+' 关 / 共 8 关</div>';
+  html += '<h3>'+lv.emoji+' '+lv.title+'</h3>';
+  html += '<div class="step-desc">'+lv.desc+'</div>';
+  html += '</div>';
+  html += '<div class="level-content" id="level-content">';
+  html += renderLevelContent(levelState.currentLevel);
+  html += '</div>';
+  html += '<div class="level-nav">';
+  if(levelState.currentLevel > 0){
+    html += '<button class="btn-prev" onclick="prevLevel()">← 上一关</button>';
+  } else {
+    html += '<div></div>';
   }
-  if(c.culture){
-    html += '<h4>🌏 文化贴士</h4>';
-    html += '<div style="padding:12px;background:#fdf4e3;border-radius:8px;font-size:13px">'+
-      '<b>'+c.culture.title+'</b><br><span style="margin-top:6px;display:block">'+c.culture.content+'</span></div>';
+  if(levelState.currentLevel < LEVELS_CONFIG.length-1){
+    var canNext = checkCanNext();
+    html += '<button class="btn-next" onclick="nextLevel()"'+(canNext?'':' disabled')+'>完成本关，下一关 →</button>';
+  } else {
+    html += '<button class="btn-finish" onclick="finishCourse()">🎉 完成全部学习！</button>';
   }
+  html += '</div>';
   d.innerHTML = html;
   window.scrollTo(0,0);
+  bindLevelEvents();
+}
+function checkCanNext(){
+  var lv = levelState.currentLevel;
+  if(lv === 1){
+    return levelState.vocabLearned.length >= levelState.course.vocab.length;
+  }
+  if(lv === 7){
+    return levelState.checklistChecked.length >= levelState.course.checklist.length;
+  }
+  return true;
+}
+function renderLevelContent(lvIdx){
+  var c = levelState.course;
+  var html = '';
+  if(lvIdx === 0){
+    html += '<div style="padding:10px 0">';
+    html += '<h4 style="color:#4a7c59;margin-bottom:8px">📋 课程背景</h4>';
+    html += '<p style="font-size:14px;color:#5a4a38;line-height:1.8;margin-bottom:16px">'+c.intro.background+'</p>';
+    html += '<h4 style="color:#4a7c59;margin-bottom:8px">💡 一句话掌握</h4>';
+    html += '<div class="expr-basic"><b>'+c.oneLiner.en+'</b><br><span style="font-size:12px;color:#8a7a64">'+c.oneLiner.cn+'</span><br>';
+    html += '<button class="speak-btn tts" data-text="'+c.oneLiner.en.replace(/"/g,'&quot;')+'">🔊 Play</button></div>';
+    html += '<h4 style="color:#4a7c59;margin:16px 0 8px">🎯 学习目标</h4>';
+    c.intro.outcomes.forEach(function(o){
+      html += '<div style="padding:6px 0;font-size:13px;color:#5a4a38">✅ '+o+'</div>';
+    });
+    html += '</div>';
+  } else if(lvIdx === 1){
+    html += '<p style="font-size:13px;color:#8a7a64;margin-bottom:12px">点击每个词汇展开学习并听发音，全部学完后进入下一关。已学：<b style="color:#4a7c59">'+levelState.vocabLearned.length+'/'+c.vocab.length+'</b></p>';
+    c.vocab.forEach(function(v, idx){
+      var learned = levelState.vocabLearned.indexOf(idx) >= 0;
+      html += '<div class="vocab-learn-item'+(learned?' learned':'')+'" data-idx="'+idx+'">';
+      html += '<div class="vl-head">';
+      html += '<div class="check-circle">✓</div>';
+      html += '<span class="word">'+v.word+'</span>';
+      html += '<span class="ipa">'+v.ipa+'</span>';
+      html += '<button class="speak-btn tts" data-text="'+v.word.replace(/"/g,'&quot;')+'" style="margin-left:auto;margin-top:0">🔊</button>';
+      html += '</div>';
+      html += '<div class="vl-detail">';
+      html += '<div class="vl-ex">'+v.ex+'</div>';
+      html += '<div class="vl-cn">'+v.cn+' — '+v.exCn+'</div>';
+      html += '</div></div>';
+    });
+  } else if(lvIdx === 2){
+    html += renderTradeKnowledge(c);
+  } else if(lvIdx === 3){
+    html += '<p style="font-size:13px;color:#8a7a64;margin-bottom:12px">先看基础表达，再看进阶版——进阶版是基础版的专业升级。</p>';
+    var basic = c.expressions.basic;
+    var advanced = c.expressions.advanced || [];
+    html += '<h4 style="color:#4a7c59;margin-bottom:8px">基础表达</h4>';
+    basic.forEach(function(e){
+      html += '<div class="expr-basic"><b>'+e.en+'</b><br><span style="font-size:12px;color:#8a7a64">'+e.cn+'</span>';
+      html += '<span class="expr-tag">'+e.tag+'</span>';
+      html += '<button class="speak-btn tts" data-text="'+e.en.replace(/"/g,'&quot;')+'">🔊</button></div>';
+    });
+    if(advanced.length){
+      html += '<h4 style="color:#b08a4f;margin:16px 0 8px">⬆ 进阶表达（专业升级）</h4>';
+      advanced.forEach(function(e){
+        html += '<div class="expr-adv"><b>'+e.en+'</b><br><span style="font-size:12px;color:#8a7a64">'+e.cn+'</span>';
+        html += '<span class="expr-tag">'+e.tag+'</span>';
+        html += '<div style="font-size:11px;color:#b08a4f;margin-top:4px">⬆ 升级自：'+e.from+'</div>';
+        html += '<button class="speak-btn tts" data-text="'+e.en.replace(/"/g,'&quot;')+'">🔊</button></div>';
+      });
+    }
+  } else if(lvIdx === 4){
+    if(c.mistakes && c.mistakes.length){
+      c.mistakes.forEach(function(m){
+        html += '<div style="padding:14px;background:#fbe9e7;border-radius:10px;margin-bottom:12px">';
+        html += '<div style="color:#c2410c;font-weight:600;margin-bottom:6px">❌ 错误说法</div>';
+        html += '<div style="font-size:14px;margin-bottom:8px">'+m.wrong+'</div>';
+        html += '<div style="color:#4a7c59;font-weight:600;margin-bottom:6px">✅ 正确说法</div>';
+        html += '<div style="font-size:14px;margin-bottom:8px">'+m.right+'</div>';
+        html += '<div style="font-size:12px;color:#8a7a64">'+m.cn+'</div>';
+        html += '<button class="speak-btn tts" data-text="'+m.right.replace(/"/g,'&quot;')+'" style="margin-top:8px">🔊 听正确说法</button>';
+        html += '</div>';
+      });
+    } else {
+      html += '<div class="small-note">本节课暂无常见错误。</div>';
+    }
+  } else if(lvIdx === 5){
+    if(c.dialogues && c.dialogues.length){
+      c.dialogues.forEach(function(dlg){
+        html += '<h4 style="color:#4a7c59;margin-bottom:10px">🎭 '+dlg.title+'</h4>';
+        dlg.lines.forEach(function(ln){
+          html += '<div class="dialogue-line '+ln.speaker+'">';
+          html += '<div class="speaker">'+(ln.speaker==='you'?'You':'Client')+'</div>';
+          html += '<div class="en">'+ln.en+'</div>';
+          html += '<div class="cn">'+ln.cn+'</div>';
+          html += '<button class="speak-btn tts" data-text="'+ln.en.replace(/"/g,'&quot;')+'">🔊</button></div>';
+        });
+      });
+    } else {
+      html += '<div class="small-note">本节课暂无对话。</div>';
+    }
+  } else if(lvIdx === 6){
+    html += '<h4 style="color:#4a7c59;margin-bottom:10px">✏️ 填空练习</h4>';
+    c.exercises.fillBlank.forEach(function(f,i){
+      html += '<div class="fill-item" data-answer="'+f.a.toLowerCase().replace(/"/g,'&quot;')+'">';
+      html += '<div class="q">'+(i+1)+'. '+f.q+'</div>';
+      html += '<input type="text" placeholder="Type your answer...">';
+      html += '<button class="speak-btn check-btn" style="margin-top:6px">Check Answer</button>';
+      html += '<div class="feedback"></div>';
+      html += '<div style="font-size:11px;color:#8a7a64;margin-top:4px">Hint: '+f.hint+'</div></div>';
+    });
+    if(c.exercises.scenario && c.exercises.scenario.length){
+      html += '<h4 style="color:#4a7c59;margin:16px 0 10px">🎯 情景题</h4>';
+      c.exercises.scenario.forEach(function(s){
+        html += '<div class="fill-item" style="background:#eef5ee">';
+        html += '<div class="q"><b>Scenario:</b> '+s.q+'</div>';
+        html += '<button class="speak-btn reveal-btn" style="margin-top:6px">Reveal Model Answer</button>';
+        html += '<div class="model-answer" style="display:none;margin-top:8px;font-size:13px;background:#fff;padding:10px;border-radius:6px">';
+        html += '<div><b>EN:</b> '+s.modelAnswer+'</div>';
+        html += '<div style="font-size:12px;color:#8a7a64;margin-top:4px">'+s.cn+'</div></div></div>';
+      });
+    }
+  } else if(lvIdx === 7){
+    if(c.culture){
+      html += '<h4 style="color:#4a7c59;margin-bottom:8px">🌏 文化贴士</h4>';
+      html += '<div style="padding:14px;background:#fdf4e3;border-radius:10px;margin-bottom:16px;font-size:13px">';
+      html += '<b style="color:#b08a4f">'+c.culture.title+'</b><br>';
+      html += '<span style="margin-top:6px;display:block;line-height:1.7">'+c.culture.content+'</span></div>';
+    }
+    html += '<h4 style="color:#4a7c59;margin-bottom:10px">✅ 通关自测（勾选全部后完成）</h4>';
+    html += '<p style="font-size:13px;color:#8a7a64;margin-bottom:10px">已勾选：<b style="color:#4a7c59">'+levelState.checklistChecked.length+'/'+c.checklist.length+'</b></p>';
+    c.checklist.forEach(function(ck, idx){
+      var checked = levelState.checklistChecked.indexOf(idx) >= 0;
+      html += '<div class="checklist-item'+(checked?' checked':'')+'" data-idx="'+idx+'">';
+      html += '<input type="checkbox"'+(checked?' checked':'')+'>';
+      html += '<span>'+ck+'</span></div>';
+    });
+  }
+  return html;
+}
+function renderTradeKnowledge(c){
+  var scene = (c.scene + c.title + c.titleEn).toLowerCase();
+  var cards = [];
+  cards.push({type:'贸易术语', code:'FOB', full:'Free On Board', cn:'船上交货（离岸价）',
+    en:'FOB is the most common trade term for kindergarten furniture export. The seller delivers goods to the port and loads them on board; risk transfers when goods pass the ship rail.',
+    cn2:'FOB是教玩具出口最常用的贸易术语。卖方负责运到港口并装上船，货物越过船舷后风险转移给买方。',
+    scenario:'教玩具场景：客户有自己的货代，我们负责运到宁波/上海港并报关。报价=出厂价+内陆运费+港杂费+报关费。'});
+  if(scene.indexOf('报价')>=0 || scene.indexOf('price')>=0 || scene.indexOf('quot')>=0 || scene.indexOf('cif')>=0){
+    cards.push({type:'贸易术语', code:'CIF', full:'Cost, Insurance and Freight', cn:'成本加保险费加运费（到岸价）',
+      en:'CIF means the seller pays ocean freight and insurance to the destination port. Risk still transfers at the loading port, not the destination.',
+      cn2:'CIF指卖方负责运到目的港的运费和保险费，但风险在装运港越过船舷时已转移。',
+      scenario:'教玩具整园项目常用，因为货物体积大（CBM高），客户希望一站式。报价=FOB+海运费+保险费。'});
+  }
+  if(scene.indexOf('付款')>=0 || scene.indexOf('payment')>=0 || scene.indexOf('deposit')>=0 || scene.indexOf('定金')>=0){
+    cards.push({type:'付款方式', code:'T/T', full:'Telegraphic Transfer', cn:'电汇',
+      en:'T/T is the safest and most common payment method. Standard terms: 30% deposit in advance, 70% balance before shipment.',
+      cn2:'T/T电汇是最安全最常用的付款方式。标准条款：30%定金预付，70%尾款发货前付清。',
+      scenario:'教玩具行业标准：30% T/T deposit in advance（下单时付定金），70% T/T before shipment（发货前付尾款）。'});
+  }
+  if(scene.indexOf('样品')>=0 || scene.indexOf('sample')>=0){
+    cards.push({type:'付款方式', code:'PayPal/WU', full:'PayPal / Western Union', cn:'贝宝/西联',
+      en:'For sample orders under USD 1,000, PayPal or Western Union is convenient. Note: PayPal has about 4% fee and buyer protection.',
+      cn2:'1000美金以下的样品单用PayPal或西联很方便。注意：PayPal有约4%手续费和买家保护，大额不要用。',
+      scenario:'教玩具样品单常用。样品费可退（refundable on first bulk order）是促进下单的好策略。'});
+  }
+  if(scene.indexOf('发货')>=0 || scene.indexOf('物流')>=0 || scene.indexOf('shipping')>=0 || scene.indexOf('bl')>=0 || scene.indexOf('提单')>=0){
+    cards.push({type:'单证', code:'B/L', full:'Bill of Lading', cn:'提单',
+      en:'B/L is the document of title. The buyer needs it to pick up goods. Confirm shipper, consignee, notify party, ports, and cargo details carefully.',
+      cn2:'提单是物权凭证，买方凭此提货。要仔细确认发货人、收货人、通知人、装运港、目的港和货物信息。',
+      scenario:'教玩具整园项目都是海运。正本提单通常3份，寄给客户或凭指示。见提单副本付款只给信任的老客户。'});
+  }
+  if(scene.indexOf('定制')>=0 || scene.indexOf('custom')>=0 || scene.indexOf('设计')>=0 || scene.indexOf('design')>=0 || scene.indexOf('pi')>=0 || scene.indexOf('形式发票')>=0){
+    cards.push({type:'单证', code:'PI', full:'Proforma Invoice', cn:'形式发票',
+      en:'PI is the quotation document. The buyer uses it to apply for foreign exchange and open L/C. It is not a commercial invoice and cannot be used for customs clearance.',
+      cn2:'PI是报价用的形式发票，买方凭此申请外汇和开信用证。不是正式发票，不能用于清关。',
+      scenario:'教玩具报价必须做PI！包含产品、数量、单价、总价、贸易术语、付款方式、交期、有效期。客户确认PI并付定金后订单才生效。'});
+  }
+  if(scene.indexOf('认证')>=0 || scene.indexOf('certif')>=0 || scene.indexOf('en71')>=0 || scene.indexOf('ce')>=0){
+    cards.push({type:'报价费用', code:'认证费', full:'Certification Cost', cn:'认证/检测费',
+      en:'Certification costs include EN71-3 testing (about RMB 3,000-8,000 per item), CE certification (about RMB 8,000-20,000). These may be added to the quote if the client requires specific certifications.',
+      cn2:'认证费用包括EN71-3检测（约3000-8000元/款）、CE认证（约8000-20000元）。如客户要求特定认证，需加入报价。',
+      scenario:'教玩具出口欧洲需要EN71和CE认证。如果客户要求特定认证，报价中要加入认证费，或说明达到一定订单量可减免。'});
+  }
+  var html = '<p style="font-size:13px;color:#8a7a64;margin-bottom:12px">本节课相关的外贸基础知识，学完这些再进入表达学习。</p>';
+  cards.forEach(function(card){
+    html += '<div class="trade-knowledge-card">';
+    html += '<span class="tk-label">'+card.type+'</span>';
+    html += '<h4>'+card.code+' — '+card.full+'（'+card.cn+'）</h4>';
+    html += '<div class="tk-en">'+card.en+'</div>';
+    html += '<div class="tk-cn">'+card.cn2+'</div>';
+    html += '<div class="tk-scenario"><b>教玩具场景：</b>'+card.scenario+'</div>';
+    html += '</div>';
+  });
+  return html;
+}
+function bindLevelEvents(){
+  var d = document.getElementById('course-detail');
   d.querySelectorAll('.tts').forEach(function(btn){
-    btn.addEventListener('click', function(){
+    btn.addEventListener('click', function(e){
+      e.stopPropagation();
       speak(btn.dataset.text, 'female');
+    });
+  });
+  d.querySelectorAll('.vocab-learn-item').forEach(function(item){
+    item.addEventListener('click', function(e){
+      if(e.target.tagName === 'BUTTON') return;
+      var idx = parseInt(item.dataset.idx);
+      item.classList.toggle('open');
+      if(levelState.vocabLearned.indexOf(idx) < 0){
+        levelState.vocabLearned.push(idx);
+        item.classList.add('learned');
+        saveLevelState();
+        var countEl = d.querySelector('#level-content p b');
+        if(countEl) countEl.textContent = levelState.vocabLearned.length+'/'+levelState.course.vocab.length;
+        var nextBtn = d.querySelector('.btn-next');
+        if(nextBtn && levelState.vocabLearned.length >= levelState.course.vocab.length){
+          nextBtn.disabled = false;
+        }
+      }
     });
   });
   d.querySelectorAll('.check-btn').forEach(function(btn){
@@ -410,6 +658,69 @@ function renderCourseDetail(c){
       m.style.display = (m.style.display==='none'?'block':'none');
     });
   });
+  d.querySelectorAll('.checklist-item').forEach(function(item){
+    item.querySelector('input').addEventListener('change', function(){
+      var idx = parseInt(item.dataset.idx);
+      if(this.checked){
+        if(levelState.checklistChecked.indexOf(idx) < 0) levelState.checklistChecked.push(idx);
+        item.classList.add('checked');
+      } else {
+        levelState.checklistChecked = levelState.checklistChecked.filter(function(x){return x!==idx;});
+        item.classList.remove('checked');
+      }
+      saveLevelState();
+      var countEl = d.querySelector('#level-content p b');
+      if(countEl) countEl.textContent = levelState.checklistChecked.length+'/'+levelState.course.checklist.length;
+    });
+  });
+}
+function nextLevel(){
+  if(levelState.currentLevel < LEVELS_CONFIG.length-1){
+    levelState.currentLevel++;
+    saveLevelState();
+    renderLevel();
+  }
+}
+function prevLevel(){
+  if(levelState.currentLevel > 0){
+    levelState.currentLevel--;
+    saveLevelState();
+    renderLevel();
+  }
+}
+function finishCourse(){
+  var c = levelState.course;
+  var d = document.getElementById('course-detail');
+  var html = '<button class="back-btn" onclick="backToList()">← 返回课程列表</button>';
+  html += '<div class="completion-badge">';
+  html += '<div class="trophy">🏆</div>';
+  html += '<h3>恭喜通关！</h3>';
+  html += '<p>你已完成《'+c.title+'》全部8关学习</p>';
+  html += '<p style="margin-top:8px;font-size:12px;opacity:.8">完成时间：'+new Date().toLocaleDateString('zh-CN')+'</p>';
+  html += '</div>';
+  html += '<div class="level-content">';
+  html += '<h4 style="color:#4a7c59;margin-bottom:12px">📝 本课核心回顾</h4>';
+  html += '<div class="expr-basic"><b>'+c.oneLiner.en+'</b><br><span style="font-size:12px;color:#8a7a64">'+c.oneLiner.cn+'</span></div>';
+  html += '<h4 style="color:#4a7c59;margin:16px 0 8px">🎯 你已掌握</h4>';
+  c.intro.outcomes.forEach(function(o){
+    html += '<div style="padding:6px 0;font-size:13px;color:#5a4a38">✅ '+o+'</div>';
+  });
+  html += '<h4 style="color:#4a7c59;margin:16px 0 8px">🚀 下一步</h4>';
+  html += '<p style="font-size:13px;color:#5a4a38;line-height:1.7">前往「AI陪练」Tab，选择本节课进行实战对话，把学到的表达用起来！</p>';
+  html += '<button class="btn-next" style="margin-top:12px;width:100%" onclick="goToAiPractice()">🤖 去AI陪练实战 →</button>';
+  html += '</div>';
+  d.innerHTML = html;
+  window.scrollTo(0,0);
+  var completed = JSON.parse(localStorage.getItem('playspeak_completed') || '[]');
+  if(completed.indexOf(c.num) < 0) completed.push(c.num);
+  localStorage.setItem('playspeak_completed', JSON.stringify(completed));
+}
+function goToAiPractice(){
+  backToList();
+  document.querySelectorAll('.tab').forEach(function(t){t.classList.remove('active');});
+  document.querySelectorAll('.panel').forEach(function(p){p.classList.remove('active');});
+  document.querySelector('.tab[data-panel="ai"]').classList.add('active');
+  document.getElementById('panel-ai').classList.add('active');
 }
 function backToList(){
   document.getElementById('course-detail').classList.remove('active');
