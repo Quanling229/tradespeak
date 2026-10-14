@@ -1,0 +1,307 @@
+{
+  "id": "epp-blocks-export-practice",
+  "num": "21",
+  "title": "EPP扣扣积木产品与外贸实战技巧",
+  "titleEn": "EPP Interlocking Blocks & Export Practice",
+  "scene": "产品认知+客户沟通",
+  "level": "进阶",
+  "duration": "35 min",
+  "color": "#6a4c93",
+  "emoji": "🧱",
+  "intro": {
+    "visual": "EPP积木搭建场景 + 外贸谈判桌 + 客户问答",
+    "background": "EPP（发泡聚丙烯，Expanded Polypropylene）是教玩具行业的高端新材料，和汽车保险杠、儿童安全头盔内衬、生鲜冷链保温箱是同一材料家族。扣扣积木以EPP低结构建构材料为身体，以AI语音交互为大脑，是温尚布局高端幼教市场的战略新品。外贸实战中，客户最常问的8类问题是：材质安全认证、MOQ起订量、交期lead time、价格压价、质量投诉处理、定制化能力、包装运输、售后质保。本课把EPP产品专业知识和外贸实战话术结合，让你既能讲清产品，又能接住客户的每一个刁钻问题。",
+    "desc": "掌握EPP材质专业表达、扣扣积木产品体系，以及外贸客户8大高频问题的应对话术。",
+    "tasks": [
+      "掌握EPP材质6大性能参数及英文表达",
+      "理解扣扣积木三大材料体系和AI四模式",
+      "学会应对客户压价、交期、质量投诉3大场景",
+      "掌握MOQ、lead time、B/L、PI等外贸术语"
+    ],
+    "outcomes": [
+      "能用英语准确介绍EPP材质的密度、耐温、吸水率、可回收等参数",
+      "能区分带AI版和不带AI版的报价策略",
+      "面对客户压价时能用价值锚定而非直接降价",
+      "交期延误时能主动沟通并给出分批交货方案",
+      "质量投诉时能按7步流程处理并挽回客户",
+      "能熟练使用MOQ、lead time、FOB、CIF等术语进行邮件和对话"
+    ]
+  },
+  "oneLiner": {
+    "en": "EPP is the same material as car bumpers and helmet liners — lightweight, impact-resistant, 100% recyclable. When a buyer pushes on price, anchor on value not discount; when lead time slips, offer partial shipment before they ask.",
+    "cn": "EPP和汽车保险杠、头盔内衬是同一材料——轻、抗冲击、100%可回收。客户压价时锚定价值而非降价；交期延误时主动提出分批交货。",
+    "highlights": ["EPP material", "value anchoring", "lead time", "complaint handling"]
+  },
+  "vocab": [
+    {
+      "word": "EPP (Expanded Polypropylene)",
+      "ipa": "/ˌiː piː ˈpiː / ɪkˈspændɪd ˌpɒliˈprəʊpəliːn/",
+      "ex": "Our building blocks are made of EPP, the same material used in car bumpers and helmet liners.",
+      "cn": "发泡聚丙烯（EPP）",
+      "exCn": "我们的积木采用EPP材质，和汽车保险杠、头盔内衬是同一材料。"
+    },
+    {
+      "word": "MOQ (Minimum Order Quantity)",
+      "ipa": "/ˌem əʊ ˈkjuː / ˈmɪnɪməm ˈɔːdə ˈkwɒntəti/",
+      "ex": "Our MOQ for the standard set is one 20-foot container, but we can mix models.",
+      "cn": "最小起订量",
+      "exCn": "标准套装的MOQ是一个20尺柜，但我们可以混装型号。"
+    },
+    {
+      "word": "lead time",
+      "ipa": "/liːd taɪm/",
+      "ex": "The standard lead time is 30 days after deposit, and 45 days for custom orders.",
+      "cn": "交货周期/生产周期",
+      "exCn": "标准交期是收到定金后30天，定制订单45天。"
+    },
+    {
+      "word": "interlocking / snap-fit connection",
+      "ipa": "/ˌɪntəˈlɒkɪŋ / snæp fɪt kəˈnekʃn/",
+      "ex": "The snap-fit interlocking design lets even toddlers assemble blocks without tools.",
+      "cn": "扣板式连接/卡扣连接",
+      "exCn": "卡扣式连接设计让幼儿也能不用工具自己拼搭。"
+    },
+    {
+      "word": "value anchoring",
+      "ipa": "/ˈvæljuː ˈæŋkərɪŋ/",
+      "ex": "Instead of cutting the price, use value anchoring — compare with government procurement prices and highlight the AI module.",
+      "cn": "价值锚定",
+      "exCn": "不要直接降价，用价值锚定——和政府采购价比，突出AI模块。"
+    },
+    {
+      "word": "partial shipment",
+      "ipa": "/ˈpɑːʃl ˈʃɪpmənt/",
+      "ex": "If the full order cannot ship on time, we can arrange partial shipment of the standard models first.",
+      "cn": "分批交货",
+      "exCn": "如果整单不能按时出运，我们可以先安排标准型号分批交货。"
+    },
+    {
+      "word": "EN71 / ASTM F963",
+      "ipa": "/ˌiː en ˈsevnti wʌn / ˌeɪ es tiː em ˈef ˈnaɪn sɪksti θriː/",
+      "ex": "All our EPP blocks comply with EN71 and ASTM F963 toy safety standards.",
+      "cn": "欧盟/美国玩具安全标准",
+      "exCn": "我们所有EPP积木都符合EN71和ASTM F963玩具安全标准。"
+    },
+    {
+      "word": "Proforma Invoice (PI)",
+      "ipa": "/ˈprəʊfɔːmə ˈɪnvɔɪs / piː aɪ/",
+      "ex": "I will send you a Proforma Invoice today for your deposit arrangement.",
+      "cn": "形式发票（PI）",
+      "exCn": "我今天会发形式发票给您安排定金。"
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "EPP is just foam, it is cheap.",
+      "right": "EPP is a high-performance engineered foam — density 0.03-0.05 g/cm3, temperature range -40 to 130°C, water absorption under 1%, and 100% recyclable. It costs 25-50 RMB per kg, much higher than EPS or PU foam.",
+      "cn": "不要把EPP说成普通泡沫便宜货。要强调它是工程泡沫，有具体参数，成本是EPS的好几倍。客户一听参数就知道你专业。"
+    },
+    {
+      "wrong": "Your price is too high, I will give you a 10% discount.",
+      "right": "I understand price is important. Before we discuss numbers, may I ask which configuration you are comparing? Our standard set includes 775 pieces plus 75 teaching aids and an AI module. If budget is tight, we also offer a non-AI version at a lower price point.",
+      "cn": "客户一压价就直接降价是大忌。先问清楚对比的是什么配置，然后用换版本（不带AI版）代替降价，保住价格体系。"
+    },
+    {
+      "wrong": "The delivery will be delayed, sorry.",
+      "right": "I am writing to update you on the production status. The custom AI modules need 10 more days for firmware testing. To minimize impact, we can ship the EPP block sets first (70% of the order) by the original date, and the AI modules will follow by sea 10 days later. Would this work for you?",
+      "cn": "交期延误不能只说sorry。要主动给出解决方案（分批交货），让客户感觉你在帮他解决问题，而不是制造问题。"
+    }
+  ],
+  "expressions": {
+    "basic": [
+      {
+        "en": "Our blocks are made of EPP foam, which is lightweight and safe for kids.",
+        "cn": "我们的积木采用EPP泡沫，轻便且对儿童安全。",
+        "tag": "材质介绍"
+      },
+      {
+        "en": "The MOQ is one 20-foot container, and we can mix different models.",
+        "cn": "MOQ是一个20尺柜，可以混装不同型号。",
+        "tag": "起订量"
+      },
+      {
+        "en": "The lead time is 30 days after receiving your deposit.",
+        "cn": "交期是收到定金后30天。",
+        "tag": "交期"
+      },
+      {
+        "en": "We accept 30% deposit and 70% balance against the copy of B/L.",
+        "cn": "我们接受30%定金，70%见提单副本付款。",
+        "tag": "付款方式"
+      },
+      {
+        "en": "All products comply with EN71 and ASTM F963 safety standards.",
+        "cn": "所有产品符合EN71和ASTM F963安全标准。",
+        "tag": "认证"
+      },
+      {
+        "en": "We offer two versions: with AI module and without AI module.",
+        "cn": "我们提供两个版本：带AI模块和不带AI模块。",
+        "tag": "版本区分"
+      }
+    ],
+    "advanced": [
+      {
+        "en": "Our EPP blocks are molded from expanded polypropylene with a closed-cell structure — density 0.03 to 0.05 grams per cubic centimeter, service temperature from minus 40 to 130 degrees Celsius, water absorption below 1 percent, and fully recyclable for over 500 reuse cycles. It is the same material family as automotive bumpers and child helmet liners.",
+        "cn": "我们的EPP积木采用闭孔结构发泡聚丙烯模塑成型——密度0.03-0.05g/cm³，使用温度-40至130°C，吸水率低于1%，可100%回收重复使用500次以上。和汽车保险杠、儿童头盔内衬同属一个材料家族。",
+        "tag": "材质介绍",
+        "from": "Our blocks are made of EPP foam, which is lightweight and safe for kids."
+      },
+      {
+        "en": "For pricing, we recommend starting with the configuration rather than the number. The AI-integrated version at 43,600 RMB includes 775 pieces plus 75 teaching aids and a voice-interactive smart panel — this sits right in the 30,000 to 60,000 RMB range of comparable government procurement sets, with the added AI layer. If budget is the constraint, the non-AI pure construction version offers a lower entry point, and the smart panel can be added later as a standalone purchase.",
+        "cn": "报价建议从配置而非数字开始。带AI版43,600元包含775件积木+75件教辅+语音交互智能板——正好落在同类政府采购套装3-6万的区间内，还多了一层AI能力。如果预算有限，不带AI的纯建构版本入门价更低，智能板后续可以单独增购。",
+        "tag": "报价策略",
+        "from": "We offer two versions: with AI module and without AI module."
+      },
+      {
+        "en": "Regarding the production schedule, the standard EPP blocks will be ready within 30 days of deposit. For custom-branded orders with AI firmware configuration, we require 45 days. If your opening date is fixed, we can split the shipment: standard blocks depart on day 30 to meet your timeline, and custom AI modules follow on day 45. This way your classroom setup is not delayed.",
+        "cn": "关于生产周期，标准EPP积木收到定金后30天可完成。带AI固件配置的定制订单需要45天。如果您的开园日期固定，我们可以分批交货：标准积木第30天先发以满足您的时间线，定制AI模块第45天跟进。这样教室布置不会延误。",
+        "tag": "交期沟通",
+        "from": "The lead time is 30 days after receiving your deposit."
+      }
+    ]
+  },
+  "dialogues": [
+    {
+      "title": "客户压价应对",
+      "lines": [
+        {
+          "speaker": "client",
+          "en": "Your price is 20% higher than your competitor. Can you match it?",
+          "cn": "你们的价格比竞争对手高20%，能做到一样吗？"
+        },
+        {
+          "speaker": "you",
+          "en": "I appreciate you sharing that. May I ask which set they are quoting? Our standard set has 775 pieces plus 75 teaching aids and an AI voice panel. If you are comparing with a pure foam block set without AI, we do have a non-AI version that is more competitively priced.",
+          "cn": "感谢您告诉我。请问他们报的是哪个配置？我们的标准套装有775件积木+75件教辅+AI语音板。如果您对比的是不带AI的纯泡沫积木，我们也有不带AI的版本，价格更有竞争力。"
+        },
+        {
+          "speaker": "client",
+          "en": "They also have AI. Their set is 907 pieces for 59,800 RMB.",
+          "cn": "他们也有AI。907件59,800元。"
+        },
+        {
+          "speaker": "you",
+          "en": "That is actually very close to our flagship set at 59,600 RMB with 1,101 pieces. The key difference is their AI runs on a cloud platform requiring a separate subscription, while ours is embedded in the block panel — no ongoing fees, no extra terminal needed. Would you like me to send a side-by-side comparison sheet?",
+          "cn": "这和我们旗舰版59,600元1101件非常接近。关键区别是他们的AI在云端平台运行，需要单独订阅，而我们的AI内嵌在积木面板里——没有持续费用，不需要额外终端。需要我发一份对比表吗？"
+        }
+      ]
+    },
+    {
+      "title": "交期延误主动沟通",
+      "lines": [
+        {
+          "speaker": "client",
+          "en": "You said 30 days. It has been 25 days and I have not received any update. What is going on?",
+          "cn": "你说30天。已经25天了我没有收到任何更新。怎么回事？"
+        },
+        {
+          "speaker": "you",
+          "en": "Thank you for following up, and I apologize for not updating you sooner. The EPP blocks are 100% ready and packed. The AI smart panels needed an extra firmware update for your country's language pack, which took 5 additional days. My proposal: ship the blocks this week by sea as partial shipment, and the AI panels will follow by express in 10 days. This way your team can start setting up the classroom immediately.",
+          "cn": "感谢跟进，抱歉没有及时更新。EPP积木已经100%完成并打包。AI智能板因为您国家的语言包需要额外固件更新，多花了5天。我的建议：积木本周海运先出作为分批交货，AI板10天后快递补发。这样您的团队可以立即开始布置教室。"
+        },
+        {
+          "speaker": "client",
+          "en": "That works. Please send the revised shipping schedule today.",
+          "cn": "可以。请今天发修订后的发货计划。"
+        }
+      ]
+    }
+  ],
+  "exercises": {
+    "fillBlank": [
+      {
+        "q": "EPP stands for Expanded ____, the same material as car bumpers.",
+        "a": "polypropylene",
+        "hint": "聚丙烯，P开头。"
+      },
+      {
+        "q": "The minimum order quantity is called ____ in English.",
+        "a": "moq",
+        "hint": "三个字母的缩写。"
+      },
+      {
+        "q": "When delivery is delayed, offer ____ shipment instead of just apologizing.",
+        "a": "partial",
+        "hint": "分批的，P开头。"
+      },
+      {
+        "q": "The standard payment term is 30% ____ and 70% balance against B/L copy.",
+        "a": "deposit",
+        "hint": "定金，D开头。"
+      },
+      {
+        "q": "European toy safety standard is ____, US standard is ASTM F963.",
+        "a": "en71",
+        "hint": "欧盟玩具标准，两个字母+数字。"
+      }
+    ],
+    "scenario": [
+      {
+        "q": "A buyer from Australia says: 'Your EPP blocks are 15% more expensive than a Chinese supplier on Alibaba. Why should I pay more?' How do you respond professionally?",
+        "modelAnswer": "I understand price is a key factor. Before comparing numbers, let me confirm what is included in their quote. Our EPP is food-contact grade (GB 4806.7-2023), density 0.03-0.05 g/cm3, and each set comes with 75 teaching aids, 100 theme cards, and 6 instructional videos. We also provide OEM branding, custom color matching, and after-sales replacement within 48 hours. If their quote is for plain EPP blocks without teaching resources or certification, we can offer a basic version too. Which matters more for your market — entry price or total classroom solution?",
+        "cn": "我理解价格是关键因素。在比较数字之前，先确认他们的报价包含什么。我们的EPP是食品接触级（GB 4806.7-2023），密度0.03-0.05g/cm³，每套包含75件教辅、100张主题卡和6个教学视频。我们还提供OEM贴牌、定制配色和48小时售后补件。如果他们的报价是没有教学资源或认证的普通EPP积木，我们也可以提供基础版。您的市场更看重哪个——入门价格还是整体教室解决方案？"
+      },
+      {
+        "q": "A customer reports that 5 out of 200 EPP blocks arrived deformed after shipping. What is your step-by-step response?",
+        "modelAnswer": "Step 1: Acknowledge within 24 hours — 'I am sorry to hear about the deformed blocks, this is not acceptable.' Step 2: Ask for photos and the carton condition to identify if it is shipping damage or production defect. Step 3: If shipping damage, file a claim with the freight forwarder and send replacements in the next order. If production defect, investigate the molding temperature and send replacements immediately by express. Step 4: Offer compensation — 5 free replacements plus 10 extra blocks as goodwill. Step 5: Prevent recurrence — add extra corner protection to the cartons and share the updated packing photo. Step 6: Follow up after replacements arrive to confirm satisfaction.",
+        "cn": "第一步：24小时内回应——'很抱歉听到积木变形，这是不可接受的。'第二步：要求提供照片和外箱状况，判断是运输损坏还是生产缺陷。第三步：如果是运输损坏，向货运代理索赔并在下一单中补发；如果是生产缺陷，调查模温并立即快递补发。第四步：提供补偿——5件免费补发+额外10件作为善意补偿。第五步：预防复发——增加外箱护角并分享更新后的包装照片。第六步：补发到达后跟进确认满意度。"
+      }
+    ]
+  },
+  "checklist": [
+    "我能说出EPP的6大性能参数（密度/耐温/吸水率/回弹/抗冲击/可回收）",
+    "我能区分带AI版和不带AI版的报价策略",
+    "面对客户压价时我能用价值锚定而非直接降价",
+    "交期延误时我能主动提出分批交货方案",
+    "质量投诉时我能按7步流程处理并挽回客户",
+    "我能熟练使用MOQ、lead time、PI、B/L、FOB、CIF等术语",
+    "我能介绍扣扣积木三大材料体系和AI四模式",
+    "我知道EN71和ASTM F963分别对应哪个市场"
+  ],
+  "culture": {
+    "title": "外贸实战：客户要的不是最低价，是最省心的供应商",
+    "content": "新手业务员常犯的错误是把价格当成唯一武器。但教玩具外贸的客户（幼儿园采购商、教育设备经销商、连锁早教品牌）最在意的其实是三件事：①认证齐全（EN71/ASTM/GB 6675，缺一不可，否则清关被扣）；②交期稳定（开园日期是死线，延误一天客户可能赔违约金）；③售后响应（补件快不快、有没有人管）。价格只是入门门槛，不是决定因素。所以当客户压价时，不要立刻降价，而是把对话拉回到'你买的是一套解决方案，不是一堆泡沫塑料'。用三档定价（基础/标准/旗舰）+ 两个版本（带AI/不带AI）给客户选择空间，比直接打折更能保住利润。记住：降价容易涨价难，第一次报价就守住价格体系。"
+  },
+  "aiPractice": {
+    "situation": "A buyer from a UK nursery chain is interested in your EPP interlocking blocks. They are comparing you with a competitor and asking about material, price, lead time, and after-sales.",
+    "role": "You are the sales rep. Answer professionally, use value anchoring for price, and offer solutions for lead time concerns.",
+    "rounds": [
+      {
+        "ai": "Hello, I saw your EPP building blocks on Alibaba. What material exactly is EPP? Is it safe for children who put things in their mouth?",
+        "cn": "你好，我在阿里巴巴上看到你们的EPP积木。EPP到底是什么材料？孩子放嘴里安全吗？",
+        "hint": "Mention: Expanded Polypropylene, food-contact grade, non-toxic, no smell, same as car bumpers/helmet liners",
+        "patterns": "/(polypropylene|food.contact|non.toxic|bumper|helmet|safe|certified)/i",
+        "partial": "/(epp|material|foam|safe)/i"
+      },
+      {
+        "ai": "Your standard set is 43,600 RMB. Another supplier quoted 35,000 for a similar set. Why the difference?",
+        "cn": "你们标准套装43,600元。另一家供应商类似套装报35,000。为什么差这么多？",
+        "hint": "Use value anchoring: ask what is included, mention 775 pieces + 75 aids + AI panel, compare with gov procurement range, offer non-AI version",
+        "patterns": "/(value|anchor|include|775|teaching|aid|ai|non.ai|version|compare|government|procurement)/i",
+        "partial": "/(price|difference|why|expensive)/i"
+      },
+      {
+        "ai": "We need the goods before September 1st for the new term. Your lead time is 45 days. Can you do 30 days?",
+        "cn": "我们需要9月1日前到货迎接新学期。你们交期45天，能30天吗？",
+        "hint": "Offer partial shipment: standard blocks in 30 days, AI modules in 45 days, or suggest non-AI version for faster delivery",
+        "patterns": "/(partial|shipment|split|30|45|standard|ai|module|faster|non.ai|express)/i",
+        "partial": "/(lead|time|delivery|deadline|september)/i"
+      },
+      {
+        "ai": "What if some blocks arrive damaged? Do you replace them? Who pays for shipping?",
+        "cn": "如果有些积木到货时损坏了，你们补发吗？运费谁出？",
+        "hint": "Mention: 24-hour response, photo confirmation, free replacement in next order, express for urgent cases, improved packing",
+        "patterns": "/(replace|damage|24.hour|photo|free|next.order|express|packing|warranty|after.sale)/i",
+        "partial": "/(damage|broken|warranty|after.sale|replace)/i"
+      },
+      {
+        "ai": "Do you have EN71 and UKCA certification? We need the test reports before placing the order.",
+        "cn": "你们有EN71和UKCA认证吗？下单前我们需要测试报告。",
+        "hint": "Confirm: EN71 parts 1-3, UKCA, ASTM F963, can send reports today, third-party lab (SGS/TUV)",
+        "patterns": "/(en71|ukca|astm|certificate|report|sgs|tuv|third.party|test|lab)/i",
+        "partial": "/(certificate|certified|report|test|standard)/i"
+      }
+    ]
+  }
+}
