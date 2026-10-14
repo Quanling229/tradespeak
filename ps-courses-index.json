@@ -1,7 +1,7 @@
 {
   "brand": "Play Speak",
   "tagline": "Learn to speak the language of kindergarten & playground foreign trade.",
-  "updated": "2026-09-21",
+  "updated": "2026-10-14",
   "courses": [
     {"id":"industry-overview","num":"01","title":"教玩具行业与产品全景","titleEn":"Teaching Toy Industry & Product Landscape","scene":"行业入门","level":"入门","duration":"25 min","color":"#3d5a45","emoji":"🏫","desc":"认识教玩具三大产品线，掌握行业核心术语，理解项目制外贸和标准品外贸的区别。"},
     {"id":"wood-material","num":"02","title":"实木家具材质与工艺术语","titleEn":"Solid Wood Materials & Craft Terms","scene":"产品认知","level":"入门","duration":"28 min","color":"#8b6f47","emoji":"🪵","desc":"掌握教玩具常用木材、表面处理、安全工艺的英语表达。"},
@@ -22,7 +22,8 @@
     {"id":"customer-dev","num":"17","title":"海外客户开发","titleEn":"Overseas Customer Development","scene":"市场拓展","level":"进阶","duration":"30 min","color":"#3d5a8f","emoji":"🌍","desc":"掌握教玩具客户开发的英语表达。"},
     {"id":"market-culture","num":"18","title":"市场文化差异","titleEn":"Market Cultural Differences: EU / Middle East / SEA","scene":"市场拓展","level":"高级","duration":"32 min","color":"#7a3e8f","emoji":"🕌","desc":"掌握不同市场的文化差异和沟通策略。"},
     {"id":"exhibition","num":"19","title":"展会接待英语","titleEn":"Exhibition Reception: GESS / Canton Fair","scene":"市场拓展","level":"进阶","duration":"28 min","color":"#c2410c","emoji":"🎪","desc":"掌握展会接待的英语表达。"},
-    {"id":"pet-business","num":"20","title":"宠物用品新赛道初探","titleEn":"Pet Supplies Business: New Track Exploration","scene":"新赛道","level":"入门","duration":"25 min","color":"#b06a4f","emoji":"🐾","desc":"了解宠物用品赛道的英语表达。"}
+    {"id":"pet-business","num":"20","title":"宠物用品新赛道初探","titleEn":"Pet Supplies Business: New Track Exploration","scene":"新赛道","level":"入门","duration":"25 min","color":"#b06a4f","emoji":"🐾","desc":"了解宠物用品赛道的英语表达。"},
+    {"id":"epp-blocks-export-practice","num":"21","title":"EPP扣扣积木产品与外贸实战技巧","titleEn":"EPP Interlocking Blocks & Export Practice","scene":"产品认知+客户沟通","level":"进阶","duration":"35 min","color":"#6a4c93","emoji":"🧱","desc":"掌握EPP材质专业表达、扣扣积木产品体系，以及外贸客户8大高频问题的应对话术。"}
   ],
   "podcasts": [
     {"id":"podcast-01","num":"01","title":"欢迎来到 Play Speak","titleEn":"Welcome to Play Speak","desc":"Emma 和 James 聊新品牌 Play Speak 的定位——从马克笔外贸到教玩具/幼儿园家具赛道的转型故事。"},
